@@ -26,9 +26,7 @@ export default {
 </script>
 
 <style>
-html{
-  background-color: black;
-}
+
 p {
   color: white;
 }
