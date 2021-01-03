@@ -48,7 +48,6 @@ video {
     min-height: 100%;
     width: auto;
     height: auto;
-    z-index: -100;
     justify-content: center;
     opacity: 100%;
 }

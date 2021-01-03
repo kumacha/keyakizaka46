@@ -40,6 +40,7 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Cinzel:wght@500&family=Open+Sans&display=swap");
 .navigation{
   margin-bottom: 3%;
+  z-index: 1;
 }
 .global-navigation{
     margin-top: 2%;

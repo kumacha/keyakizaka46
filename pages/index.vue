@@ -19,6 +19,7 @@ export default {
   bottom: 0;
   left: 0;
   margin-top: 13%;
+  z-index: 1;
 }
   .hislogo{
     color: #ffffff;
