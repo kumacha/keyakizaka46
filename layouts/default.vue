@@ -6,9 +6,10 @@
       
       </div>
     <div class="backvideo">
-     <video playsinline autoplay muted loop>
-    <source :src='require("@/assets/video/unizon.mp4")' type='video/mp4'>
-</video>
+      <video src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/unizon.mp4?alt=media&token=c18a8871-81be-46c2-884d-1febace64525" type="video/mp4" playsinline loop autoplay muted>
+      <img src="../assets/image/slideshow1.png">
+       </video>
+     
  </div>
     <Nuxt />
   </div>
