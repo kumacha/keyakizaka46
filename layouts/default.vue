@@ -6,7 +6,7 @@
       
       </div>
     <div class="backvideo">
-      <video src="../pages/unizon.mp4" type="video/mp4" playsinline loop autoplay muted>
+      <video src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/unizon.mp4?alt=media&token=c18a8871-81be-46c2-884d-1febace64525" type="video/mp4" playsinline loop autoplay muted>
       <img src="../assets/image/slideshow1.png">
        </video>
      
@@ -49,7 +49,7 @@ video {
     width: auto;
     height: auto;
     justify-content: center;
-    opacity: 100%;
+    z-index: -1;
 }
 
 </style>
