@@ -1,20 +1,18 @@
 <template>
-  <header class="site-header">  
+  <header class="site-header">
     <nav class="navigation">
       <ul class="global-navigation">
-          <li class="top-link">
-          <nuxt-link to="/">HOME</nuxt-link>
+        <li id="top-link">
+          <nuxt-link to="/" @mouseover.native="mouseover" @mouseleave.native="mouseleave">TOP</nuxt-link>
         </li>
         <li class="about-link">
-            <v-hover>
           <nuxt-link to="/about">ABOUT</nuxt-link>
-          </v-hover>
         </li>
         <li class="history-link">
           <nuxt-link to="/history">HISTORY</nuxt-link>
         </li>
         <li class="discography-link">
-          <nuxt-link to="/discography">DISCOGRAPHY</nuxt-link>
+          <nuxt-link to="/discography" class="n-d">DISCOGRAPHY</nuxt-link>
         </li>
         <li class="member-link">
           <nuxt-link to="/member">MEMBER</nuxt-link>
@@ -32,6 +30,18 @@
 
 <script>
 export default {
+  el: 'top-link',
+  data: {
+    message: 'TOP'
+  },
+  methods: {
+    mouseover: function(){
+      this.message = 'Good!'
+    },
+    mouseleave: function(){
+      this.message = 'TOP'
+    }
+  }
 
 }
 </script>
@@ -55,7 +65,7 @@ export default {
     display: inline;
     color: white;
     margin: 0;
-}  
+}
 .global-navigation li a {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     right: 0;
@@ -66,13 +76,13 @@ export default {
     text-decoration: none;
     text-align: center;
     font-size: 18px;
-    color: #ffffff; 
-    margin: 0px 15px;    
+    color: #ffffff;
+    margin: 0px 15px;
 }
 .global-navigation li a :hover{
     opacity: 70%;
 }
-.navigation li a ::after {
+.global-navigation li a::after {
     position: absolute;
     bottom: -1px;
     left: 0;
