@@ -18,7 +18,7 @@ export default {
   right: 0;
   bottom: 0;
   left: 0;
-  margin-top: 13%;
+  margin-top: 8%;
   z-index: 1;
 }
   .hislogo{
@@ -38,6 +38,7 @@ export default {
       font-size: 90px;
       margin: 0;
       padding: 0,0;
+      z-index: 1;
       
   }
   .dayslogo{
