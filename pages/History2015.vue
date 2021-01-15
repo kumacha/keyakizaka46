@@ -1,4 +1,5 @@
 <template>
+<v-container>
   <v-timeline>
     <v-timeline-item
       v-for="(item, i)
@@ -20,6 +21,7 @@
       </v-card>
     </v-timeline-item>
   </v-timeline>
+</v-container>
 </template>
 
 <script>

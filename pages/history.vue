@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <v-app id="inspire">
-      <v-timeline align-top :dense="$vuetify.breakpoint.smAndDown">
+      <v-container>
+<v-timeline align-top :dense="$vuetify.breakpoint.smAndDown">
         <v-timeline-item
          v-for="(item, i)
           in items"
@@ -31,6 +32,7 @@
           </v-card>
         </v-timeline-item>
       </v-timeline>
+      </v-container>
     </v-app>
   </div>
 </template>
