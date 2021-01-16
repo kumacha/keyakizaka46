@@ -5,8 +5,10 @@
           <v-flex>
             <v-row>
               <v-col v-for="(member, index) in membersArray" :key="index">
-                  <v-card dark class="member-card" to="/members/ishimori" width="230px"
-                    height="400px">
+                <v-hover>
+                  <template v-slot:default="{ hover }">
+                    <v-card dark class="member-card" :to="member.to" width="230px"
+                    height="400px" :ripple="true">
                     <v-img class="member-img" :src="member.src"></v-img>
                     <v-card-title class="member-title" v-text="member.name">
                     </v-card-title>
@@ -14,7 +16,13 @@
                     </v-card-subtitle>
                     <v-card-text v-text="member.number">
                     </v-card-text>
+                    <v-fade-transition>
+                      <v-overlay v-if="hover" absolute color="#66CDAA"></v-overlay>
+                    </v-fade-transition>
                   </v-card>
+
+                  </template>
+                </v-hover>
               </v-col>
             </v-row>
           </v-flex>
@@ -47,7 +55,7 @@
               old: members.old,
               birth: members.birth,
               number: members.number,
-              url:members.to,
+              to:members.to,
             },
           ]
         })
@@ -57,5 +65,7 @@
 </script>
 
 <style>
-
+.member-card :hover{
+opacity: 70%;
+}
 </style>

@@ -115,6 +115,7 @@
     flex-wrap: wrap;
     margin-left: 44px;
     list-style: none;
+    text-align: center;
   }
 
   .album-images {

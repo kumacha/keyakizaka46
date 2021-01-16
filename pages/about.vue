@@ -1,26 +1,16 @@
 <template>
-<v-flex xs12 style="width:100%; max-width:1000px; margin-left: 18%;">
-  <v-carousel
-   height="500px"
-   max-height="400px"
-  :show-arrows="false"
-  :cycle="true">
-    <v-carousel-item
-    class="slideshow"
-      v-for="(item,i) in items"
-      :key="i"
-      :src="item.src"
-      hide-delimiter-background
-    ></v-carousel-item>
-  </v-carousel>
-</v-flex>
+  <v-flex xs12 style="width:100%; max-width:1000px; margin-left: 18%;">
+    <v-carousel height="500px" max-height="400px" :show-arrows="true" :cycle="true">
+      <v-carousel-item class="slideshow" v-for="(item,i) in items" :key="i" :src="item.src" hide-delimiter-background>
+      </v-carousel-item>
+    </v-carousel>
+  </v-flex>
 </template>
 <script>
-export default {
-  data () {
+  export default {
+    data() {
       return {
-        items: [
-          {
+        items: [{
             src: require("@/assets/image/slideshow1.jpg"),
           },
           {
@@ -51,7 +41,7 @@ export default {
       }
     },
 
-}
+  }
 </script>
 
 <style>

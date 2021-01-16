@@ -1,7 +1,7 @@
 <template>
  <p>
       galleryページですよ
-  </p> 
+  </p>
 </template>
 
 <script>
