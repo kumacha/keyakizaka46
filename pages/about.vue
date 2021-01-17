@@ -1,10 +1,13 @@
 <template>
-  <v-flex xs12 style="width:100%; max-width:1000px; margin-left: 18%;">
-    <v-carousel height="500px" max-height="400px" :show-arrows="true" :cycle="true">
+<v-content>
+  <v-container>
+    <v-carousel height="500px" max-height="400px" :show-arrows-on-hover="true" cycle="true"
+    interval="3500" progress="true">
       <v-carousel-item class="slideshow" v-for="(item,i) in items" :key="i" :src="item.src" hide-delimiter-background>
       </v-carousel-item>
     </v-carousel>
-  </v-flex>
+  </v-container>
+</v-content>
 </template>
 <script>
   export default {
