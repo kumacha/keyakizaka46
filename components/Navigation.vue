@@ -3,7 +3,7 @@
     <nav class="navigation">
       <ul class="global-navigation">
         <li id="top-link">
-          <nuxt-link to="/" @mouseover.native="mouseover" @mouseleave.native="mouseleave">TOP</nuxt-link>
+          <nuxt-link to="/">TOP</nuxt-link>
         </li>
         <li class="about-link">
           <nuxt-link to="/about">ABOUT</nuxt-link>
@@ -30,31 +30,22 @@
 
 <script>
 export default {
-  el: 'top-link',
-  data: {
-    message: 'TOP'
-  },
-  methods: {
-    mouseover: function(){
-      this.message = 'Good!'
-    },
-    mouseleave: function(){
-      this.message = 'TOP'
-    }
-  }
+
 }
 </script>
 
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Cinzel:wght@500&family=Open+Sans&display=swap");
 .navigation{
-  margin-bottom: 3%;
+  margin-bottom: 7%;
   z-index: 1;
 }
 .global-navigation{
-    margin-top: 2%;
-    margin-left: 50%;
-    z-index: 10000;
+  margin-top: 2%;
+  top: 0;
+    right: 0;
+    z-index: 10;
+    position: fixed;
 }
 .global-navigation ul{
     list-style: none;
