@@ -54,7 +54,7 @@ export default {
 }
 .global-navigation{
     margin-top: 2%;
-    margin-left: 50%;
+    text-align: right;
     z-index: 10000;
 }
 .global-navigation ul{
