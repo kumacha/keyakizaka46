@@ -3,8 +3,7 @@
     <v-container>
         <img id="first-img" v-bind:src="img_src" @mouseover="hover = true"
         @mouseleave="hover = false" :class="{active: hover}">
-        <img id="second-img" v-bind:src="second_src" @mouseover="hover = true"
-        @mouseleave="hover = false" :class="{active2: hover}">
+        <img id="second-img" v-bind:src="second_src" >
     </v-container>
   </v-content>
 </template>

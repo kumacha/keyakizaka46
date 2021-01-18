@@ -18,7 +18,7 @@
             </div>
             <!-- <div class="e-name">
               <p>
-              ISHIMORI　NIJIKA
+              OZEKI　RIKA
             </p>
             </div> -->
             <div class="m-maincontents">
@@ -41,9 +41,6 @@
               <p>
                 出身地：{{member.from}}
               </p>
-              <p>
-                卒業日：2020年9月30日
-              </p>
             </div>
           </v-col>
         </v-row>
@@ -63,7 +60,7 @@
     },
     created() {
       const that = this
-      const members = firebase.firestore().collection('members').where("name" , "==", "石森 虹花")
+      const members = firebase.firestore().collection('members').where("name" , "==", "尾関 梨香")
       members.get().then((snapshot) => {
         snapshot.forEach((doc) => {
           const members = doc.data()
