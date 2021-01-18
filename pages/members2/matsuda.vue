@@ -5,7 +5,7 @@
       <v-btn color="#EEEEEE" depressed elevation="24" outlined text light to="/member"><span id="span">MEMBERページへ戻る</span></v-btn>
     </v-container>
   </div>
-      <v-container v-for="(member, index) in membersArray" :key="index" class="m-contents">
+      <v-container v-for="(member, index) in members2Array" :key="index" class="m-contents">
         <div class="m-subname">
           <p>
             {{member.subname}}
@@ -18,7 +18,7 @@
             </div>
             <!-- <div class="e-name">
               <p>
-              ISHIMORI　NIJIKA
+              MATSUDA　RINA
             </p>
             </div> -->
             <div class="m-maincontents">
@@ -41,9 +41,6 @@
               <p>
                 出身地：{{member.from}}
               </p>
-              <p>
-                卒業日：2020年9月30日
-              </p>
             </div>
           </v-col>
         </v-row>
@@ -58,17 +55,17 @@
   export default {
     data() {
       return {
-        membersArray: [],
+        members2Array: [],
       }
     },
     created() {
       const that = this
-      const members = firebase.firestore().collection('members').where("name" , "==", "石森 虹花")
+      const members = firebase.firestore().collection('members2').where("name" , "==", "松田 里奈")
       members.get().then((snapshot) => {
         snapshot.forEach((doc) => {
           const members = doc.data()
-          that.membersArray = [
-            ...that.membersArray,
+          that.members2Array = [
+            ...that.members2Array,
             {
               name: members.name,
               subname: members.subname,

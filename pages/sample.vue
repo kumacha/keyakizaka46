@@ -1,5 +1,5 @@
 <template>
-  <p>sampleページです</p>
+  <p>sampleページですoooo</p>
 </template>
 
 <script>

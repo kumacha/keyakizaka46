@@ -88,5 +88,4 @@ export default {
     transform-origin: left top;
     transform: scale(1, 1);
   }
-
-</style>
+</style> 
