@@ -17,6 +17,7 @@ export default {
 components:{
   Member,
   Member2
+  
 }
 }
 </script>
