@@ -3,7 +3,6 @@
   <v-container>
     <v-row>
         <Member/>
-
         <Member2/>
     </v-row>
   </v-container>

@@ -17,14 +17,12 @@
           </v-img>
         </li>
         <li class="single2-images">
-          <a href="/single/2nd">
             <v-img class="single2" @click="goroutersecond()"
               src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle2-2.jpg?alt=media&token=aeeac306-7fac-41af-9ff7-eb626562e558">
             </v-img>
             <v-img class="single2" @click="goroutersecond()"
               src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle2.jpg?alt=media&token=3d0140dd-716a-4880-9c6e-b58b925ab48c">
             </v-img>
-          </a>
         </li>
         <li class="single3-images">
             <v-img class="single3" @click="gorouterthird()"
