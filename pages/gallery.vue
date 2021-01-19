@@ -20,17 +20,18 @@
         :key="item"
       >
       <div v-show="item == 'ALL'">
-      <GallerySingle />
-      <GalleryTrailer />
+      <GallerySingle/>
+      <GalleryCoupling/>
+      <GalleryTrailer/>
     </div>
     <div v-show="item == 'SINGLE'">
-      <GallerySingle />
+      <GallerySingle/>
     </div>
     <div v-show="item == 'COUPLING'">
-      <GallerySingle />
+      <GalleryCoupling/>
     </div>
     <div v-show="item == 'LIVE'">
-      <GalleryTrailer />
+      <GalleryTrailer/>
     </div>
       </v-tab-item>
     </v-tabs-items>
@@ -39,7 +40,7 @@
 <script>
 import GallerySingle from '~/components/GallerySingle.vue'
 import GalleryTrailer from '~/components/GalleryTrailer.vue'
-import Member from '~/components/Member.vue'
+import GalleryCoupling from '~/components/GalleryCoupling.vue'
   export default {
     data () {
       return {

@@ -6,6 +6,7 @@
             <v-row>
               <v-col v-for="(gallery, index) in GallerysSingleArray" :key="index">
                 <v-img class="gallery-img" v-bind:src="gallery.src" :ripple="true" height="412.5px" width="550px"></v-img>
+                <span v-text="gallery.name"></span>
               </v-col>
             </v-row>
           </v-flex>
