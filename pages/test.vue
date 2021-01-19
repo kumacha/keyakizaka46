@@ -4,7 +4,7 @@
         <v-layout>
           <v-flex>
             <v-row>
-              <v-col v-for="(gallery, index) in GallerysTrailerArray" :key="index">
+              <v-col v-for="(gallery, index) in GallerysCouplingArray" :key="index">
                 <v-img class="gallery-img" v-bind:src="gallery.src" :ripple="true" height="412.5px" width="550px"></v-img>
               </v-col>
             </v-row>
@@ -19,20 +19,21 @@
   export default {
     data() {
       return {
-        GallerysTrailerArray: [],
+        GallerysCouplingArray: [],
       }
     },
     created() {
       const that = this
-      const gallerys = firebase.firestore().collection("galleryLive")
+      const gallerys = firebase.firestore().collection("galleryCoupling")
       gallerys.get().then((snapshot) => {
         snapshot.forEach((doc) => {
           const gallerys = doc.data()
-          that.GallerysTrailerArray = [
-            ...that.GallerysTrailerArray,
+          that.GallerysCouplingArray = [
+            ...that.GallerysCouplingArray,
             {
               name: gallerys.name,
-              src: gallerys.src
+              src: gallerys.src,
+              array: gallerys.array,
             },
           ]
         })
