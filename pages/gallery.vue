@@ -21,15 +21,16 @@
       >
       <div v-show="item == 'ALL'">
       <GallerySingle />
+      <GalleryTrailer />
     </div>
     <div v-show="item == 'SINGLE'">
-      <Member/>
+      <GallerySingle />
     </div>
     <div v-show="item == 'COUPLING'">
       <GallerySingle />
     </div>
     <div v-show="item == 'LIVE'">
-      <GallerySingle />
+      <GalleryTrailer />
     </div>
       </v-tab-item>
     </v-tabs-items>
@@ -37,6 +38,7 @@
 </template>
 <script>
 import GallerySingle from '~/components/GallerySingle.vue'
+import GalleryTrailer from '~/components/GalleryTrailer.vue'
 import Member from '~/components/Member.vue'
   export default {
     data () {
