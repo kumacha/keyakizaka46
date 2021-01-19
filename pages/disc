@@ -1,132 +1,55 @@
 <template>
-  <v-main>
-
-    <div class="discography">
-      <p>
-        DISCOGRAPHY
-      </p>
-    </div>
-
-    <div class="single">
-      <p>
-        SINGLE
-      </p>
-      <ul class="single-images">
-        <li>
-          <v-img class="single1" max-height="508px" max-width="160px"
-            src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle1.jpg?alt=media&token=2966b16c-03a9-4300-9561-d28af7390e19">
-          </v-img>
-        </li>
-        <li>
-          <v-img class="single2" max-height="508px" max-width="160px"
-            src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle2.jpg?alt=media&token=3d0140dd-716a-4880-9c6e-b58b925ab48c">
-          </v-img>
-        </li>
-        <li>
-          <v-img class="single3" max-height="508px" max-width="160px"
-            src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle3.jpg?alt=media&token=079b0aa8-1945-4c97-afd4-34fe25d0c51e">
-          </v-img>
-        </li>
-        <li>
-          <v-img class="single4" max-height="508px" max-width="160px"
-            src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle4.jpg?alt=media&token=b6053988-8707-418e-a786-674d0999ca73">
-          </v-img>
-        </li>
-        <li>
-          <v-img class="single5" max-height="508px" max-width="160px"
-            src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle5.jpg?alt=media&token=1074606b-88b1-4059-9dbc-5b4057daea85">
-          </v-img>
-        </li>
-        <li>
-          <v-img class="single6" max-height="508px" max-width="160px"
-            src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle6.jpg?alt=media&token=e18e8e14-3c7c-40eb-8e44-83c211c0f349">
-          </v-img>
-        </li>
-        <li>
-          <v-img class="single7" max-height="508px" max-width="160px"
-            src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle7.jpg?alt=media&token=d3fc6e68-8b90-4789-a1c4-9f56b0257781">
-          </v-img>
-        </li>
-        <li>
-          <v-img class="single8" max-height="508px" max-width="160px"
-            src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle8.jpg?alt=media&token=82760d84-019c-4efd-9c9f-f2d8aa7d49d1">
-          </v-img>
-        </li>
-        <li>
-          <v-img class="single9" max-height="508px" max-width="160px"
-            src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle9.jpg?alt=media&token=b9125394-3e33-482d-9443-ef36b3774fc3">
-          </v-img>
-        </li>
-      </ul>
-    </div>
-
-    <div class="album">
-      <p>
-        ALBUM
-      </p>
-      <ul class="album-images">
-        <li>
-          <v-img class="album1" max-height="508px" max-width="512"
-            src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/album%2Falbum1.jpg?alt=media&token=8ddcb17f-c78c-4b86-9d80-75e16274f299">
-          </v-img>
-        </li>
-        <li>
-          <v-img class="album2" max-height="508px" max-width="512px"
-            src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/album%2Falbum2.jpg?alt=media&token=c67721fe-afac-4d86-b5df-90af64266c4f">
-          </v-img>
-        </li>
-      </ul>
-    </div>
-  </v-main>
+ <v-content>
+   <v-container v-for="(item, i) in items" :key="i">
+          <v-card-title class="text-center justify-center py-6">
+      <h1>
+        Gallery
+      </h1>
+    </v-card-title>
+    <v-tabs
+      v-model="tab"
+      background-color="transparent"
+      color="basil"
+      grow
+    >
+      <v-tab v-for="(item, i) in items" :key="i" v-text="item.name">
+      </v-tab>
+    </v-tabs>
+    <div>
+          <GallerySingle/>
+        </div>
+   </v-container>
+ </v-content>
 </template>
 
 <script>
+import GallerySingle from '~/components/GallerySingle.vue'
   export default {
-
+    components: {
+      GallerySingle,
+    },
+    data: () => ({
+        items: [{
+          name: 'ALL',
+        },
+        {
+          name: 'SINGLE',
+        },
+        {
+          name:'COUPLING',
+        },
+        {
+          name: 'LIVE',
+        }]
+    })
   }
 </script>
 
 <style>
-  .discography {
-    text-align: center;
-    font-size: 80px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  }
-
-  .single {
-    margin-top: 30px;
-    text-align: center;
-    font-size: 60px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  }
-
-  .album {
-    margin-top: 30px;
-    text-align: center;
-    font-size: 60px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  }
-
-  .single-images {
-    margin-top: 10px;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 44px;
-    list-style: none;
-    text-align: center;
-  }
-
-  .album-images {
-    margin-top: 5px;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 230px;
-    list-style: none;
-  }
-
-  .album-images li {
-    padding: 10px;
-  }
+p{
+  text-align: center;
+}
+v-tabs-items{
+  z-index: -3;
+}
 </style>

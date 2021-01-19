@@ -3,28 +3,28 @@
    <v-container>
      <v-row>
        <v-col>
-         <v-img v-bind:src="require('@/assets/image/gallery/single/simajo.jpg')"></v-img>
+         <v-img v-bind:src="require('@/assets/image/gallery/single/simajo.jpg')" height="417.38px" width="556.5px"></v-img>
        </v-col>
        <v-col>
-         <v-img v-bind:src="require('@/assets/image/gallery/single/sekaai.jpg')"></v-img>
+         <v-img v-bind:src="require('@/assets/image/gallery/single/sekaai.jpg')" height="417.38px" width="556.5px"></v-img>
        </v-col>
        <v-col>
-         <v-img v-bind:src="require('@/assets/image/gallery/single/season.jpg')" height="426.38px" width="568.5px"></v-img>
+         <v-img v-bind:src="require('@/assets/image/gallery/single/season.jpg')" height="417.38px" width="556.5px"></v-img>
        </v-col>
        <v-col>
-         <v-img v-bind:src="require('@/assets/image/gallery/single/fkyouwaon.jpg')" height="426.38px" width="568.5px"></v-img>
+         <v-img v-bind:src="require('@/assets/image/gallery/single/fkyouwaon.jpg')" height="417.38px" width="556.5px"></v-img>
        </v-col>
        <v-col>
-         <v-img v-bind:src="require('@/assets/image/gallery/single/kazefuka.jpg')" height="426.38px" width="568.5px"></v-img>
+         <v-img v-bind:src="require('@/assets/image/gallery/single/kazefuka.jpg')" height="417.38px" width="556.5px"></v-img>
        </v-col>
        <v-col>
-         <v-img v-bind:src="require('@/assets/image/gallery/single/galaware.jpg')" height="426.38px" width="568.5px"></v-img>
+         <v-img v-bind:src="require('@/assets/image/gallery/single/galaware.jpg')" height="417.38px" width="556.5px"></v-img>
        </v-col>
        <v-col>
-         <v-img v-bind:src="require('@/assets/image/gallery/single/anbiva.jpg')" height="426.38px" width="568.5px"></v-img>
+         <v-img v-bind:src="require('@/assets/image/gallery/single/anbiva.jpg')" height="417.38px" width="556.5px"></v-img>
        </v-col>
        <v-col>
-         <v-img v-bind:src="require('@/assets/image/gallery/single/kuroihituji.jpg')" height="426.38px" width="568.5px"></v-img>
+         <v-img v-bind:src="require('@/assets/image/gallery/single/kuroihituji.jpg')" height="417.38px" width="556.5px"></v-img>
        </v-col>
      </v-row>
    </v-container>
