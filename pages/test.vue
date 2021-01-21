@@ -1,47 +1,59 @@
 <template>
-    <v-content>
-      <v-container>
-        <v-layout>
-          <v-flex>
-            <v-row>
-              <v-col v-for="(gallery, index) in GallerysCouplingArray" :key="index">
-                <v-img class="gallery-img" v-bind:src="gallery.src" :ripple="true" height="412.5px" width="550px"></v-img>
-              </v-col>
-            </v-row>
-          </v-flex>
-        </v-layout>
-      </v-container>
-    </v-content>
+  <v-container class="pa-4 text-center">
+    <v-row class="fill-height" align="center" justify="center">
+      <template v-for="(item, i) in items">
+        <v-col :key="i" cols="12" md="4">
+          <v-hover v-slot="{ hover }">
+            <v-card :elevation="hover ? 12 : 2" :class="{ 'on-hover': hover }">
+              <v-img :src="item.img" height="225px">
+                <v-card-title class="title white--text">
+                  <v-row class="fill-height flex-column" justify="space-between">
+                    <div class="align-self-center">
+                      <v-btn v-for="(icon, index) in icons" :key="index" :class="{ 'show-btns': hover }"
+                        :color="transparent" icon>
+                        <v-icon :class="{ 'show-btns': hover }" :color="transparent">
+                          {{ icon }}
+                        </v-icon>
+                      </v-btn>
+                    </div>
+                  </v-row>
+                </v-card-title>
+              </v-img>
+            </v-card>
+          </v-hover>
+        </v-col>
+      </template>
+    </v-row>
+  </v-container>
 </template>
-
 <script>
-  import firebase from 'firebase'
   export default {
-    data() {
-      return {
-        GallerysCouplingArray: [],
-      }
-    },
-    created() {
-      const that = this
-      const gallerys = firebase.firestore().collection("galleryCoupling")
-      gallerys.get().then((snapshot) => {
-        snapshot.forEach((doc) => {
-          const gallerys = doc.data()
-          that.GallerysCouplingArray = [
-            ...that.GallerysCouplingArray,
-            {
-              name: gallerys.name,
-              src: gallerys.src,
-              array: gallerys.array,
-            },
-          ]
-        })
-      })
-    },
+    data: () => ({
+      icons: ['mdi-rewind', 'mdi-play', 'mdi-fast-forward'],
+      items: [{
+          img: 'http://lorempixel.com/output/nightlife-q-c-640-480-5.jpg',
+        },
+        {
+          img: 'https://images.unsplash.com/photo-1498038432885-c6f3f1b912ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80',
+        },
+        {
+          img: 'http://lorempixel.com/output/abstract-q-c-640-480-6.jpg',
+        },
+      ],
+      transparent: 'rgba(255, 255, 255, 0)',
+    }),
   }
 </script>
+<style scoped>
+  .v-card {
+    transition: opacity .4s ease-in-out;
+  }
 
-<style>
+  .v-card:not(.on-hover) {
+    opacity: 0.6;
+  }
 
+  .show-btns {
+    color: rgba(255, 255, 255, 1) !important;
+  }
 </style>

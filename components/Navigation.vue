@@ -3,25 +3,25 @@
     <nav class="navigation">
       <ul class="global-navigation">
         <li id="top-link">
-          <nuxt-link to="/">TOP</nuxt-link>
+          <p @click="pushTOP()" class="toplink">TOP</p>
         </li>
         <li class="about-link">
-          <nuxt-link to="/about">ABOUT</nuxt-link>
+          <p @click="pushABOUT()" class="aboutlink">ABOUT</p>
         </li>
         <li class="history-link">
-          <nuxt-link to="/history">HISTORY</nuxt-link>
+          <p @click="pushHISTORY()" class="historylink">HISTORY</p>
         </li>
         <li class="discography-link">
-          <nuxt-link to="/discography" class="n-d">DISCOGRAPHY</nuxt-link>
+          <p @click="pushDISCOGRAPHY()" class="discographylink">DISCOGRAPHY</p>
         </li>
         <li class="member-link">
-          <nuxt-link to="/member">MEMBER</nuxt-link>
+          <p @click="pushMEMBER()" class="memberlink">MEMBER</p>
         </li>
         <li class="gallery-link">
-          <nuxt-link to="/gallery">GALLERY</nuxt-link>
+          <p @click="pushGALLERY()" class="gallerylink">GALLERY</p>
         </li>
         <li class="scene-link">
-          <nuxt-link to="/scene">SCENE</nuxt-link>
+          <p @click="pushSCENE()" class="scenelink">SCENE</p>
         </li>
       </ul>
     </nav>
@@ -30,6 +30,29 @@
 
 <script>
 export default {
+  methods: {
+    pushTOP(){
+      this.$router.push('/')
+    },
+    pushABOUT(){
+      this.$router.push('/about')
+    },
+    pushHISTORY(){
+      this.$router.push('/history')
+    },
+    pushDISCOGRAPHY(){
+      this.$router.push('/discography')
+    },
+    pushMEMBER(){
+      this.$router.push('/member')
+    },
+    pushGALLERY(){
+      this.$router.push('/gallery')
+    },
+    pushSCENE(){
+      this.$router.push('/scene')
+    },
+  }
 
 }
 </script>
@@ -56,7 +79,7 @@ export default {
     color: white;
     margin: 0;
 }
-.global-navigation li a {
+.global-navigation li p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     right: 0;
     display: inline;
@@ -69,10 +92,10 @@ export default {
     color: #ffffff;
     margin: 0px 15px;
 }
-.global-navigation li a :hover{
+.global-navigation li p :hover{
     opacity: 70%;
 }
-.global-navigation li a::after {
+.global-navigation li p::after {
     position: absolute;
     bottom: -1px;
     left: 0;
@@ -82,10 +105,10 @@ export default {
     background: white;
     transform: scale(0, 1);
     transform-origin: right top;
-    transition: transform .3s;
+    transition: transform .4s;
   }
-  .navigation li a :hover::after {
+   .navigation li p:hover::after {
     transform-origin: left top;
     transform: scale(1, 1);
   }
-</style> 
+</style>

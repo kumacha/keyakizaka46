@@ -1,16 +1,28 @@
 <template>
     <v-content>
       <v-container>
-        <v-layout>
-          <v-flex>
             <v-row>
-              <v-col v-for="(gallery, index) in GallerysSingleArray" :key="index">
-                <v-img class="gallery-img" v-bind:src="gallery.src" :ripple="true" height="412.5px" width="550px"></v-img>
-                <span v-text="gallery.name"></span>
+              <v-col v-for="(gallery, index) in GallerysSingleArray" :key="index" cols="12" sm="6">
+                <v-hover v-slot="{ hover }">
+                <v-card :elevation="hover ? 12 : 2" :class="{ 'on-hover': hover }" height="365px" width="500px">
+                <v-img class="gallery-img" v-bind:src="gallery.src" :ripple="true" height="365px" width="500px"></v-img>
+                <v-card-title class="title white--text">
+                  <v-row class="fill-height flex-column" justify="space-between">
+                    <div class="align-self-center">
+                      <v-btn v-for="(icon, index) in icons" :key="index" :class="{ 'show-btns': hover }"
+                        :color="transparent" icon>
+                        <v-icon :class="{ 'show-btns': hover }" :color="transparent">
+                          {{ icon }}
+                        </v-icon>
+                      </v-btn>
+                    </div>
+                  </v-row>
+                </v-card-title>
+                </v-card>
+          </v-hover>
+          <span v-text="gallery.name"></span>
               </v-col>
             </v-row>
-          </v-flex>
-        </v-layout>
       </v-container>
     </v-content>
 </template>
@@ -48,5 +60,12 @@
 </script>
 
 <style>
+.v-card {
+    transition: opacity .2s ease-in-out;
+  }
+
+  .v-card:not(.on-hover) {
+    opacity: 1.0;
+  }
 
 </style>

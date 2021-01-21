@@ -1,5 +1,8 @@
 <template>
 <v-container>
+  <v-row>
+    <p>Gallry</p>
+  </v-row>
     <v-tabs
       v-model="tab"
       grow
@@ -30,7 +33,7 @@
     <div v-show="item == 'COUPLING'">
       <GalleryCoupling/>
     </div>
-    <div v-show="item == 'LIVE'">
+    <div v-show="item == 'TRAILER'">
       <GalleryTrailer/>
     </div>
       </v-tab-item>
@@ -46,7 +49,7 @@ import GalleryCoupling from '~/components/GalleryCoupling.vue'
       return {
         tab: null,
         items: [
-          'ALL', 'SINGLE', 'COUPLING', 'LIVE',
+          'ALL', 'SINGLE', 'COUPLING', 'TRAILER',
         ],
       }
     },
@@ -54,6 +57,10 @@ import GalleryCoupling from '~/components/GalleryCoupling.vue'
 </script>
 <style>
 /* Helper classes */
+p{
+  color: white;
+  z-index: 1;
+}
 .v-main__wrap{
   background-color:rgba(0,0,0,0.0) !important;
 }

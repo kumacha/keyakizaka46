@@ -1,16 +1,12 @@
 <template>
     <v-content>
       <v-container>
-        <v-layout>
-          <v-flex>
             <v-row>
-              <v-col v-for="(gallery, index) in GallerysTrailerArray" :key="index">
-                <v-img class="gallery-img" v-bind:src="gallery.src" :ripple="true" height="412.5px" width="550px"></v-img>
+              <v-col v-for="(gallery, index) in GallerysTrailerArray" :key="index" cols="12" sm="6">
+                <v-img class="gallery-img" v-bind:src="gallery.src" :ripple="true" height="365px" width="500px"></v-img>
                 <span v-text="gallery.name"></span>
               </v-col>
             </v-row>
-          </v-flex>
-        </v-layout>
       </v-container>
     </v-content>
 </template>
