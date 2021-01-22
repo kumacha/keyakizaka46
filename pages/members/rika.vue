@@ -45,6 +45,20 @@
           </v-col>
         </v-row>
             </div>
+            <v-row>
+              <v-col>
+                <div class="rika-intro1">
+                  <p>
+                    グループ最年長のメンバーである。天然。とにかく可愛い。<br>
+                    メンバーからとても好かれていていつも甘やかされている。<br>
+                    ニックネームの一つの「ぺーちゃん」の由来は渡辺家の飼い猫・ぺーちゃんから来ている。
+                  </p>
+                </div>
+              </v-col>
+              <v-col>
+
+              </v-col>
+            </v-row>
       </v-container>
 </v-app>
 
@@ -117,5 +131,8 @@
 }
 .m-maincontents{
   margin-left: 130px;
+}
+.rika-intro1{
+  font-size: 20px;
 }
 </style>

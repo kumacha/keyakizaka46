@@ -1,24 +1,12 @@
 <template>
-<v-cpntent>
+<v-content>
   <v-container>
-    <v-row>
-      <v-col cols="12"
-        sm="3">
-        <v-select
-        v-for="(item,i) in items" :key="i"
-          :items="item.select"
-          :to="item.link"
-          label="絞り込み"
-          class="select"
-        ></v-select>
-      </v-col>
-    </v-row>
     <v-row>
         <Member/>
         <Member2/>
     </v-row>
   </v-container>
-</v-cpntent>
+</v-content>
 </template>
 
 <script>

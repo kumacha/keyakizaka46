@@ -1,7 +1,7 @@
 <template>
   <v-sheet>
     <v-slide-group v-model="model" class="pa-4" show-arrows>
-      <v-slide-item v-for="(member, index) in membersArray" :key="index">
+      <v-slide-item v-for="(member, index) in membersArray2" :key="index">
         <v-hover>
                   <template v-slot:default="{ hover }">
                     <v-card dark class="member-card" :to="member.to" width="230px"
@@ -23,23 +23,22 @@
     </v-slide-group>
   </v-sheet>
 </template>
-
 <script>
   import firebase from 'firebase'
   export default {
     data() {
       return {
-        membersArray: [],
+        membersArray2: [],
       }
     },
     created() {
       const that = this
-      const members = firebase.firestore().collection('members').orderBy("subname", "asc")
+      const members = firebase.firestore().collection('members2').orderBy("subname", "asc")
       members.get().then((snapshot) => {
         snapshot.forEach((doc) => {
           const members = doc.data()
-          that.membersArray = [
-            ...that.membersArray,
+          that.membersArray2 = [
+            ...that.membersArray2,
             {
               name: members.name,
               subname: members.subname,
