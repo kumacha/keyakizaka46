@@ -66,5 +66,7 @@
 </script>
 
 <style>
-
+v-content{
+  font-family: 'Noto Serif JP', serif;
+}
 </style>

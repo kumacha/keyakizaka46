@@ -42,13 +42,15 @@
                 出身地：{{member.from}}
               </p>
               <p>
-                卒業日：20218年11月16日
+                卒業日：2018年11月16日
               </p>
             </div>
           </v-col>
         </v-row>
             </div>
+            <ShidaIntro/>
       </v-container>
+      <GoMember/>
 </v-app>
 
 </template>
@@ -59,7 +61,7 @@
     data() {
       return {
         membersArray: [],
-      }
+        }
     },
     created() {
       const that = this
@@ -121,4 +123,5 @@
 .m-maincontents{
   margin-left: 130px;
 }
+
 </style>
