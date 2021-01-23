@@ -1,10 +1,10 @@
 <template>
   <v-app>
-      <div class="g-nav">
-        <Navigation />
-      </div>
-      <Video/>
-      <Nuxt />
+    <div class="g-nav">
+      <Navigation />
+    </div>
+    <Video />
+    <Nuxt />
   </v-app>
 </template>
 
@@ -24,6 +24,15 @@
     color: white;
   }
 
+  #app {
+    font-family:
+      YuMincho,
+      /* Mac用 */
+      'Yu Mincho',
+      /* Windows用 */
+      serif;
+  }
+
   .v-application p {
     margin-bottom: 0px;
   }
@@ -41,5 +50,4 @@
     /* Chrome, Safariのスクロールバー削除 */
     display: none;
   }
-
 </style>
