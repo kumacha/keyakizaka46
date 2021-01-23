@@ -1,7 +1,7 @@
 <template>
 <v-container>
   <v-row>
-    <p>Gallry</p>
+    <p>GALLERY</p>
   </v-row>
     <v-tabs
       v-model="tab"
