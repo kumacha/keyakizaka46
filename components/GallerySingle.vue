@@ -4,7 +4,7 @@
             <v-row>
               <v-col v-for="(gallery, index) in GallerysSingleArray" :key="index" cols="12" sm="6">
                 <v-hover v-slot="{ hover }">
-                <v-card :elevation="hover ? 12 : 2" :class="{ 'on-hover': hover }" height="365px" width="500px">
+                <v-card :elevation="hover ? 12 : 2" :class="{ 'on-hover': hover }" height="365px" width="500px" style="background-color:transparent;" >
                 <v-img class="gallery-img" v-bind:src="gallery.src" :ripple="true" height="365px" width="500px"></v-img>
                 <v-card-title class="title white--text">
                   <v-row class="fill-height flex-column" justify="space-between">

@@ -61,8 +61,8 @@ p{
   color: white;
   z-index: 1;
 }
-.v-main__wrap{
-  background-color:rgba(0,0,0,0.0) !important;
+.theme--dark.v-tabs-items{
+  background-color: transparent;
 }
 v-tabs{
   z-index: 1000;

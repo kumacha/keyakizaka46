@@ -56,12 +56,16 @@
 </template>
 
 <script>
+import GoMember from '~/components/GoMember.vue'
   import firebase from 'firebase'
   export default {
     data() {
       return {
         membersArray: [],
         }
+    },
+    components: {
+      GoMember
     },
     created() {
       const that = this
@@ -90,6 +94,9 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Cinzel:wght@500&family=Open+Sans&display=swap");
+.theme--dark.v-sheet{
+  background-color: transparent;
+}
 .v-application p{
   margin-bottom: 0px;
 }
