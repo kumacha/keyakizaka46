@@ -5,7 +5,7 @@
         <v-hover>
                   <template v-slot:default="{ hover }">
                     <v-card dark class="member-card" :to="member.to" width="230px"
-                    height="400px" :ripple="true">
+                    height="400px" :ripple="true" style="background-color:black;">
                     <v-img class="member-img" :src="member.src"></v-img>
                     <v-card-title class="member-title" v-text="member.name">
                     </v-card-title>

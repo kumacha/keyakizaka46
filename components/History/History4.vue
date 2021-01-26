@@ -5,7 +5,8 @@
       <div class="histopic4text2"><p>in東京国際フォーラム</p></div>
       <div class="histopic4text3"><p>欅坂46結成後　初のライブ！</p></div>
       <div class="histopic4text4"><p>デビューシングルの表題曲「サイレントマジョリティー」などを披露</p></div>
-      <div class="historyline"></div>
+      <div class="hismore"><p>>>MORE</p></div>
+      <HistoryLine/>
 　　</div>
 </template>
 
@@ -23,7 +24,7 @@
     background-size: cover;
     background-position: center center;
     background-color: transparent;
-    background-image: url();
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/history%2Fcountdown2.jpg?alt=media&token=6193a63f-b66c-4657-bde1-4dc32cb80d31);
   }
 
   .histopic4date p {
@@ -46,10 +47,10 @@
     font-size: 50px;
     position: absolute;
     left: 50%;
-    top: 30%;
-    -ms-transform: translate(-50%, -30%);
-    -webkit-transform: translate(-50%, -30%);
-    transform: translate(-50%, -30%);
+    top: 35%;
+    -ms-transform: translate(-50%, -35%);
+    -webkit-transform: translate(-50%, -35%);
+    transform: translate(-50%, -35%);
     margin: 0;
     padding: 0;
   }
@@ -57,13 +58,13 @@
   .histopic4text2 p {
     width: 1000px;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     position: absolute;
-    left: 150%;
+    left: 140%;
     top: 45%;
-    -ms-transform: translate(-150%, -45%);
-    -webkit-transform: translate(-150%, -45%);
-    transform: translate(-150%, -45%);
+    -ms-transform: translate(-140%, -45%);
+    -webkit-transform: translate(-140%, -45%);
+    transform: translate(-140%, -45%);
     margin: 0;
     padding: 0;
   }
@@ -93,5 +94,37 @@
     transform: translate(-50%, -75%);
     margin: 0;
     padding: 0;
+  }
+  .hismore p{
+    width: 150px;
+    text-align: center;
+    font-size: 35px;
+    position: absolute;
+    left: 90%;
+    top: 95%;
+    -ms-transform: translate(-90%, -95%);
+    -webkit-transform: translate(-90%, -95%);
+    transform: translate(-90%, -95%);
+    margin: 0;
+    padding: 0;
+  }
+  .hismore p :hover{
+    opacity: 70%;
+}
+.hismore p::after {
+    position: absolute;
+    bottom: 0px;
+    left: 5%;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: white;
+    transform: scale(0, 1);
+    transform-origin: right top;
+    transition: transform .4s;
+  }
+   .hismore p:hover::after {
+    transform-origin: left top;
+    transform: scale(1, 1);
   }
 </style>

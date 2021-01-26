@@ -1,16 +1,23 @@
 <template>
 <v-content>
 <div class="histopic2">
-      <div class="histopic2text1"><p>5年と1か月と24日</p></div>
-        <div class="histopic2text2"><p>1882日の欅坂46のすべて</p></div>
-        </div>
-        <div class="historyline"></div>
+  <div class="histopic2text1">
+    <p>5年と1か月と24日</p>
+  </div>
+  <div class="histopic2text2">
+    <p>1882日の欅坂46のすべて</p>
+  </div>
+</div>
+<div class="historyline"></div>
 </v-content>
 </template>
 
 <script>
+import HistoryLine from '~/components/History/HistoryLine.vue'
 export default {
-
+  components: {
+    HistoryLine,
+  }
 }
 </script>
 

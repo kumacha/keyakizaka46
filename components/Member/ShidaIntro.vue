@@ -39,7 +39,7 @@
 </template>
 
 <script>
-import GoMember from '~/components/GoMember.vue'
+import GoMember from '~/components/Member/GoMember.vue'
 export default {
   data() {
       return {
