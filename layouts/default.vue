@@ -9,8 +9,8 @@
 </template>
 
 <script>
-  import Navigation from '~/components/Navigation.vue'
-  import Video from '~/components/Video.vue'
+  import Navigation from '~/components/Layouts/Navigation.vue'
+  import Video from '~/components/Layouts/Video.vue'
   export default {
     components: {
       Navigation,

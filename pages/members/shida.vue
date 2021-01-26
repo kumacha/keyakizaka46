@@ -56,7 +56,8 @@
 </template>
 
 <script>
-import GoMember from '~/components/GoMember.vue'
+import ShidaIntro from '~/components/Member/ShidaIntro.vue'
+import GoMember from '~/components/Member/GoMember.vue'
   import firebase from 'firebase'
   export default {
     data() {
@@ -65,7 +66,8 @@ import GoMember from '~/components/GoMember.vue'
         }
     },
     components: {
-      GoMember
+      GoMember,
+      ShidaIntro
     },
     created() {
       const that = this

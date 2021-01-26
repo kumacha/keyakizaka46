@@ -9,11 +9,12 @@
 </template>
 
 <script>
-  import Navigationh from '~/components/Navigationh.vue'
-  import Video from '~/components/Video.vue'
+  import Navigationh from '~/components/Layouts/Navigationh.vue'
+  import Video from '~/components/Layouts/Video.vue'
   export default {
     components: {
       Navigationh,
+      Video
     }
   }
 </script>

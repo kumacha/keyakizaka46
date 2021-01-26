@@ -10,8 +10,8 @@
 </template>
 
 <script>
-import Member from '~/components/Member.vue'
-import Member2 from '~/components/Member2.vue'
+import Member from '~/components/Member/Member.vue'
+import Member2 from '~/components/Member/Member2.vue'
 export default {
 components:{
   Member,

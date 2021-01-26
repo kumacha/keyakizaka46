@@ -41,9 +41,9 @@
     </v-container>
 </template>
 <script>
-import GallerySingle from '~/components/GallerySingle.vue'
-import GalleryTrailer from '~/components/GalleryTrailer.vue'
-import GalleryCoupling from '~/components/GalleryCoupling.vue'
+import GallerySingle from '~/components/Gallery/GallerySingle.vue'
+import GalleryTrailer from '~/components/Gallery/GalleryTrailer.vue'
+import GalleryCoupling from '~/components/Gallery/GalleryCoupling.vue'
   export default {
     data () {
       return {
@@ -53,6 +53,11 @@ import GalleryCoupling from '~/components/GalleryCoupling.vue'
         ],
       }
     },
+    components:{
+      GallerySingle,
+      GalleryTrailer,
+      GalleryCoupling
+    }
   }
 </script>
 <style>
@@ -62,7 +67,7 @@ p{
   z-index: 1;
 }
 .theme--dark.v-tabs-items{
-  background-color: transparent;
+  background-color: transparent !important;
 }
 v-tabs{
   z-index: 1000;

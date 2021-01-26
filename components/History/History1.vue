@@ -1,19 +1,32 @@
 <template>
+<v-content>
   <div class="histopic1">
-        <div class="historytitle"><p>HISTORY</p></div>
-        <div class="histopic1text1"><p>欅坂46、5年間の軌跡</p></div>
-        <div class="histopic1text2"><p>僕たちの嘘と真実</p></div>
-        <div class="scroll">
-        <div class="roundwrap"><p class="round">・</p></div>
-        <div class="scrolltext">SCROLL</div>
-        </div>
-        <div class="historyline"></div>
+    <div class="historytitle">
+      <p>HISTORY</p>
+    </div>
+    <div class="histopic1text1">
+      <p>欅坂46、5年間の軌跡</p>
+    </div>
+    <div class="histopic1text2">
+      <p>僕たちの嘘と真実</p>
+    </div>
+    <div class="scroll">
+      <div class="roundwrap">
+        <p class="round">・</p>
       </div>
+      <div class="scrolltext">SCROLL</div>
+    </div>
+    <HistoryLine/>
+  </div>
+</v-content>
 </template>
 
 <script>
+import HistoryLine from '~/components/History/HistoryLine.vue'
 export default {
-
+  components: {
+    HistoryLine,
+  }
 }
 </script>
 
@@ -122,20 +135,6 @@ export default {
   to {
     transform: translateY(10px);
   }
-}
-.historyline{
-  width: 1px;
-  height: 200px;
-  background-color: white;
-  position: absolute;
-  left: 50%;
-  top: 130%;
-  -ms-transform: translate(-50%, -130%);
-  -webkit-transform: translate(-50%, -130%);
-  transform: translate(-50%, -130%);
-  margin: 0;
-  padding: 0;
-  z-index: 100;
 }
 
 </style>

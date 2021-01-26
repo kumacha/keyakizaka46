@@ -4,11 +4,11 @@
         <v-layout>
           <v-flex>
             <v-row>
-              <v-col v-for="(member, index) in membersArray2" :key="index">
+              <v-col v-for="(member, index) in membersArray" :key="index">
                 <v-hover>
                   <template v-slot:default="{ hover }">
                     <v-card dark class="member-card" :to="member.to" width="230px"
-                    height="400px" :ripple="true">
+                    height="400px" :ripple="true" style="background-color:black;">
                     <v-img class="member-img" :src="member.src"></v-img>
                     <v-card-title class="member-title" v-text="member.name">
                     </v-card-title>
@@ -36,17 +36,17 @@
   export default {
     data() {
       return {
-        membersArray2: [],
+        membersArray: [],
       }
     },
     created() {
       const that = this
-      const members = firebase.firestore().collection('members2').orderBy("subname", "asc")
+      const members = firebase.firestore().collection('members').orderBy("subname", "asc")
       members.get().then((snapshot) => {
         snapshot.forEach((doc) => {
           const members = doc.data()
-          that.membersArray2 = [
-            ...that.membersArray2,
+          that.membersArray = [
+            ...that.membersArray,
             {
               name: members.name,
               subname: members.subname,
@@ -66,5 +66,7 @@
 </script>
 
 <style>
-
+v-content{
+  font-family: 'Noto Serif JP', serif;
+}
 </style>
