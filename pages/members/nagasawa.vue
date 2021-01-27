@@ -63,7 +63,7 @@
     },
     created() {
       const that = this
-      const members = firebase.firestore().collection('members').where("name" , "==", "長沢 菜々")
+      const members = firebase.firestore().collection('members').where("name" , "==", "長沢 菜々香")
       members.get().then((snapshot) => {
         snapshot.forEach((doc) => {
           const members = doc.data()
