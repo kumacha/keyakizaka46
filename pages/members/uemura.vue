@@ -45,7 +45,9 @@
           </v-col>
         </v-row>
             </div>
+            <UemuraIntro/>
       </v-container>
+      <GoMember/>
 </v-app>
 
 </template>
@@ -60,7 +62,7 @@
     },
     created() {
       const that = this
-      const members = firebase.firestore().collection('members').where("name" , "==", "上村 莉奈")
+      const members = firebase.firestore().collection('members').where("name" , "==", "上村 莉菜")
       members.get().then((snapshot) => {
         snapshot.forEach((doc) => {
           const members = doc.data()
