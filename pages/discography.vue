@@ -89,10 +89,10 @@
       ALBUM
       <ul class="album-images">
         <li class="album1-images">
-          <v-img class="album1"
+          <v-img class="album1" @click="gorouteralbumfirst()"
             src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/album%2Falbum1-2.jpg?alt=media&token=dbac27d3-6ca3-4256-8b08-6dca48a1684e">
           </v-img>
-          <v-img class="album1"
+          <v-img class="album1" @click="gorouteralbumfirst()"
             src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/album%2Falbum1.jpg?alt=media&token=8ddcb17f-c78c-4b86-9d80-75e16274f299">
           </v-img>
         </li>
@@ -138,6 +138,9 @@
       },
       gorouternineth() {
         this.$router.push('/single/9th')
+      },
+      gorouteralbumfirst() {
+        this.$router.push('/album/albumfirst')
       },
     },
   }
