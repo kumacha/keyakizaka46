@@ -20,7 +20,6 @@
                       <v-overlay v-if="hover" absolute color="#66CDAA"></v-overlay>
                     </v-fade-transition>
                   </v-card>
-
                   </template>
                 </v-hover>
               </v-col>

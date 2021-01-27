@@ -1,14 +1,14 @@
 <template>
 <v-content>
-<div class="histopic2">
-  <div class="histopic2text1">
+<div class="catch">
+  <div class="catchtext1">
     <p>5年と1か月と24日</p>
   </div>
-  <div class="histopic2text2">
+  <div class="catchtext2">
     <p>1882日の欅坂46のすべて</p>
   </div>
+  <HistoryLine/>
 </div>
-<div class="historyline"></div>
 </v-content>
 </template>
 
@@ -22,15 +22,16 @@ export default {
 </script>
 
 <style>
-.histopic2{
+.catch{
   width: 100vw;
     height: 100vh;
     position: relative;
     background-size: cover;
     background-position: center center;
     background-color: transparent;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/test.mp4?alt=media&token=62c4a856-b408-442d-9928-cdc894672617);
 }
-.histopic2text1 p {
+.catchtext1 p {
   text-align: center;
   font-size: 50px;
   position: absolute;
@@ -42,7 +43,7 @@ export default {
   margin: 0;
   padding: 0;
 }
-.histopic2text2 p {
+.catchtext2 p {
   text-align: center;
   font-size: 50px;
   position: absolute;
