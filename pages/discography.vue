@@ -95,10 +95,10 @@
           </v-img>
         </li>
         <li class="album2-images">
-          <v-img class="album2"
+          <v-img class="album2" @click="gorouteralbumsecond()"
             src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/album%2Falbum2-2.jpg?alt=media&token=7fb001ff-bf74-4e69-8316-c6030f17cdab">
           </v-img>
-          <v-img class="album2"
+          <v-img class="album2" @click="gorouteralbumsecond()"
             src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/album%2Falbum2.jpg?alt=media&token=c67721fe-afac-4d86-b5df-90af64266c4f">
           </v-img>
         </li>
@@ -139,6 +139,9 @@
       },
       gorouteralbumfirst() {
         this.$router.push('/album/albumfirst')
+      },
+      gorouteralbumsecond() {
+        this.$router.push('/album/albumsecond')
       },
     },
   }
