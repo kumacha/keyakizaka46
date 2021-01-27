@@ -3,8 +3,8 @@
     <div class="g-nav">
       <Navigationh />
     </div>
-    <Video />
-    <Nuxt />
+    <Video/>
+    <Nuxt/>
   </v-app>
 </template>
 

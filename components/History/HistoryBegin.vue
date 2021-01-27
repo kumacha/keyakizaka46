@@ -1,13 +1,14 @@
 <template>
 <v-content>
-  <div class="histopic1">
-    <div class="historytitle">
+  <div id="historycontents">
+  <div class="begin">
+    <div class="begintitle">
       <p>HISTORY</p>
     </div>
-    <div class="histopic1text1">
+    <div class="begintext1">
       <p>欅坂46、5年間の軌跡</p>
     </div>
-    <div class="histopic1text2">
+    <div class="begintext2">
       <p>僕たちの嘘と真実</p>
     </div>
     <div class="scroll">
@@ -16,17 +17,14 @@
       </div>
       <div class="scrolltext">SCROLL</div>
     </div>
-    <HistoryLine/>
+    <div class="line"></div>
+  </div>
   </div>
 </v-content>
 </template>
 
 <script>
-import HistoryLine from '~/components/History/HistoryLine.vue'
 export default {
-  components: {
-    HistoryLine,
-  }
 }
 </script>
 
@@ -34,7 +32,7 @@ export default {
 .container {
     padding: 0px;
   }
-  .histopic1{
+  .begin{
     width: 100vw;
     height: 100vh;
     position: relative;
@@ -43,7 +41,7 @@ export default {
     background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/history%2Fhistory6.jpg?alt=media&token=74d3e84c-e3de-496a-ad8e-46048c312802);
   }
   /* 画像の上に文字 */
-  .historytitle p {
+  .begintitle p {
     text-align: center;
     font-size: 120px;
     position: absolute;
@@ -56,7 +54,7 @@ export default {
     padding: 0;
   }
   /*以下で線を表示*/
-.historytitle p:before {
+.begintitle p:before {
   content: '';
   position: absolute;
   left: 50%;
@@ -68,7 +66,7 @@ export default {
   transform: translateX(-50%);/*位置調整*/
   background-color: white;/*線の色*/
 }
-.histopic1text1 p {
+.begintext1 p {
   text-align: center;
   font-size: 50px;
   position: absolute;
@@ -80,7 +78,7 @@ export default {
   margin: 0;
   padding: 0;
 }
-.histopic1text2 p {
+.begintext2 p {
   text-align: center;
   font-size: 50px;
   position: absolute;
@@ -136,5 +134,18 @@ export default {
     transform: translateY(10px);
   }
 }
-
+.line{
+  width: 1px;
+  height: 200px;
+  background-color: white;
+  position: absolute;
+  left: 50%;
+  top: 130%;
+  -ms-transform: translate(-50%, -130%);
+  -webkit-transform: translate(-50%, -130%);
+  transform: translate(-50%, -130%);
+  margin: 0;
+  padding: 0;
+  z-index: 100;
+}
 </style>

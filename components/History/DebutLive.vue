@@ -1,13 +1,15 @@
 <template>
-  <div class="histopic4">
-      <div class="histopic4date"><p>2016年3月17日</p></div>
-      <div class="histopic4text1"><p>「欅坂46生中継！デビューカウントダウンライブ！」</p></div>
-      <div class="histopic4text2"><p>in東京国際フォーラム</p></div>
-      <div class="histopic4text3"><p>欅坂46結成後　初のライブ！</p></div>
-      <div class="histopic4text4"><p>デビューシングルの表題曲「サイレントマジョリティー」などを披露</p></div>
+<div id="historycontents">
+  <div class="debutlive">
+      <div class="date"><p>2016年3月17日</p></div>
+      <div class="debutlivetext1"><p>「欅坂46生中継！デビューカウントダウンライブ！」</p></div>
+      <div class="debutlivetext2"><p>in東京国際フォーラム</p></div>
+      <div class="debutlivetext3"><p>欅坂46結成後　初のライブ！</p></div>
+      <div class="debutlivetext4"><p>デビューシングルの表題曲「サイレントマジョリティー」などを披露</p></div>
       <div class="hismore"><p>>>MORE</p></div>
       <HistoryLine/>
 　　</div>
+</div>
 </template>
 
 <script>
@@ -17,7 +19,7 @@
 </script>
 
 <style>
-  .histopic4 {
+  .debutlive {
     width: 100vw;
     height: 100vh;
     position: relative;
@@ -26,22 +28,7 @@
     background-color: transparent;
     background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/history%2Fcountdown2.jpg?alt=media&token=6193a63f-b66c-4657-bde1-4dc32cb80d31);
   }
-
-  .histopic4date p {
-    width: 1000px;
-    text-align: center;
-    font-size: 50px;
-    position: absolute;
-    right: 150%;
-    top: 10%;
-    -ms-transform: translate(150%, 10%);
-    -webkit-transform: translate(150%, 10%);
-    transform: translate(150%, 10%);
-    margin: 0;
-    padding: 0;
-  }
-
-  .histopic4text1 p {
+  .debutlivetext1 p {
     width: 1400px;
     text-align: center;
     font-size: 50px;
@@ -55,24 +42,24 @@
     padding: 0;
   }
 
-  .histopic4text2 p {
+  .debutlivetext2 p {
     width: 1000px;
     text-align: center;
     font-size: 40px;
     position: absolute;
-    left: 140%;
+    left: 150%;
     top: 45%;
-    -ms-transform: translate(-140%, -45%);
-    -webkit-transform: translate(-140%, -45%);
-    transform: translate(-140%, -45%);
+    -ms-transform: translate(-150%, -45%);
+    -webkit-transform: translate(-150%, -45%);
+    transform: translate(-150%, -45%);
     margin: 0;
     padding: 0;
   }
 
-  .histopic4text3 p {
+  .debutlivetext3 p {
     width: 1000px;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     position: absolute;
     left: 50%;
     top: 60%;
@@ -82,7 +69,7 @@
     margin: 0;
     padding: 0;
   }
-  .histopic4text4 p {
+  .debutlivetext4 p {
     width: 1400px;
     text-align: center;
     font-size: 40px;
@@ -96,7 +83,7 @@
     padding: 0;
   }
   .hismore p{
-    width: 150px;
+    width: 400px;
     text-align: center;
     font-size: 35px;
     position: absolute;

@@ -1,34 +1,36 @@
 <template>
-  <div class="histopic3">
-      <div class="histopic3date"><p>2015年8月21日</p></div>
-      <div class="histopic3text1"><p>鳥居坂46・1期生オーディション</p></div>
-      <div class="histopic3text2"><p>全応募者2万25091名から21名の合格者</p></div>
-        <div class="histopic3text3"><p>会見後、グループ名を「欅坂46」に変更されることが発表される。</p></div>
-        <div class="historyline"></div>
+  <div class="debut2">
+      <div class="date"><p>2015年8月21日</p></div>
+      <div class="debuttext1"><p>鳥居坂46・1期生オーディション</p></div>
+      <div class="debuttext2"><p>全応募者2万25091名から21名の合格者</p></div>
+        <div class="debuttext3"><p>会見後、グループ名を「欅坂46」に変更されることが発表される。</p></div>
+        <HistoryLine/>
         </div>
 </template>
 
 <script>
+import HistoryLine from '~/components/History/HistoryLine.vue'
   export default {
-
+    components:{
+      HistoryLine
+    }
   }
 </script>
 
 <style>
-  .histopic3 {
+  .debut2 {
     width: 100vw;
     height: 100vh;
     position: relative;
     background-size: cover;
     background-position: center center;
     background-color: transparent;
-    background-image: url();
   }
 
-  .histopic3date p {
+  .date p {
     width: 1000px;
     text-align: center;
-    font-size: 50px;
+    font-size: 45px;
     position: absolute;
     right: 150%;
     top: 10%;
@@ -39,7 +41,7 @@
     padding: 0;
   }
 
-  .histopic3text1 p {
+  .debuttext1 p {
     width: 1000px;
     text-align: center;
     font-size: 50px;
@@ -53,10 +55,10 @@
     padding: 0;
   }
 
-  .histopic3text2 p {
+  .debuttext2 p {
     width: 1000px;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     position: absolute;
     left: 50%;
     top: 45%;
@@ -67,10 +69,10 @@
     padding: 0;
   }
 
-  .histopic3text3 p {
-    width: 1000px;
+  .debuttext3 p {
+    width: 1400px;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     position: absolute;
     left: 50%;
     top: 70%;

@@ -15,10 +15,10 @@ export default {
   background-color: white;
   position: absolute;
   left: 50%;
-  top: 130%;
-  -ms-transform: translate(-50%, -130%);
-  -webkit-transform: translate(-50%, -130%);
-  transform: translate(-50%, -130%);
+  top: 120%;
+  -ms-transform: translate(-50%, -120%);
+  -webkit-transform: translate(-50%, -120%);
+  transform: translate(-50%, -120%);
   margin: 0;
   padding: 0;
   z-index: 100;
