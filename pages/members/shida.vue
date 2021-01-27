@@ -50,7 +50,7 @@
             </div>
             <ShidaIntro/>
       </v-container>
-      <GoMember/>
+      
 </v-app>
 
 </template>
