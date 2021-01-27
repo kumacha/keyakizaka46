@@ -1,24 +1,20 @@
 <template>
   <v-app>
-      <div class="g-nav">
-        <Navigation />
-      </div>
-      <div class="backvideo">
-        <video
-          src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/unizon.mp4?alt=media&token=c18a8871-81be-46c2-884d-1febace64525"
-          type="video/mp4" playsinline loop autoplay muted>
-          <img src="../assets/image/slideshow1.png">
-        </video>
-      </div>
-      <Nuxt />
+    <div class="g-nav">
+      <Navigation />
+    </div>
+    <Video/>
+    <Nuxt/>
   </v-app>
 </template>
 
 <script>
-  import Navigation from '~/components/Navigation.vue'
+  import Navigation from '~/components/Layouts/Navigation.vue'
+  import Video from '~/components/Layouts/Video.vue'
   export default {
     components: {
       Navigation,
+      Video,
     }
   }
 </script>
@@ -26,6 +22,15 @@
 <style>
   p {
     color: white;
+  }
+
+  #app {
+    font-family:
+      YuMincho,
+      /* Mac用 */
+      'Yu Mincho',
+      /* Windows用 */
+      serif;
   }
 
   .v-application p {
@@ -44,18 +49,5 @@
   body::-webkit-scrollbar {
     /* Chrome, Safariのスクロールバー削除 */
     display: none;
-  }
-
-  video {
-    position: fixed;
-    display: block;
-    left: 0;
-    top: 0;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    justify-content: center;
-    z-index: 0;
   }
 </style>

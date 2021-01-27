@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import Navigation from '~/components/GallerySingle.vue'
+import GallerySingle from '~/components/Gallery/GallerySingle.vue'
   export default {
     components: {
       GallerySingle,

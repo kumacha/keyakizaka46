@@ -42,24 +42,32 @@
                 出身地：{{member.from}}
               </p>
               <p>
-                卒業日：20218年11月16日
+                卒業日：2018年11月16日
               </p>
             </div>
           </v-col>
         </v-row>
             </div>
+            <ShidaIntro/>
       </v-container>
+      <GoMember/>
 </v-app>
 
 </template>
 
 <script>
+import ShidaIntro from '~/components/Member/ShidaIntro.vue'
+import GoMember from '~/components/Member/GoMember.vue'
   import firebase from 'firebase'
   export default {
     data() {
       return {
         membersArray: [],
-      }
+        }
+    },
+    components: {
+      GoMember,
+      ShidaIntro
     },
     created() {
       const that = this
@@ -88,6 +96,9 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Cinzel:wght@500&family=Open+Sans&display=swap");
+.theme--dark.v-sheet{
+  background-color: transparent;
+}
 .v-application p{
   margin-bottom: 0px;
 }
@@ -121,4 +132,5 @@
 .m-maincontents{
   margin-left: 130px;
 }
+
 </style>
