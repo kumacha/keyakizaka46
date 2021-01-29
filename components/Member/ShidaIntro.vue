@@ -8,32 +8,30 @@
             ライブでは煽り担当で、欅共和国2017の危なっかしい計画での「来年も欅共和国も来たいか～？！絶対来いよ～！」の煽りが印象的である。
             </p>
         </div>
-        <v-row>
-          <v-col cols="12" md="6">
-            <div class="picture-title" style="text-align:center;">
-              <p>Photos</p>
+        <div class="carouselcontainer">
+          <div class="picture-title" style="text-align:center;">
+            <p>Photos</p>
+          </div>
+          <div class="pic-carousel">
+            <div class="carousel-size">
+            <v-carousel :show-arrows-on-hover="true" cycle="true" interval="3500">
+              <v-carousel-item class="slideshow" v-for="(picitem,k) in picitems" :key="k" :src="picitem.src"
+                hide-delimiter-background>
+              </v-carousel-item>
+            </v-carousel>
             </div>
-            <div class="carousel">
-              <v-carousel width="570px" height="400px" :show-arrows-on-hover="true" cycle="true" interval="3500" >
-                <v-carousel-item class="slideshow" v-for="(picitem,k) in picitems" :key="k" :src="picitem.src"
-                  hide-delimiter-background>
-                </v-carousel-item>
-              </v-carousel>
-            </div>
-          </v-col>
-          <v-col cols="12" md="6">
-            <div class="picture-title" style="text-align:center;">
-              <p>Promotion Video</p>
-            </div>
-            <div class="carousel">
-              <v-carousel width="570px" height="400px" :show-arrows-on-hover="true" cycle="true" interval="3500">
-                <v-carousel-item class="slideshow" v-for="(pvitem,i) in pvitems" :key="i" :src="pvitem.src"
-                  hide-delimiter-background>
-                </v-carousel-item>
-              </v-carousel>
-            </div>
-          </v-col>
-        </v-row>
+          </div>
+          <div class="picture-title" style="text-align:center;">
+            <p>Promotion Video</p>
+          </div>
+          <div class="pv-carousel">
+            <v-carousel :show-arrows-on-hover="true" cycle="true" interval="3500">
+              <v-carousel-item class="slideshow" v-for="(pvitem,i) in pvitems" :key="i" :src="pvitem.src"
+                hide-delimiter-background>
+              </v-carousel-item>
+            </v-carousel>
+          </div>
+        </div>
   </v-container>
 
 </template>
@@ -74,8 +72,39 @@ export default {
   width: 1200px;
 
 }
-.carousel{
-  width:570px;
-  height: auto;
+.carouselcontainer {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 150%;
+    -ms-transform: translate(-50%, -30%);
+    -webkit-transform: translate(-50%, -30%);
+    transform: translate(-50%, -30%);
+    margin: 0;
+    padding: 0;
+  }
+.pic-carousel {
+  text-align: center;
+  position: absolute;
+  left: 120%;
+  top: 35%;
+  -ms-transform: translate(-120%, -35%);
+  -webkit-transform: translate(-120%, -35%);
+  transform: translate(-120%, -35%);
+  margin: 0;
+  padding: 0;
+}
+.pv-carousel{
+  width: 500px;
+  height: 400px;
+  text-align: center;
+  position: absolute;
+  left: -40%;
+  top: 35%;
+  -ms-transform: translate(40%, -35%);
+  -webkit-transform: translate(40%, -35%);
+  transform: translate(40%, -35%);
+  margin: 0;
+  padding: 0;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <v-content>
+  <v-main>
     <div id="historycontents">
       <HistoryBegin/>
       <HistoryCatch/>
@@ -7,33 +7,47 @@
       <MemberList/>
       <DebutLive/>
       <FirstSingle/>
+      <Tokuyama/>
       <SecondSingle/>
       <ThirdSingle/>
+      <Ariake/>
+      <Kouhaku2016/>
+      <FirstAnniver/>
       <ForthSingle/>
+      <Zankan/>
+      <Masshiro/>
+      <Republic2017/>
       <FifthSingle/>
       <SixthSingle/>
       <SeventhSingle/>
       <EighthSingle/>
       <LastSingle/>
       </div>
-  </v-content>
+  </v-main>
 </template>
 
 <script>
-import FirstSingle from '~/components/History/FirstSingle.vue'
-import SecondSingle from '~/components/History/SecondSingle.vue'
-import ThirdSingle from '~/components/History/ThirdSingle.vue'
-import ForthSingle from '~/components/History/ForthSingle.vue'
-import FifthSingle from '~/components/History/FifthSingle.vue'
-import SixthSingle from '~/components/History/SixthSingle.vue'
-import SeventhSingle from '~/components/History/SeventhSingle.vue'
-import EighthSingle from '~/components/History/EighthSingle.vue'
-import LastSingle from '~/components/History/LastSingle.vue'
+import FirstSingle from '~/components/History/Single/FirstSingle.vue'
+import SecondSingle from '~/components/History/Single/SecondSingle.vue'
+import ThirdSingle from '~/components/History/Single/ThirdSingle.vue'
+import ForthSingle from '~/components/History/Single/ForthSingle.vue'
+import FifthSingle from '~/components/History/Single/FifthSingle.vue'
+import SixthSingle from '~/components/History/Single/SixthSingle.vue'
+import SeventhSingle from '~/components/History/Single/SeventhSingle.vue'
+import EighthSingle from '~/components/History/Single/EighthSingle.vue'
+import LastSingle from '~/components/History/Single/LastSingle.vue'
+import Masshiro from '~/components/History/Single/Masshiro.vue'
+import Tokuyama from '~/components/History/Tokuyama.vue'
+import Ariake from '~/components/History/Ariake.vue'
+import Kouhaku2016 from '~/components/History/Kouhaku2016.vue'
+import FirstAnniver from '~/components/History/FirstAnniver.vue'
+import Zankan from '~/components/History/Zankan.vue'
 import MemberList from '~/components/History/MemberList.vue'
 import HistoryBegin from '~/components/History/HistoryBegin.vue'
 import HistoryCatch from '~/components/History/HistoryCatch.vue'
 import Debut from '~/components/History/Debut.vue'
 import DebutLive from '~/components/History/DebutLive.vue'
+import Republic2017 from '~/components/History/Republic2017.vue'
   export default {
     components:{
       HistoryBegin,
@@ -42,6 +56,13 @@ import DebutLive from '~/components/History/DebutLive.vue'
       DebutLive,
       MemberList,
       FirstSingle,
+      Tokuyama,
+      Ariake,
+      Kouhaku2016,
+      FirstAnniver,
+      Zankan,
+      Masshiro,
+      Republic2017,
       SecondSingle,
       ThirdSingle,
       ForthSingle,
@@ -49,7 +70,7 @@ import DebutLive from '~/components/History/DebutLive.vue'
       SixthSingle,
       SeventhSingle,
       EighthSingle,
-      LastSingle
+      LastSingle,
     },
     layout: 'Historydefault',
     }
