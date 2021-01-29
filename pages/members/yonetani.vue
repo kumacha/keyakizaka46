@@ -48,7 +48,9 @@
           </v-col>
         </v-row>
             </div>
+            <YonetaniIntro/>
       </v-container>
+      <GoMember/>
 </v-app>
 
 </template>
