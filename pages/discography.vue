@@ -150,22 +150,23 @@
 
 <style>
   .discography {
-    text-align: center;
-    font-size: 80px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    z-index: 1;
+    margin-left: 60px;
+    font-size: 20px;
   }
 
   .single {
     text-align: center;
-    font-size: 60px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration-line: underline;
+    font-size: 18px;
   }
 
   .album {
-    margin-top: 30px;
+    margin-top: 60px;
     text-align: center;
-    font-size: 60px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration-line: underline;
+    font-size: 18px;
   }
 
   .single-images {
@@ -184,19 +185,20 @@
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 100px;
+    margin-left: 166px;
     list-style: none;
     margin-bottom: 70px;
+    margin-top: 30px;
   }
 
   .album-images li {
-    margin-left: 100px;
+    margin-left: 50px;
     margin-right: -20px;
   }
 
   /*1st(サイレントマジョリティー)*/
   .single1-images {
-    margin-top: 30px;
+    margin-top: 42px;
     position: relative;
     height: 508px;
     width: 160px;
@@ -210,7 +212,7 @@
   }
 
   .single1 {
-    margin-top: 30px;
+    margin-top: 42px;
     position: absolute;
     top: 0;
     left: 0;
@@ -232,7 +234,7 @@
 
   /*2nd(世界には愛しかない*/
   .single2-images {
-    margin-top: 30px;
+    margin-top: 42px;
     position: relative;
     height: 508px;
     width: 160px;
@@ -246,7 +248,7 @@
   }
 
   .single2 {
-    margin-top: 30px;
+    margin-top: 42px;
     position: absolute;
     top: 0;
     left: 0;
@@ -268,7 +270,7 @@
 
   /*3rd(二人セゾン)*/
   .single3-images {
-    margin-top: 30px;
+    margin-top: 42px;
     position: relative;
     height: 508px;
     width: 160px;
@@ -282,7 +284,7 @@
   }
 
   .single3 {
-    margin-top: 30px;
+    margin-top: 42px;
     position: absolute;
     top: 0;
     left: 0;
@@ -304,7 +306,7 @@
 
   /*4th(不協和音)*/
   .single4-images {
-    margin-top: 30px;
+    margin-top: 42px;
     position: relative;
     height: 508px;
     width: 160px;
@@ -318,7 +320,7 @@
   }
 
   .single4 {
-    margin-top: 30px;
+    margin-top: 42px;
     position: absolute;
     top: 0;
     left: 0;
@@ -340,7 +342,7 @@
 
   /*5th(風に吹かれても)*/
   .single5-images {
-    margin-top: 30px;
+    margin-top: 42px;
     position: relative;
     height: 508px;
     width: 160px;
@@ -354,7 +356,7 @@
   }
 
   .single5 {
-    margin-top: 30px;
+    margin-top: 42px;
     position: absolute;
     top: 0;
     left: 0;
@@ -376,7 +378,7 @@
 
   /*6th(ガラスを割れ！)*/
   .single6-images {
-    margin-top: 30px;
+    margin-top: 42px;
     position: relative;
     height: 508px;
     width: 160px;
@@ -390,7 +392,7 @@
   }
 
   .single6 {
-    margin-top: 30px;
+    margin-top: 42px;
     position: absolute;
     top: 0;
     left: 0;
@@ -412,7 +414,7 @@
 
   /*7th(アンビバレント)*/
   .single7-images {
-    margin-top: 30px;
+    margin-top: 42px;
     position: relative;
     height: 508px;
     width: 160px;
@@ -426,7 +428,7 @@
   }
 
   .single7 {
-    margin-top: 30px;
+    margin-top: 42px;
     position: absolute;
     top: 0;
     left: 0;
@@ -448,7 +450,7 @@
 
   /*8th(黒い羊)*/
   .single8-images {
-    margin-top: 30px;
+    margin-top: 42px;
     position: relative;
     height: 508px;
     width: 160px;
@@ -462,7 +464,7 @@
   }
 
   .single8 {
-    margin-top: 30px;
+    margin-top: 42px;
     position: absolute;
     top: 0;
     left: 0;
@@ -484,7 +486,7 @@
 
   /*9th(誰がその金を鳴らすのか？)*/
   .single9-images {
-    margin-top: 30px;
+    margin-top: 50px;
     position: relative;
     height: 508px;
     width: 160px;
@@ -498,7 +500,7 @@
   }
 
   .single9 {
-    margin-top: 30px;
+    margin-top: 50px;
     position: absolute;
     top: 0;
     left: 0;

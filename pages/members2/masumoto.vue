@@ -45,7 +45,9 @@
           </v-col>
         </v-row>
             </div>
+            <MasumotoIntro/>
       </v-container>
+      <GoMember2/>
 </v-app>
 
 </template>
