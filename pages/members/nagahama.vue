@@ -48,7 +48,9 @@
           </v-col>
         </v-row>
             </div>
+            <NagahamaIntro/>
       </v-container>
+      <GoMember/>
 </v-app>
 
 </template>

@@ -48,7 +48,9 @@
           </v-col>
         </v-row>
             </div>
+            <ImaizumiIntro/>
       </v-container>
+      <GoMember/>
 </v-app>
 
 </template>

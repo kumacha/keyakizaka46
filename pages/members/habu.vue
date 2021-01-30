@@ -45,7 +45,9 @@
           </v-col>
         </v-row>
             </div>
+            <HabuIntro/>
       </v-container>
+      <GoMember/>
 </v-app>
 
 </template>

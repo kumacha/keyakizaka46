@@ -45,7 +45,9 @@
           </v-col>
         </v-row>
             </div>
+              <RisaIntro/>
       </v-container>
+      <GoMember/>
 </v-app>
 
 </template>

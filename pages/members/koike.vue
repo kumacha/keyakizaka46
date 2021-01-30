@@ -45,7 +45,9 @@
           </v-col>
         </v-row>
             </div>
+            <KoikeIntro/>
       </v-container>
+      <GoMember/>
 </v-app>
 
 </template>

@@ -45,7 +45,9 @@
           </v-col>
         </v-row>
             </div>
+            <MoritaIntro/>
       </v-container>
+      <GoMember2/>
 </v-app>
 
 </template>

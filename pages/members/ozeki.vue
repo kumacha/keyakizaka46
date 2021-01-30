@@ -45,7 +45,9 @@
           </v-col>
         </v-row>
             </div>
+            <OzekiIntro/>
       </v-container>
+      <GoMember/>
 </v-app>
 
 </template>
