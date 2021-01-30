@@ -177,7 +177,7 @@
             </div>
           </v-col>
         </v-row>
-        <NagasawaIntro />
+        <NagahamaIntro />
       </div>
       <GoMember />
     </v-container>
