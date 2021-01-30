@@ -1,7 +1,7 @@
 <template>
 <div id="historycontents">
   <div class="sixthsingle">
-      <div class="date"><p>2018年3月7日</p></div>
+      <div class="ariakedate"><p>2018年3月7日</p></div>
       <div class="sixthsingletext1"><p>6th Single 「ガラスを割れ！」発売</p></div>
       <div class="sixthsingletext2"><p>初週売上約26万2000枚、オリコン1位獲得</p></div>
       <div class="sixthsingletext3"><p>女性アーティストのデビューシングル初週売上歴代1位。</p></div>

@@ -1,34 +1,49 @@
 <template>
-    <v-content>
-      <v-container>
-            <v-row>
-              <v-col v-for="(gallery, index) in GallerysSingleArray" :key="index" cols="12" sm="6">
-                <v-hover v-slot="{ hover }">
-                <v-card :elevation="hover ? 12 : 2" :class="{ 'on-hover': hover }" height="365px" width="500px" style="background-color:transparent;" >
-                <v-img class="gallery-img" v-bind:src="gallery.src" :ripple="true" height="365px" width="500px"></v-img>
-                <v-card-title class="title white--text">
-                  <v-row class="fill-height flex-column" justify="space-between">
-                    <div class="align-self-center">
-                      <v-btn v-for="(icon, index) in icons" :key="index" :class="{ 'show-btns': hover }"
-                        :color="transparent" icon>
-                        <v-icon :class="{ 'show-btns': hover }" :color="transparent">
-                          {{ icon }}
-                        </v-icon>
-                      </v-btn>
-                    </div>
-                  </v-row>
-                </v-card-title>
-                </v-card>
+  <v-content>
+    <v-container>
+      <v-row>
+        <v-col v-for="(gallery, index) in GallerysSingleArray" :key="index" cols="12" sm="6">
+          <v-hover v-slot="{ hover }">
+            <v-card :elevation="hover ? 12 : 2" :class="{ 'on-hover': hover }" height="315px" width="560px"
+              style="background-color:transparent;">
+              <v-img class="galleryitem" v-bind:src="gallery.src" :ripple="true" height="315px" width="560px"></v-img>
+              <iframe width="560" height="315" v-bind:src="gallery.yurl"
+                frameborder="0" allowfullscreen autoplay playsinline class="movie"></iframe>
+            </v-card>
           </v-hover>
           <span v-text="gallery.name"></span>
-              </v-col>
-            </v-row>
-      </v-container>
-    </v-content>
+        </v-col>
+      </v-row>
+    </v-container>
+  </v-content>
 </template>
 
 <script>
   import firebase from 'firebase'
+  $(function() {
+//   Mobile判定
+//   var mobile = false;
+//   var ua = navigator.userAgent;
+//   if (
+//     ua.indexOf("iPhone") > 0 ||
+//     ua.indexOf("iPod") > 0 ||
+//     ua.indexOf("iPad") > 0 ||
+//     (ua.indexOf("Android") > 0 && ua.indexOf("Mobile") > 0)
+//   ) {
+//     mobile = true;
+//   }
+//   スマホの場合muted属性追加
+//   if (mobile) {
+//     $("iframe").each(function() {
+//       $(this).attr("muted", "");
+//     });
+//   }
+  $(".galleryitem").click(function() {
+    var player = $(this).next("iframe")[0].contentWindow;
+    player.postMessage('{"event":"command","func":"playVideo","args":""}', "*");
+    $(this).hide();
+  });
+});
   export default {
     data() {
       return {
@@ -50,7 +65,7 @@
               number: gallerys.number,
               title: gallerys.title,
               url: gallerys.url,
-              type:gallerys.type
+              type: gallerys.type
             },
           ]
         })
@@ -60,12 +75,11 @@
 </script>
 
 <style>
-.v-card {
+  .v-card {
     transition: opacity .2s ease-in-out;
   }
 
   .v-card:not(.on-hover) {
     opacity: 1.0;
   }
-
 </style>

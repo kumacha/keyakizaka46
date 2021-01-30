@@ -1,7 +1,7 @@
 <template>
 <div id="historycontents">
   <div class="seventhsingle">
-      <div class="date"><p>2018年8月15日</p></div>
+      <div class="ariakedate"><p>2018年8月15日</p></div>
       <div class="seventhsingletext1"><p>7th Single 「アンビバレント」発売</p></div>
       <div class="seventhsingletext2"><p>初週売上約26万2000枚、オリコン1位獲得</p></div>
       <div class="seventhsingletext3"><p>女性アーティストのデビューシングル初週売上歴代1位。</p></div>

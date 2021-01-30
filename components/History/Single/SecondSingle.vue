@@ -1,7 +1,7 @@
 <template>
 <div id="historycontents">
   <div class="secondsingle">
-      <div class="date"><p>2016年8月10日</p></div>
+      <div class="seconddate"><p>2016年8月10日</p></div>
       <div class="secondsingletext1"><p>2nd Single 「世界には愛しかない」発売</p></div>
       <div class="secondsingletext2"><p>初週売上約26万2000枚、オリコン1位獲得</p></div>
       <div class="secondsingletext3"><p>女性アーティストのデビューシングル初週売上歴代1位。</p></div>
@@ -18,6 +18,14 @@ export default {
 </script>
 
 <style>
+.seconddate{
+  font-size: 45px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+}
 .secondsingle {
     width: 100vw;
     height: 100vh;

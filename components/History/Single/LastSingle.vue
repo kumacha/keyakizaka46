@@ -1,7 +1,7 @@
 <template>
 <div id="historycontents">
   <div class="lastsingle">
-      <div class="date"><p>2020年8月21日</p></div>
+      <div class="ariakedate"><p>2020年8月21日</p></div>
       <div class="lastsingletext1"><p>Last Single 「誰がその鐘を鳴らすのか？」発売</p></div>
       <div class="lastsingletext2"><p>初週売上約26万2000枚、オリコン1位獲得</p></div>
       <div class="lastsingletext3"><p>女性アーティストのデビューシングル初週売上歴代1位。</p></div>

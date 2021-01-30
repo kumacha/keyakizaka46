@@ -1,7 +1,7 @@
 <template>
 <div id="historycontents">
   <div class="single">
-      <div class="date"><p>2016年4月6日</p></div>
+      <div class="ariakedate"><p>2016年4月6日</p></div>
       <div class="singletext1"><p>1st Single サイレントマジョリティー発売</p></div>
       <div class="singletext2"><p>初週売上約26万2000枚、オリコン1位獲得</p></div>
       <div class="singletext3"><p>女性アーティストのデビューシングル初週売上歴代1位。</p></div>

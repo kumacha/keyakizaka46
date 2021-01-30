@@ -1,7 +1,7 @@
 <template>
 <div id="historycontents">
   <div class="thirdsingle">
-      <div class="date"><p>2016年11月30日</p></div>
+      <div class="ariakedate"><p>2016年11月30日</p></div>
       <div class="thirdsingletext1"><p>3rd Single 「二人セゾン」発売</p></div>
       <div class="thirdsingletext2"><p>初週売上約26万2000枚、オリコン1位獲得</p></div>
       <div class="thirdsingletext3"><p>女性アーティストのデビューシングル初週売上歴代1位。</p></div>

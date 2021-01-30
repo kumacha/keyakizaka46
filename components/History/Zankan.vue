@@ -1,6 +1,6 @@
 <template>
 <div class="zankan">
-  <div class="date">
+  <div class="ariakedate">
     <p>2017年5月18日</p>
   </div>
   <div class="zankantext1">
@@ -10,7 +10,7 @@
     <p>主題歌に4th Singleカップリング曲「エキセントリック」起用</p>
   </div>
   <div class="zankantext3">
-    <p>独特な世界観に注目</p>
+    <p>独特な世界観とギャグに注目</p>
   </div>
   <HistoryLine />
 </div>
