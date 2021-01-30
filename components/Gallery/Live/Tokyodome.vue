@@ -3,7 +3,7 @@
       <div class="global_wrapper">
   <div class="youtube">
     <img
-      src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Flive%2Ftokyodome2.jpg?alt=media&token=468698db-dd13-4be5-87ac-d4a901b4123d"
+      src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Flive%2Ftokyodome.jpg?alt=media&token=b507ea10-79f4-4c57-a873-cd9b31a9a1b0"
       alt=""
       width="560"
       height="315"

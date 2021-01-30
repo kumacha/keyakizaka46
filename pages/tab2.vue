@@ -13,20 +13,18 @@
         </div>
         <ul class="tab_content">
           <li class="show">
-            <h2>ALL</h2>
-            <p>ここにALL</p>
+            <GallerySingle/>
+            <GalleryCoupling/>
+            <GalleryTrailer/>
           </li>
           <li>
-            <h2>SINGLE</h2>
-            <p>ここにSINGLE</p>
+            <GallerySingle/>
           </li>
           <li>
-            <h2>COUPLING</h2>
-            <p>ここにCOUPLING</p>
+            <GalleryCoupling/>
           </li>
           <li>
-            <h2>LIVE</h2>
-            <p>ここにLIVE</p>
+            <GalleryTrailer/>
           </li>
         </ul>
       </div>
@@ -34,38 +32,55 @@
   </v-main>
 </template>
 
-<script>$(function(){
+<script>
+  $(function () {
     var menulist = $(".tab_menu li");
     var contentlist = $(".tab_content li");
     var border = $(".border div");
 
-    menulist.on("click",function(){
-        var selected = menulist.index($(this));
-        menulist.removeClass("show").eq(selected).addClass("show");
-        contentlist.removeClass("show").eq(selected).addClass("show");
-        if(selected === 0){
-            border.css("left","0%");
-        }else if(selected === 1){
-            border.css("left","33.3%");
-        }else if(selected === 2){
-            border.css("left","66.6%");
-        }else{
-            console.log(error);
-        }
+    menulist.on("click", function () {
+      var selected = menulist.index($(this));
+      menulist.removeClass("show").eq(selected).addClass("show");
+      contentlist.removeClass("show").eq(selected).addClass("show");
+      if (selected === 0) {
+        border.css("left", "0%");
+      } else if (selected === 1) {
+        border.css("left", "25.0%");
+      } else if (selected === 2) {
+        border.css("left", "50.0%");
+      } else if (selected === 3) {
+        border.css("left", "75.0%");
+      } else {
+        console.log(error);
+      }
     });
-});
-  export default {
+  });
+  import GallerySingle from '~/components/Gallery/GallerySingle.vue'
+  import GalleryTrailer from '~/components/Gallery/GalleryTrailer.vue'
+  import GalleryCoupling from '~/components/Gallery/GalleryCoupling.vue'
 
+  export default {
+      components: {
+          GallerySingle,
+          GalleryTrailer,
+          GalleryCoupling,
+      }
   }
 </script>
 
 <style>
-.tab{
-    margin:0 auto;
-    padding: 10px;
-}
+  .v-application ul,
+  .v-application ol {
+    padding-left: 0px;
+  }
 
-.tab_menu{
+  .tab {
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .tab_menu {
+      width: 1200px;
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -75,61 +90,68 @@
     border: 1px solid #ccc;
     overflow: hidden;
     text-align: center;
-}
+  }
 
-.tab_menu li{
+  .tab_menu li {
     width: 100%;
     height: 50px;
     line-height: 50px;
     text-align: center;
     background-color: transparent;
     border-right: 1px solid #ccc;
-}
+    opacity: 70%;
+  }
 
-.tab_menu li:last-child{
+  .tab_menu li:last-child {
     border-right: 0;
-}
+  }
+  .tab_menu li :hover{
+      background-color: rgb(203, 196, 196);
+  }
 
-
-.tab_menu li.show{
+  .tab_menu li.show {
     background-color: rgb(203, 196, 196);
-}
+    opacity: 100%;
+  }
 
-/* メニューの下線 */
-.border div{
+  /* メニューの下線 */
+  .border div {
     left: 0%;
     width: 25%;
     bottom: 0;
     display: block;
-    background-color:rgb(203, 196, 196);
+    background-color:white;
     height: 2px;
     position: relative;
-    transition: left 1s cubic-bezier(0.23,1,0.32,1);
-}
+    transition: left 1s cubic-bezier(0.25, 1, 0.35, 1);
+  }
+  .border{
+      width: 1200px;
+  }
 
-/* コンテンツ */
-.tab_content{
-    list-style-type:none;
+  /* コンテンツ */
+  .tab_content {
+    list-style-type: none;
     position: relative;
     height: auto;
     padding: 0;
-}
+  }
 
-.tab_content li {
+  .tab_content li {
     text-align: center;
     position: absolute;
-    width: 100%;
+    width: 1200px;
     border: 1px solid #ccc;
     top: 100px;
     opacity: 0;
     z-index: 0;
     transition-duration: 0.8s;
-}
+  }
 
-.tab_content li.show{
+  .tab_content li.show {
     top: 0;
     opacity: 1;
     z-index: 10;
     transition-duration: 0.8s;
-}
+  }
 </style>

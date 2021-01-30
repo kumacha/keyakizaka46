@@ -1,85 +1,40 @@
 <template>
-  <v-content>
-    <v-container>
-      <v-row>
-        <v-col v-for="(gallery, index) in GallerysSingleArray" :key="index" cols="12" sm="6">
-          <v-hover v-slot="{ hover }">
-            <v-card :elevation="hover ? 12 : 2" :class="{ 'on-hover': hover }" height="315px" width="560px"
-              style="background-color:transparent;">
-              <v-img class="galleryitem" v-bind:src="gallery.src" :ripple="true" height="315px" width="560px"></v-img>
-              <iframe width="560" height="315" v-bind:src="gallery.yurl"
-                frameborder="0" allowfullscreen autoplay playsinline class="movie"></iframe>
-            </v-card>
-          </v-hover>
-          <span v-text="gallery.name"></span>
-        </v-col>
-      </v-row>
-    </v-container>
-  </v-content>
+<v-container>
+    <v-row>
+        <v-col md="6"><First/></v-col><v-col md="6"><Second/></v-col>
+        <v-col md="6"><Third/></v-col><v-col md="6"><Forth/></v-col>
+        <v-col md="6"><Fifth/></v-col><v-col md="6"><Sixth/></v-col>
+        <v-col md="6"><Seventh/></v-col><v-col md="6"><Eighth/></v-col>
+        <v-col md="6"><Ninth/></v-col>
+    </v-row>
+</v-container>
 </template>
 
 <script>
-  import firebase from 'firebase'
-  $(function() {
-//   Mobile判定
-//   var mobile = false;
-//   var ua = navigator.userAgent;
-//   if (
-//     ua.indexOf("iPhone") > 0 ||
-//     ua.indexOf("iPod") > 0 ||
-//     ua.indexOf("iPad") > 0 ||
-//     (ua.indexOf("Android") > 0 && ua.indexOf("Mobile") > 0)
-//   ) {
-//     mobile = true;
-//   }
-//   スマホの場合muted属性追加
-//   if (mobile) {
-//     $("iframe").each(function() {
-//       $(this).attr("muted", "");
-//     });
-//   }
-  $(".galleryitem").click(function() {
-    var player = $(this).next("iframe")[0].contentWindow;
-    player.postMessage('{"event":"command","func":"playVideo","args":""}', "*");
-    $(this).hide();
-  });
-});
-  export default {
-    data() {
-      return {
-        GallerysSingleArray: [],
-      }
-    },
-    created() {
-      const that = this
-      const gallerys = firebase.firestore().collection("gallery").orderBy("number", "asc")
-      gallerys.get().then((snapshot) => {
-        snapshot.forEach((doc) => {
-          const gallerys = doc.data()
-          that.GallerysSingleArray = [
-            ...that.GallerysSingleArray,
-            {
-              name: gallerys.name,
-              src: gallerys.src,
-              single: gallerys.single,
-              number: gallerys.number,
-              title: gallerys.title,
-              url: gallerys.url,
-              type: gallerys.type
-            },
-          ]
-        })
-      })
-    },
-  }
+import First from '~/components/Gallery/Single/First.vue'
+import Second from '~/components/Gallery/Single/Second.vue'
+import Third from '~/components/Gallery/Single/Third.vue'
+import Forth from '~/components/Gallery/Single/Forth.vue'
+import Fifth from '~/components/Gallery/Single/Fifth.vue'
+import Sixth from '~/components/Gallery/Single/Sixth.vue'
+import Seventh from '~/components/Gallery/Single/Seventh.vue'
+import Eighth from '~/components/Gallery/Single/Eighth.vue'
+import Ninth from '~/components/Gallery/Single/Ninth.vue'
+export default {
+    components:{
+        First,
+        Second,
+        Third,
+        Forth,
+        Fifth,
+        Sixth,
+        Seventh,
+        Eighth,
+        Ninth
+    }
+}
 </script>
 
 <style>
-  .v-card {
-    transition: opacity .2s ease-in-out;
-  }
 
-  .v-card:not(.on-hover) {
-    opacity: 1.0;
-  }
 </style>

@@ -61,7 +61,7 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Cinzel:wght@500&family=Open+Sans&display=swap");
 .navigation{
   margin-bottom: 7%;
-  z-index: 1;
+  z-index: 10000;
 }
 .global-navigation{
   margin-top: 2%;
