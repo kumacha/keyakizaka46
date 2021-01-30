@@ -3,7 +3,7 @@
       <div class="global_wrapper">
   <div class="youtube">
     <img
-      src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Flive%2Fkeyakirepublic2019a.jpeg?alt=media&token=0e9b2439-6563-429c-84b2-cb1d7b8cb8de"
+      src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/history%2Frepublic%2Frepublic2018a.jpg?alt=media&token=ddb70d17-ea46-4d23-9a0b-7188667ec4df"
       alt=""
       width="560"
       height="315"
@@ -12,7 +12,7 @@
     <iframe
       width="560"
       height="315"
-      src="https://www.youtube.com/embed/1Se2_Md4xLg?controls=0?enablejsapi=1"
+      src="https://www.youtube.com/embed/CniPDOZtteo?controls=0?enablejsapi=1"
       frameborder="0"
       allowfullscreen
       autoplay
@@ -21,7 +21,7 @@
     ></iframe>
   </div>
 </div>
-<p>欅共和国2019</p>
+<p>欅共和国2018</p>
   </v-main>
 </template>
 
