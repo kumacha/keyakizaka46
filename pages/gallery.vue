@@ -1,7 +1,7 @@
 <template>
 <v-container>
   <v-row>
-    <p>GALLERY</p>
+    <GalleryTitle/>
   </v-row>
     <v-tabs
       v-model="tab"
@@ -64,10 +64,6 @@ import GalleryCoupling from '~/components/Gallery/GalleryCoupling.vue'
 </script>
 <style>
 /* Helper classes */
-p{
-  color: white;
-  z-index: 1;
-}
 .theme--dark.v-tabs-items{
   background-color: transparent !important;
 }

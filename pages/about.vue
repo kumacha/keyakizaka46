@@ -1,6 +1,6 @@
 <template>
   <v-content>
-   <v-container class="content">
+   <v-container>
          <div class="aboutpicmain">
       <v-img width="auto" height="450px"
         src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/about%2Faboutmain.jpg?alt=media&token=1467a745-c3be-4a0b-aae3-63a66b6a67db">

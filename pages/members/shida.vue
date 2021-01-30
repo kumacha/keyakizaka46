@@ -30,7 +30,7 @@
           <v-col>
             <div class="m-intro">
               <p>
-               ニックネーム： {{"member.nicname"}}
+               ニックネーム： {{member.nicname}}
               </p>
               <p>
                生年月日： {{member.birth}}
@@ -78,6 +78,7 @@ import GoMember from '~/components/Member/GoMember.vue'
           that.membersArray = [
             ...that.membersArray,
             {
+              nicname: members.nicname,
               name: members.name,
               subname: members.subname,
               src: members.src,
