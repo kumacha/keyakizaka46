@@ -1,7 +1,7 @@
 <template>
 <div id="historycontents">
   <div class="firstsingle">
-      <div class="date"><p>2016年4月6日</p></div>
+      <div class="firstdate"><p>2016年4月6日</p></div>
       <div class="firstsingletext1"><p>1st Single 「サイレントマジョリティー」発売</p></div>
       <div class="firstsingletext3"><p>初週売上約26万2000枚、オリコン1位獲得</p></div>
       <div class="firstsingletext4"><p>女性アーティストのデビューシングル初週売上歴代1位。</p></div>
@@ -18,6 +18,14 @@ export default {
 </script>
 
 <style>
+.firstdate{
+  font-size: 45px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+}
 .firstsingle {
     width: 100vw;
     height: 100vh;

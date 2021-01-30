@@ -110,4 +110,5 @@ export default {
     transform-origin: left top;
     transform: scale(1, 1);
   }
+  .navigation p {text-shadow: 5px 5px 2px #0f0f0f; }
 </style>

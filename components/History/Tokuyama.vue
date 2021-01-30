@@ -1,6 +1,6 @@
 <template>
 <div class="tokuyama">
-  <div class="date">
+  <div class="ariakedate">
     <p>2016年7月17日</p>
   </div>
   <div class="tokuyamatext1">

@@ -1,7 +1,7 @@
 <template>
 <div id="historycontents">
   <div class="fifthsingle">
-      <div class="date"><p>2017年10月25日</p></div>
+      <div class="fifthdate"><p>2017年10月25日</p></div>
       <div class="fifthsingletext1"><p>4th Single 「風に吹かれても」発売</p></div>
       <div class="fifthsingletext2"><p>初週売上約26万2000枚、オリコン1位獲得</p></div>
       <div class="fifthsingletext3"><p>女性アーティストのデビューシングル初週売上歴代1位。</p></div>
@@ -18,6 +18,14 @@ export default {
 </script>
 
 <style>
+.fifthdate{
+  font-size: 45px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+}
 .fifthsingle {
     width: 100vw;
     height: 100vh;

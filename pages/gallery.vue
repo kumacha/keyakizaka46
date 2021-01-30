@@ -33,9 +33,11 @@
     <div v-show="item == 'COUPLING'">
       <GalleryCoupling/>
     </div>
+    <template>
     <div v-show="item == 'TRAILER'">
       <GalleryTrailer/>
     </div>
+    </template>
       </v-tab-item>
     </v-tabs-items>
     </v-container>
@@ -56,7 +58,7 @@ import GalleryCoupling from '~/components/Gallery/GalleryCoupling.vue'
     components:{
       GallerySingle,
       GalleryTrailer,
-      GalleryCoupling
+      GalleryCoupling,
     }
   }
 </script>

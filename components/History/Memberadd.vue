@@ -1,0 +1,79 @@
+<template>
+  <div class="Memberadd">
+    <div class="ariakedate">
+      <p>2018年11月29日</p>
+    </div>
+    <div class="Memberaddtext1">
+      <p>「坂道合同オーディション」の合格者39名の配属先が発表</p>
+    </div>
+    <div class="Memberaddtext2">
+      <p>2期生として9名が配属される。</p>
+    </div>
+    <div class="Memberaddtext3">
+      <p>会見後、グループ名を「欅坂46」に変更されることが発表される。</p>
+    </div>
+    <HistoryLine />
+  </div>
+</template>
+
+<script>
+  import HistoryLine from '~/components/History/HistoryLine.vue'
+  export default {
+    components: {
+      HistoryLine
+    }
+  }
+</script>
+
+<style>
+  .Memberadd {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-color: transparent;
+  }
+
+  .Memberaddtext1 p {
+    width: 1000px;
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    -ms-transform: translate(-50%, -30%);
+    -webkit-transform: translate(-50%, -30%);
+    transform: translate(-50%, -30%);
+    margin: 0;
+    padding: 0;
+  }
+
+  .Memberaddtext2 p {
+    width: 1000px;
+    text-align: center;
+    font-size: 40px;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    -ms-transform: translate(-50%, -45%);
+    -webkit-transform: translate(-50%, -45%);
+    transform: translate(-50%, -45%);
+    margin: 0;
+    padding: 0;
+  }
+
+  .Memberaddtext3 p {
+    width: 1400px;
+    text-align: center;
+    font-size: 40px;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    -ms-transform: translate(-50%, -70%);
+    -webkit-transform: translate(-50%, -70%);
+    transform: translate(-50%, -70%);
+    margin: 0;
+    padding: 0;
+  }
+</style>

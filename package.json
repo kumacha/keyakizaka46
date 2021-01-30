@@ -14,9 +14,11 @@
     "core-js": "^3.6.5",
     "firebase": "^8.2.1",
     "firebase-tools": "^9.1.0",
+    "jQuery": "^1.7.4",
     "nuxt": "^2.14.6"
   },
   "devDependencies": {
-    "@nuxtjs/vuetify": "^1.11.2"
+    "@nuxtjs/vuetify": "^1.11.2",
+    "jquery": "^3.5.1"
   }
 }
