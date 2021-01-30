@@ -1,7 +1,7 @@
 <template>
   <div class="backvideo">
     <video
-      src="@/assets/video/kekaki-backmovie3.mp4"
+      src="~assets/video/keyaki-backmovie6.mp4"
       type="video/mp4" playsinline loop autoplay muted>
       <img src="~assets/image/slideshow1.png">
     </video>

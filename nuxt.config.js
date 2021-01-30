@@ -1,5 +1,5 @@
 import colors from 'vuetify/es5/util/colors'
-
+const webpack = require('webpack')
 export default {
   // Disable server-side rendering (https://go.nuxtjs.dev/ssr-mode)
   ssr: false,
@@ -67,6 +67,11 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
-
+    plugins: [
+      new webpack.ProvidePlugin({
+        jQuery: 'jquery',
+        $: 'jquery'
+      })
+    ]
   }
 }

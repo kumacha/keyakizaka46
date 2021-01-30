@@ -3,7 +3,9 @@
       <v-container>
             <v-row>
               <v-col v-for="(gallery, index) in GallerysCouplingArray" :key="index" cols="12" sm="6">
-                <v-img class="gallery-img" v-bind:src="gallery.src" :ripple="true" height="365px" width="500px"></v-img>
+                <a :href="gallery.url">
+                <v-img class="gallery-img" v-bind:src="gallery.src" :ripple="true" height="315px" width="560px"></v-img>
+                </a>
                 <span v-text="gallery.name"></span>
               </v-col>
             </v-row>
@@ -31,6 +33,7 @@
               name: gallerys.name,
               src: gallerys.src,
               array: gallerys.array,
+              url: gallerys.url,
             },
           ]
         })

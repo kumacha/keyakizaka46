@@ -12,85 +12,85 @@
       </v-img>
     </div>
 
-<div class="jacket-imgs">
-    <ul>
-      <li>
-        <div class="jacket">
-          <v-img class="typeA" max-height="250" max-width="250"
-            src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle1-A.jpg?alt=media&token=51381e49-5708-4fb1-8013-2264862f73ff">
-          </v-img>
-          <div class="mask">
-            <div class="songs">
-              TYPE-A《収録曲》<br>
-              1. サイレントマジョリティー<br>
-              2. 手を繋いで帰ろうか<br>
-              3. 山手線<br>
-              4. サイレントマジョリティー off vocal ver.<br>
-              5. 手を繋いで帰ろうか off vocal ver.<br>
-              6. 山手線 off vocal ver.<br>
+    <div class="jacket-imgs">
+      <ul>
+        <li>
+          <div class="jacket">
+            <v-img class="typeA" max-height="250" max-width="250"
+              src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle1-A.jpg?alt=media&token=51381e49-5708-4fb1-8013-2264862f73ff">
+            </v-img>
+            <div class="mask">
+              <div class="songs">
+                TYPE-A《収録曲》<br>
+                1. サイレントマジョリティー<br>
+                2. 手を繋いで帰ろうか<br>
+                3. 山手線<br>
+                4. サイレントマジョリティー off vocal ver.<br>
+                5. 手を繋いで帰ろうか off vocal ver.<br>
+                6. 山手線 off vocal ver.<br>
+              </div>
             </div>
           </div>
-        </div>
-      </li>
+        </li>
 
-      <li>
-        <div class="jacket">
-          <v-img class="typeA" max-height="250" max-width="250"
-            src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle1-B.jpg?alt=media&token=e823bc5a-c7f3-44bd-9e31-70bf88fb2039">
-          </v-img>
-          <div class="mask">
-            <div class="songs">
-              TYPE-B《収録曲》<br>
-              1. サイレントマジョリティー<br>
-              2. 手を繋いで帰ろうか<br>
-              3. 渋谷川<br>
-              4. サイレントマジョリティー off vocal ver.<br>
-              5. 手を繋いで帰ろうか off vocal ver.<br>
-              6. 渋谷川 off vocal ver.<br>
+        <li>
+          <div class="jacket">
+            <v-img class="typeA" max-height="250" max-width="250"
+              src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle1-B.jpg?alt=media&token=e823bc5a-c7f3-44bd-9e31-70bf88fb2039">
+            </v-img>
+            <div class="mask">
+              <div class="songs">
+                TYPE-B《収録曲》<br>
+                1. サイレントマジョリティー<br>
+                2. 手を繋いで帰ろうか<br>
+                3. 渋谷川<br>
+                4. サイレントマジョリティー off vocal ver.<br>
+                5. 手を繋いで帰ろうか off vocal ver.<br>
+                6. 渋谷川 off vocal ver.<br>
+              </div>
             </div>
           </div>
-        </div>
-      </li>
+        </li>
 
-      <li>
-      <li>
-        <div class="jacket">
-          <v-img class="typeA" max-height="250" max-width="250"
-            src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle1-C.jpg?alt=media&token=cbbc7921-423c-4559-a9f7-04c89ce98a90">
-          </v-img>
-          <div class="mask">
-            <div class="songs">
-              TYPE-C《収録曲》<br>
-              1. サイレントマジョリティー<br>
-              2. 手を繋いで帰ろうか<br>
-              3. 乗り遅れたバス<br>
-              4. サイレントマジョリティー off vocal ver.<br>
-              5. 手を繋いで帰ろうか off vocal ver.<br>
-              6. 乗り遅れたバス off vocal ver.<br>
+        <li>
+        <li>
+          <div class="jacket">
+            <v-img class="typeA" max-height="250" max-width="250"
+              src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle1-C.jpg?alt=media&token=cbbc7921-423c-4559-a9f7-04c89ce98a90">
+            </v-img>
+            <div class="mask">
+              <div class="songs">
+                TYPE-C《収録曲》<br>
+                1. サイレントマジョリティー<br>
+                2. 手を繋いで帰ろうか<br>
+                3. 乗り遅れたバス<br>
+                4. サイレントマジョリティー off vocal ver.<br>
+                5. 手を繋いで帰ろうか off vocal ver.<br>
+                6. 乗り遅れたバス off vocal ver.<br>
+              </div>
             </div>
           </div>
-        </div>
-      </li>
+        </li>
 
-      <li>
-        <div class="jacket">
-          <v-img class="typeA" max-height="250" max-width="250"
-            src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle1-D.jpg?alt=media&token=4899fdfe-96c6-443f-be13-c559f2d9c75e">
-          </v-img>
-          <div class="mask">
-            <div class="songs">
-              通常盤《収録曲》<br>
-              1. サイレントマジョリティー<br>
-              2. 手を繋いで帰ろうか<br>
-              3. キミガイナイ<br>
-              4. サイレントマジョリティー off vocal ver.<br>
-              5. 手を繋いで帰ろうか off vocal ver.<br>
-              6. キミガイナイ off vocal ver.<br>
+        <li>
+          <div class="jacket">
+            <v-img class="typeA" max-height="250" max-width="250"
+              src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle1-D.jpg?alt=media&token=4899fdfe-96c6-443f-be13-c559f2d9c75e">
+            </v-img>
+            <div class="mask">
+              <div class="songs">
+                通常盤《収録曲》<br>
+                1. サイレントマジョリティー<br>
+                2. 手を繋いで帰ろうか<br>
+                3. キミガイナイ<br>
+                4. サイレントマジョリティー off vocal ver.<br>
+                5. 手を繋いで帰ろうか off vocal ver.<br>
+                6. キミガイナイ off vocal ver.<br>
+              </div>
             </div>
           </div>
-        </div>
-      </li>
-    </ul>
+        </li>
+      </ul>
     </div>
   </v-main>
 </template>
@@ -145,23 +145,24 @@
   }
 
 
-.jacket-imgs {
-	position: relative;
-	overflow: hidden; /* ulでリスト全体を右に50%移動している分幅が広がりスクロールバーが表示されるのを防ぐ */
-}
- 
-.jacket-imgs ul {
-  list-style: none;
-	position: relative;
-	left: 50%; /* ulを右に50%移動 */
-	float: left;
-	margin-left: -5px;/* liのmarginの半分をネガティブマージン（しないと右にずれる） */
-}
- 
-.jacket-imgs ul li {
-	position: relative;
-	left: -50%; /* 左に50%移動 */
-	float: left;
-	margin-left: 10px;
-}
+  .jacket-imgs {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .jacket-imgs ul {
+    list-style: none;
+    position: relative;
+    left: 50%;
+    float: left;
+    margin-left: -5px;
+  }
+
+  .jacket-imgs ul li {
+    position: relative;
+    left: -50%;
+    float: left;
+    margin-left: 10px;
+  }
+
 </style>
