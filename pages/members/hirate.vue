@@ -48,7 +48,9 @@
           </v-col>
         </v-row>
             </div>
+            <HirateIntro/>
       </v-container>
+      <GoMember/>
 </v-app>
 
 </template>

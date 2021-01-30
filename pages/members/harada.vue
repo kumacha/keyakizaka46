@@ -44,8 +44,10 @@
             </div>
           </v-col>
         </v-row>
-            </div>
+            </div>      
+            <HaradaIntro/>
       </v-container>
+      <GoMember/>
 </v-app>
 
 </template>

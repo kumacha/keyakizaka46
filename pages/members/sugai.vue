@@ -45,7 +45,9 @@
           </v-col>
         </v-row>
             </div>
+              <SugaiIntro/>
       </v-container>
+      <GoMember/>
 </v-app>
 
 </template>
