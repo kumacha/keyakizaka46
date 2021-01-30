@@ -45,7 +45,9 @@
           </v-col>
         </v-row>
             </div>
+            <EndoIntro/>
       </v-container>
+      <GoMember2/>
 </v-app>
 
 </template>
