@@ -11,7 +11,7 @@
   <div class="memberline3">
       <p>土生瑞穂　原田葵　平手友梨奈　守屋茜　米谷奈々未　渡辺梨加　渡辺理佐</p>
   </div>
-  <div class="membermore"><p>MEMBERへ</p></div>
+  <div class="membermore"><p @click="pushMember()">＞＞MEMBER</p></div>
 </div>
 <HistoryLine/>
 </v-content>
@@ -22,6 +22,11 @@ import HistoryLine from '~/components/History/HistoryLine.vue'
 export default {
   components: {
     HistoryLine,
+  },
+  methods:{
+    pushMember(){
+      this.$router.push('/member')
+    }
   }
 }
 </script>
@@ -92,11 +97,14 @@ export default {
     font-size: 25px;
     position: absolute;
     left: 100%;
-    top: 75%;
-    -ms-transform: translate(-100%, -75%);
-    -webkit-transform: translate(-100%, -75%);
-    transform: translate(-100%, -75%);
+    top: 80%;
+    -ms-transform: translate(-100%, -80%);
+    -webkit-transform: translate(-100%, -80%);
+    transform: translate(-100%, -80%);
     margin: 0;
     padding: 0;
+  }
+  .membermore p:hover{
+    opacity: 70%;
   }
 </style>

@@ -4,14 +4,11 @@
       <GalleryTitle/>
       <div class="tab">
         <ul class="tab_menu">
-          <li class="show">ALL</li>
-          <li>SINGLE</li>
-          <li>COUPLING</li>
-          <li>LIVE</li>
+          <li class="show" @click="pushAll()"><p>ALL</p></li>
+          <li @click="pushSingle()"><p>SINGLE</p></li>
+          <li @click="pushCoupling()"><p>COUPLING</p></li>
+          <li @click="pushLive()"><p>LIVE</p></li>
         </ul>
-        <div class="border">
-          <div></div>
-        </div>
         <ul class="tab_content">
           <li class="show">
             <GallerySingle/>
@@ -65,11 +62,29 @@
           GallerySingle,
           GalleryTrailer,
           GalleryCoupling,
-      }
+      },
+      methods: {
+    pushAll(){
+      this.$router.push('/gallery')
+    },
+    pushSingle(){
+      this.$router.push('/gallerysingle')
+    },
+    pushCoupling(){
+      this.$router.push('/gallerycoupling')
+    },
+    pushLive(){
+      this.$router.push('/gallerylive')
+    },
   }
+
 </script>
 
 <style>
+
+.container{
+    padding: 0%;
+  }
   .v-application ul,
   .v-application ol {
     padding-left: 0px;

@@ -69,6 +69,9 @@
 </script>
 
 <style>
+.container{
+    padding: 0%;
+  }
   .v-application ul,
   .v-application ol {
     padding-left: 0px;

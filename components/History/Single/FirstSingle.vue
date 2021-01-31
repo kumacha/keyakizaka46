@@ -5,7 +5,7 @@
       <div class="firstsingletext1"><p>1st Single 「サイレントマジョリティー」発売</p></div>
       <div class="firstsingletext3"><p>初週売上約26万2000枚、オリコン1位獲得</p></div>
       <div class="firstsingletext4"><p>女性アーティストのデビューシングル初週売上歴代1位。</p></div>
-      <div class="discomore"><p>Discographyへ</p></div>
+      <div class="discomore"><p>＞＞DISCOGRAPHY</p></div>
       <HistoryLine/>
 　　</div>
 </div>
@@ -39,7 +39,7 @@ export default {
   .firstsingletext1 p {
     width: 1600px;
     text-align: center;
-    font-size: 70px;
+    font-size: 60px;
     position: absolute;
     left: 50%;
     top: 35%;

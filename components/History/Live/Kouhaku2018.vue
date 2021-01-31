@@ -25,6 +25,7 @@
     background-size: cover;
     background-position: center center;
     background-color: transparent;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/history%2Fkouhaku%2Fkouhaku2018.jpg?alt=media&token=c4333c57-5e3f-4898-b047-cf572cfa354f);
   }
   .kouhaku2018text1 p {
     width: 1400px;

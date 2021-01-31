@@ -26,7 +26,7 @@
     background-size: cover;
     background-position: center center;
     background-color: transparent;
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/history%2Fcountdown2.jpg?alt=media&token=6193a63f-b66c-4657-bde1-4dc32cb80d31);
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/history%2Fhistoy%2Fomote2.jpg?alt=media&token=8a27d275-57fc-46e5-bb4d-9434bf566d94);
   }
   .Omotetext1 p {
     width: 1400px;

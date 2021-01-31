@@ -37,7 +37,7 @@
   .debuttext1 p {
     width: 1000px;
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     position: absolute;
     left: 50%;
     top: 30%;
@@ -54,10 +54,10 @@
     font-size: 40px;
     position: absolute;
     left: 50%;
-    top: 45%;
-    -ms-transform: translate(-50%, -45%);
-    -webkit-transform: translate(-50%, -45%);
-    transform: translate(-50%, -45%);
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     margin: 0;
     padding: 0;
   }
