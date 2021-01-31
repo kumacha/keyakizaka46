@@ -1,6 +1,7 @@
 <template>
   <v-main>
     <v-container>
+      <GalleryTitle/>
       <div class="tab">
         <ul class="tab_menu">
           <li @click="pushAll()" ><p>ALL</p></li>

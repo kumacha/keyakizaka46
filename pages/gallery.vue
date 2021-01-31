@@ -8,7 +8,7 @@
           <li @click="pushSingle()"><p>SINGLE</p></li>
           <li @click="pushCoupling()"><p>COUPLING</p></li>
           <li @click="pushLive()"><p>LIVE</p></li>
-        </ul>
+        </ul> 
         <ul class="tab_content">
           <li class="show">
             <GallerySingle/>
@@ -76,8 +76,8 @@
     pushLive(){
       this.$router.push('/gallerylive')
     },
-  }
-  }
+  },
+}
 
 </script>
 

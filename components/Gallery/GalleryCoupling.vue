@@ -1,4 +1,5 @@
 <template>
+<v-main>
 <v-container>
     <v-row>
         <v-col md="6"><tewotunaide/></v-col><v-col md="6"><yamanote/></v-col>
@@ -15,6 +16,7 @@
         <v-col md="6"><christmas/></v-col>
     </v-row>
 </v-container>
+</v-main>
 </template>
 
 <script>
