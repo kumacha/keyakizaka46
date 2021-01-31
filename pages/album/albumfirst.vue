@@ -8,7 +8,7 @@
     </div>
     <div>
       <v-img class="single-img"
-        src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle-1st.png?alt=media&token=c4ebb812-0173-4e99-b980-86ab8ceb5cd3">
+        src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/album%2Falbumfirst.png?alt=media&token=00775ec3-732d-4e81-a979-5810472c0da9">
       </v-img>
     </div>
   </v-main>
@@ -26,8 +26,7 @@ export default {
   }
 
   .single-img {
-    margin-top: 40px;
-    max-width: 800px;
+    max-width: 1150px;
     margin-left: auto;
     margin-right: auto;
   }
