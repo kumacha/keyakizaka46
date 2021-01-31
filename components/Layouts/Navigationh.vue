@@ -21,7 +21,7 @@
           <p @click="pushGALLERY()" class="gallerylink">GALLERY</p>
         </li>
         <li class="scene-link">
-          <p @click="pushSCENE()" class="scenelink">SCENE</p>
+          <p @click="pushLINK()" class="linklink">LINK</p>
         </li>
       </ul>
     </nav>
@@ -49,8 +49,8 @@ export default {
     pushGALLERY(){
       this.$router.push('/gallery')
     },
-    pushSCENE(){
-      this.$router.push('/scene')
+    pushLINK(){
+      this.$router.push('/link')
     },
   }
 

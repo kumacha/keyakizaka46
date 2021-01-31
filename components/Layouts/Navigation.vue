@@ -21,7 +21,7 @@
           <p @click="pushGALLERY()" class="gallerylink">GALLERY</p>
         </li>
         <li class="scene-link">
-          <p @click="pushSCENE()" class="scenelink">SCENE</p>
+          <p @click="pushLINK()" class="linklink">LINK</p>
         </li>
       </ul>
     </nav>
@@ -61,9 +61,9 @@ export default {
       this.$nuxt.$loading.start();
       setTimeout(() => this.$nuxt.$loading.finish(), 6000)
     },
-    pushSCENE(){
+    pushLINK(){
       this.$nuxt.$loading.start();
-      this.$router.push('/scene')
+      this.$router.push('/link')
       setTimeout(() => this.$nuxt.$loading.finish(), 6000)
     },
   },
