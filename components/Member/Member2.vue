@@ -4,7 +4,7 @@
         <v-layout>
           <v-flex>
             <v-row>
-              <v-col v-for="(member, index) in membersArray2" :key="index">
+              <v-col cols="12" md="3" v-for="(member, index) in membersArray2" :key="index">
                 <v-hover>
                   <template v-slot:default="{ hover }">
                     <v-card dark class="member-card" :to="member.to" width="230px"
