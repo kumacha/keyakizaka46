@@ -8,7 +8,7 @@
     </div>
     <div>
       <v-img class="single-img"
-        src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle-1st.png?alt=media&token=c4ebb812-0173-4e99-b980-86ab8ceb5cd3">
+        src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle-1st.png?alt=media&token=340ba695-80b9-49cd-9361-b4de7a844498">
       </v-img>
     </div>
 
@@ -16,12 +16,12 @@
       <ul>
         <li>
           <div class="jacket">
-            <v-img class="typeA" max-height="250" max-width="250"
+            <v-img class="type" max-height="250" max-width="250"
               src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle1-A.jpg?alt=media&token=51381e49-5708-4fb1-8013-2264862f73ff">
             </v-img>
             <div class="mask">
               <div class="songs">
-                TYPE-A《収録曲》<br>
+                《TYPE-A》収録曲<br>
                 1. サイレントマジョリティー<br>
                 2. 手を繋いで帰ろうか<br>
                 3. 山手線<br>
@@ -35,12 +35,12 @@
 
         <li>
           <div class="jacket">
-            <v-img class="typeA" max-height="250" max-width="250"
+            <v-img class="type" max-height="250" max-width="250"
               src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle1-B.jpg?alt=media&token=e823bc5a-c7f3-44bd-9e31-70bf88fb2039">
             </v-img>
             <div class="mask">
               <div class="songs">
-                TYPE-B《収録曲》<br>
+                《TYPE-B》収録曲<br>
                 1. サイレントマジョリティー<br>
                 2. 手を繋いで帰ろうか<br>
                 3. 渋谷川<br>
@@ -55,12 +55,12 @@
         <li>
         <li>
           <div class="jacket">
-            <v-img class="typeA" max-height="250" max-width="250"
+            <v-img class="type" max-height="250" max-width="250"
               src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle1-C.jpg?alt=media&token=cbbc7921-423c-4559-a9f7-04c89ce98a90">
             </v-img>
             <div class="mask">
               <div class="songs">
-                TYPE-C《収録曲》<br>
+                《TYPE-C》収録曲<br>
                 1. サイレントマジョリティー<br>
                 2. 手を繋いで帰ろうか<br>
                 3. 乗り遅れたバス<br>
@@ -74,12 +74,12 @@
 
         <li>
           <div class="jacket">
-            <v-img class="typeA" max-height="250" max-width="250"
+            <v-img class="type" max-height="250" max-width="250"
               src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle1-D.jpg?alt=media&token=4899fdfe-96c6-443f-be13-c559f2d9c75e">
             </v-img>
             <div class="mask">
               <div class="songs">
-                通常盤《収録曲》<br>
+                《通常盤》収録曲<br>
                 1. サイレントマジョリティー<br>
                 2. 手を繋いで帰ろうか<br>
                 3. キミガイナイ<br>
@@ -108,9 +108,9 @@
   }
 
   .single-img {
-    margin-top: 40px;
-    max-width: 800px;
-    margin-left: auto;
+    margin-top: 20px;
+    max-width: 1150px;
+    margin-left: 216px;
     margin-right: auto;
   }
 
@@ -124,7 +124,8 @@
 
   .jacket .songs {
     font-size: 10px;
-    margin-top: 75px;
+    line-height: 20px;
+    margin-top: 55px;
   }
 
   .jacket .mask {

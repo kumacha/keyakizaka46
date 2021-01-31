@@ -31,7 +31,7 @@
           <v-col>
             <div class="m-intro">
               <p>
-                ニックネーム： {{"member.nicname"}}
+                ニックネーム： {{member.nicname}}
               </p>
               <p>
                 生年月日： {{member.birth}}
@@ -77,6 +77,7 @@
               old: members.old,
               birth: members.birth,
               number: members.number,
+              nicname: members.nicname,
             },
           ]
         })

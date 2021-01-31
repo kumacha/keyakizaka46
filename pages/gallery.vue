@@ -1,6 +1,7 @@
 <template>
   <v-main>
     <v-container>
+      <GalleryTitle/>
       <div class="tab">
         <ul class="tab_menu">
           <li class="show" @click="pushAll()"><p>ALL</p></li>
@@ -76,10 +77,11 @@
       this.$router.push('/gallerylive')
     },
   }
-  }
+
 </script>
 
 <style>
+
 .container{
     padding: 0%;
   }

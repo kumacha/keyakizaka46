@@ -89,7 +89,7 @@
 <style>
   .uemura-text {
     margin-top: 25px;
-    font-size: 25px;
+    font-size: 20px;
     width: 1200px;
     margin-bottom: 30px;
 
