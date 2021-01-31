@@ -4,13 +4,13 @@
       <p>2020年10月14日</p>
     </div>
     <div class="Sakuratext1">
-      <p>櫻坂46結成！</p>
+      <p>To be continued…</p>
     </div>
     <div class="Sakuratext2">
-      <p>この日より櫻坂46として活動開始</p>
+      <p></p>
     </div>
     <div class="Sakuratext3">
-      <p>12月9日に1st Single「Nobody's fault」発売決定</p>
+      <p></p>
     </div>
   </div>
 </template>
@@ -39,11 +39,11 @@
     text-align: center;
     font-size: 50px;
     position: absolute;
-    left: 50%;
-    top: 30%;
-    -ms-transform: translate(-50%, -30%);
-    -webkit-transform: translate(-50%, -30%);
-    transform: translate(-50%, -30%);
+    left: 150%;
+    top: 100%;
+    -ms-transform: translate(-150%, -100%);
+    -webkit-transform: translate(-150%, -100%);
+    transform: translate(-150%, -100%);
     margin: 0;
     padding: 0;
   }

@@ -2,16 +2,16 @@
   <div id="historycontents">
     <div class="LastAlbum">
       <div class="ariakedate">
-        <p>2020年10月7日</p>
+        <p></p>
       </div>
       <div class="LastAlbumtext1">
-        <p>ベストアルバム『永遠より長い一瞬 〜あの頃、確かに存在した私たち〜』発売</p>
+        <p></p>
       </div>
       <div class="LastAlbumtext2">
-        <p>初週売上約26万2000枚、オリコン1位獲得</p>
+        <p></p>
       </div>
       <div class="LastAlbumtext3">
-        <p>女性アーティストのデビューシングル初週売上歴代1位。</p>
+        <p></p>
       </div>
       <div class="discomore">
         <p>Discographyへ</p>
@@ -36,7 +36,7 @@
     background-size: cover;
     background-position: center center;
     background-color: transparent;
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/history%2Fmasshiro2.jpg?alt=media&token=eaca4d6e-229d-4793-96c9-ad3c8299bfbc);
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/history%2Fhistoy%2Fbest.png?alt=media&token=4998cc84-cf30-42ff-9836-498b85d4e5e3);
   }
 
   .LastAlbumtext1 p {

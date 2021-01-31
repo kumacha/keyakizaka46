@@ -25,7 +25,7 @@ export default {
     background-size: cover;
     background-position: center center;
     background-color: transparent;
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/slideshow-pic%2Fslideshow9.jpg?alt=media&token=9a038398-8b30-40d1-99f1-eea26c07d9df);
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/history%2Fmusic%2Fkado.jpg?alt=media&token=3143c5f3-8214-4030-8d15-31026acb0eca);
   }
 
   .Kadotext1 p {

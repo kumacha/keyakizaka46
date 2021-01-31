@@ -25,7 +25,7 @@
     background-size: cover;
     background-position: center center;
     background-color: transparent;
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/history%2Faniverlive%2FSecondyear.jpg?alt=media&token=97f7c3a8-65ca-4985-b7ad-e68f409ac2a6);
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/history%2F3rd%2Fthirda.jpg?alt=media&token=7f3bc428-567c-4136-9735-fe0a458996e3);
   }
   .Thirdyeartext1 p {
     width: 1400px;

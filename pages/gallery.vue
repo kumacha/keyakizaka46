@@ -3,28 +3,25 @@
     <v-container>
       <div class="tab">
         <ul class="tab_menu">
-          <li class="show">ALL</li>
-          <li>SINGLE</li>
-          <li>COUPLING</li>
-          <li>LIVE</li>
+          <li class="show" @click="pushAll()"><p>ALL</p></li>
+          <li @click="pushSingle()"><p>SINGLE</p></li>
+          <li @click="pushCoupling()"><p>COUPLING</p></li>
+          <li @click="pushLive()"><p>LIVE</p></li>
         </ul>
-        <div class="border">
-          <div></div>
-        </div>
         <ul class="tab_content">
           <li class="show">
-            <GallerySingle />
-            <GalleryCoupling />
-            <GalleryTrailer />
+            <GallerySingle/>
+            <GalleryCoupling/>
+            <GalleryTrailer/>
           </li>
           <li>
-            <GallerySingle />
+            <GallerySingle/>
           </li>
           <li>
-            <GalleryCoupling />
+            <GalleryCoupling/>
           </li>
           <li>
-            <GalleryTrailer />
+            <GalleryTrailer/>
           </li>
         </ul>
       </div>
@@ -33,8 +30,7 @@
 </template>
 
 <script>
- document.addEventListener("turbolinks:load", function () {
-    $(function () {
+  $(function () {
     var menulist = $(".tab_menu li");
     var contentlist = $(".tab_content li");
     var border = $(".border div");
@@ -56,40 +52,49 @@
       }
     });
   });
- });
-  
   import GallerySingle from '~/components/Gallery/GallerySingle.vue'
   import GalleryTrailer from '~/components/Gallery/GalleryTrailer.vue'
   import GalleryCoupling from '~/components/Gallery/GalleryCoupling.vue'
 
   export default {
-    components: {
-      GallerySingle,
-      GalleryTrailer,
-      GalleryCoupling,
-    }
+      components: {
+          GallerySingle,
+          GalleryTrailer,
+          GalleryCoupling,
+      },
+      methods: {
+    pushAll(){
+      this.$router.push('/gallery')
+    },
+    pushSingle(){
+      this.$router.push('/gallerysingle')
+    },
+    pushCoupling(){
+      this.$router.push('/gallerycoupling')
+    },
+    pushLive(){
+      this.$router.push('/gallerylive')
+    },
+  }
   }
 </script>
 
 <style>
-  .thumb {
-    z-index: 1;
+.container{
+    padding: 0%;
   }
-
   .v-application ul,
   .v-application ol {
     padding-left: 0px;
   }
-  .container{
-    padding: 0%;
-  }
 
   .tab {
     margin: 0 auto;
+    padding: 10px;
   }
 
   .tab_menu {
-    width: 1200px;
+      width: 1200px;
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -114,9 +119,8 @@
   .tab_menu li:last-child {
     border-right: 0;
   }
-
-  .tab_menu li :hover {
-    background-color: rgb(203, 196, 196);
+  .tab_menu li :hover{
+      background-color: rgb(203, 196, 196);
   }
 
   .tab_menu li.show {
@@ -130,14 +134,13 @@
     width: 25%;
     bottom: 0;
     display: block;
-    background-color: white;
+    background-color:white;
     height: 2px;
     position: relative;
     transition: left 1s cubic-bezier(0.25, 1, 0.35, 1);
   }
-
-  .border {
-    width: 1200px;
+  .border{
+      width: 1200px;
   }
 
   /* コンテンツ */

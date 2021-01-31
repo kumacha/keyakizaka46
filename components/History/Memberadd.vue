@@ -33,6 +33,7 @@
     background-size: cover;
     background-position: center center;
     background-color: transparent;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/history%2Fhistoy%2Fgoudou.png?alt=media&token=a5876eaa-edb1-4848-80a6-ecb31b438314);
   }
 
   .Memberaddtext1 p {

@@ -33,6 +33,7 @@
     background-size: cover;
     background-position: center center;
     background-color: transparent;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/history%2Fhistoy%2Fmovie.jpg?alt=media&token=12f296b2-b69b-4fb7-aaed-5adbdd1339be);
   }
   .Documentarytext1 p {
     width: 1000px;

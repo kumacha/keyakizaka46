@@ -33,6 +33,7 @@
     background-size: cover;
     background-position: center center;
     background-color: transparent;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/history%2Flastlive%2Fshowroom.jpg?alt=media&token=cc6575e4-4eae-4ced-9ca2-b046a74bc9d8);
   }
 
   .Memberadd2text1 p {
