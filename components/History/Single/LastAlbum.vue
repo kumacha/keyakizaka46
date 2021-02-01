@@ -42,7 +42,7 @@
   .LastAlbumtext1 p {
     width: 1600px;
     text-align: center;
-    font-size: 65px;
+    font-size: 55px;
     position: absolute;
     left: 50%;
     top: 35%;
@@ -56,7 +56,7 @@
   .LastAlbumtext2 p {
     width: 1000px;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     position: absolute;
     left: 50%;
     top: 60%;
@@ -70,7 +70,7 @@
   .LastAlbumtext3 p {
     width: 1400px;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     position: absolute;
     left: 50%;
     top: 75%;

@@ -4,7 +4,7 @@
       <div class="ariakedate"><p>2019年10月9日</p></div>
       <div class="Kadotext1"><p>「角を曲がる」が各ストリーミングサービス限定で配信開始</p></div>
       <div class="Kadotext2"><p>東京ドーム公演で初披露した平手友梨奈ソロ曲。</p></div>
-      <div class="Kadotext3"><p>女性アーティストのデビューシングル初週売上歴代1位。</p></div>
+      <div class="Kadotext3"><p>周囲への期待に対する葛藤を歌った歌詞が話題となる。</p></div>
       <div class="discomore"><p>Discographyへ</p></div>
       <HistoryLine/>
 　　</div>
@@ -31,7 +31,7 @@ export default {
   .Kadotext1 p {
     width: 1400px;
     text-align: center;
-    font-size: 70px;
+    font-size: 50px;
     position: absolute;
     left: 50%;
     top: 35%;
@@ -45,7 +45,7 @@ export default {
   .Kadotext2 p {
     width: 1000px;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     position: absolute;
     left: 50%;
     top: 60%;
@@ -58,7 +58,7 @@ export default {
   .Kadotext3 p {
     width: 1400px;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     position: absolute;
     left: 50%;
     top: 75%;

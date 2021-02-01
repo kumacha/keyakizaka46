@@ -8,10 +8,10 @@
         <p>1stアルバム「真っ白なものは汚したくなる」発売</p>
       </div>
       <div class="masshirotext2">
-        <p>初週売上約26万2000枚、オリコン1位獲得</p>
+        <p>欅坂46初となるフルアルバム。</p>
       </div>
       <div class="masshirotext3">
-        <p>女性アーティストのデビューシングル初週売上歴代1位。</p>
+        <p>ライブでの定番曲やユニット曲を含めた多数の楽曲を収録。</p>
       </div>
       <div class="discomore">
         <p>Discographyへ</p>
@@ -42,7 +42,7 @@
   .masshirotext1 p {
     width: 1600px;
     text-align: center;
-    font-size: 65px;
+    font-size: 55px;
     position: absolute;
     left: 50%;
     top: 35%;
@@ -56,7 +56,7 @@
   .masshirotext2 p {
     width: 1000px;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     position: absolute;
     left: 50%;
     top: 60%;
@@ -70,7 +70,7 @@
   .masshirotext3 p {
     width: 1400px;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     position: absolute;
     left: 50%;
     top: 75%;

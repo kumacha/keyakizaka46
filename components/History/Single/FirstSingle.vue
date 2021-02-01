@@ -19,7 +19,7 @@ export default {
 
 <style>
 .firstdate{
-  font-size: 45px;
+  font-size: 35px;
     position: absolute;
     top: 20px;
     left: 20px;
@@ -39,7 +39,7 @@ export default {
   .firstsingletext1 p {
     width: 1600px;
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     position: absolute;
     left: 50%;
     top: 35%;
@@ -53,7 +53,7 @@ export default {
   .firstsingletext3 p {
     width: 1000px;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     position: absolute;
     left: 50%;
     top: 60%;
@@ -66,7 +66,7 @@ export default {
   .firstsingletext4 p {
     width: 1400px;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     position: absolute;
     left: 50%;
     top: 75%;

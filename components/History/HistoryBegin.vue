@@ -83,10 +83,10 @@ export default {
   font-size: 50px;
   position: absolute;
   left: 50%;
-  top: 65%;
-  -ms-transform: translate(-50%, -65%);
-  -webkit-transform: translate(-50%, -65%);
-  transform: translate(-50%, -65%);
+  top: 67%;
+  -ms-transform: translate(-50%, -67%);
+  -webkit-transform: translate(-50%, -67%);
+  transform: translate(-50%, -67%);
   margin: 0;
   padding: 0;
 }

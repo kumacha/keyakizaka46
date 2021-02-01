@@ -3,8 +3,8 @@
   <div class="eighthsingle">
       <div class="eighthdate"><p>2019年2月27日</p></div>
       <div class="eighthsingletext1"><p>8th Single 「黒い羊」発売</p></div>
-      <div class="eighthsingletext2"><p>初週売上約26万2000枚、オリコン1位獲得</p></div>
-      <div class="eighthsingletext3"><p>女性アーティストのデビューシングル初週売上歴代1位。</p></div>
+      <div class="eighthsingletext2"><p>前作、「アンビバレント」とは対照的に、暗さが目立つ曲。</p></div>
+      <div class="eighthsingletext3"><p>自己を捨てた周囲への嫌悪を歌ったその歌詞は、痛烈な社会的メッセージを持つ。</p></div>
       <div class="discomore"><p>Discographyへ</p></div>
       <HistoryLine/>
 　　</div>
@@ -19,7 +19,7 @@ export default {
 
 <style>
 .eighthdate{
-  font-size: 45px;
+  font-size: 35px;
     position: absolute;
     top: 20px;
     left: 20px;
@@ -39,7 +39,7 @@ export default {
   .eighthsingletext1 p {
     width: 1400px;
     text-align: center;
-    font-size: 70px;
+    font-size: 60px;
     position: absolute;
     left: 50%;
     top: 35%;
@@ -53,7 +53,7 @@ export default {
   .eighthsingletext2 p {
     width: 1000px;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     position: absolute;
     left: 50%;
     top: 60%;
@@ -66,7 +66,7 @@ export default {
   .eighthsingletext3 p {
     width: 1400px;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     position: absolute;
     left: 50%;
     top: 75%;

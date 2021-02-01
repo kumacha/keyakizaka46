@@ -3,8 +3,8 @@
   <div class="secondsingle">
       <div class="seconddate"><p>2016年8月10日</p></div>
       <div class="secondsingletext1"><p>2nd Single 「世界には愛しかない」発売</p></div>
-      <div class="secondsingletext2"><p>初週売上約26万2000枚、オリコン1位獲得</p></div>
-      <div class="secondsingletext3"><p>女性アーティストのデビューシングル初週売上歴代1位。</p></div>
+      <div class="secondsingletext2"><p>1st singleとは対照的な歌詞や曲調が話題となった。</p></div>
+      <div class="secondsingletext3"><p>傘を使用したパフォーマンスが特徴的な楽曲である。</p></div>
       <div class="discomore"><p>Discographyへ</p></div>
       <HistoryLine/>
 　　</div>
@@ -19,7 +19,7 @@ export default {
 
 <style>
 .seconddate{
-  font-size: 45px;
+  font-size: 35px;
     position: absolute;
     top: 20px;
     left: 20px;
@@ -39,7 +39,7 @@ export default {
   .secondsingletext1 p {
     width: 1400px;
     text-align: center;
-    font-size: 70px;
+    font-size: 60px;
     position: absolute;
     left: 50%;
     top: 35%;
@@ -53,7 +53,7 @@ export default {
   .secondsingletext2 p {
     width: 1000px;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     position: absolute;
     left: 50%;
     top: 60%;
@@ -66,7 +66,7 @@ export default {
   .secondsingletext3 p {
     width: 1400px;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     position: absolute;
     left: 50%;
     top: 75%;

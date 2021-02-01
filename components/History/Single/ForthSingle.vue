@@ -3,8 +3,8 @@
   <div class="fourthsingle">
       <div class="ariakedate"><p>2017年4月5日</p></div>
       <div class="fourthsingletext1"><p>4th Single 「不協和音」発売</p></div>
-      <div class="fourthsingletext2"><p>初週売上約26万2000枚、オリコン1位獲得</p></div>
-      <div class="fourthsingletext3"><p>女性アーティストのデビューシングル初週売上歴代1位。</p></div>
+      <div class="fourthsingletext2"><p>孤独との戦いを歌った歌詞や、<br>その特徴的な曲調、パフォーマンスは多くの注目を集めた。</p></div>
+      <div class="fourthsingletext3"><p>「僕は嫌だ」という強い叫びは、聴いた者に強い衝撃を与える。</p></div>
       <div class="discomore"><p>Discographyへ</p></div>
       <HistoryLine/>
 　　</div>
@@ -19,7 +19,7 @@ export default {
 
 <style>
 .ariakedate{
-    font-size: 45px;
+    font-size: 35px;
     position: absolute;
     top: 20px;
     left: 20px;
@@ -39,7 +39,7 @@ export default {
   .fourthsingletext1 p {
     width: 1400px;
     text-align: center;
-    font-size: 70px;
+    font-size: 60px;
     position: absolute;
     left: 50%;
     top: 35%;
@@ -51,9 +51,9 @@ export default {
   }
 
   .fourthsingletext2 p {
-    width: 1000px;
+    width: 1100px;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     position: absolute;
     left: 50%;
     top: 60%;
@@ -66,7 +66,7 @@ export default {
   .fourthsingletext3 p {
     width: 1400px;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     position: absolute;
     left: 50%;
     top: 75%;

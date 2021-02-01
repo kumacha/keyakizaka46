@@ -3,8 +3,8 @@
   <div class="thirdsingle">
       <div class="ariakedate"><p>2016年11月30日</p></div>
       <div class="thirdsingletext1"><p>3rd Single 「二人セゾン」発売</p></div>
-      <div class="thirdsingletext2"><p>初週売上約26万2000枚、オリコン1位獲得</p></div>
-      <div class="thirdsingletext3"><p>女性アーティストのデビューシングル初週売上歴代1位。</p></div>
+      <div class="thirdsingletext2"><p>「出会い」と「別れ」を謳った歌詞は、多くの共感を生んだ。</p></div>
+      <div class="thirdsingletext3"><p>バレエの様な振付が特徴的な楽曲である。</p></div>
       <div class="discomore"><p>Discographyへ</p></div>
       <HistoryLine/>
 　　</div>
@@ -31,7 +31,7 @@ export default {
   .thirdsingletext1 p {
     width: 1400px;
     text-align: center;
-    font-size: 70px;
+    font-size: 60px;
     position: absolute;
     left: 50%;
     top: 35%;
@@ -43,9 +43,9 @@ export default {
   }
 
   .thirdsingletext2 p {
-    width: 1000px;
+    width: 1200px;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     position: absolute;
     left: 50%;
     top: 60%;
@@ -58,7 +58,7 @@ export default {
   .thirdsingletext3 p {
     width: 1400px;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     position: absolute;
     left: 50%;
     top: 75%;
