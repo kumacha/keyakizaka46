@@ -131,8 +131,9 @@
               </v-img></a>
             </v-col>
             <v-col md="4">
-              <a href="https://youtu.be/fZzJeqJieoI"><v-img
-                src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Fcoupling%2Fbokusen.jpg?alt=media&token=73d29ca3-4d6f-438e-ac5f-079e6e090cd3">
+              <a href="https://youtu.be/fZzJeqJieoI">
+              <v-img
+              src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Fcoupling%2Fbokusen.jpg?alt=media&token=73d29ca3-4d6f-438e-ac5f-079e6e090cd3">
               </v-img></a>
             </v-col>
           </v-row>

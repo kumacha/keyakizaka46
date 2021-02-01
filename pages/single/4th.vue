@@ -1,36 +1,36 @@
 <template>
   <v-main>
-    <div class="single_image">
-      <div class="single_logo">
+    <div class="single_image4th">
+      <div class="single_logo4th">
         <img
           src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2F4th-logo.png?alt=media&token=bfbe10b8-13b5-4682-95dd-11c127d45efe"
           alt="">
       </div>
-      <div class="scroll">
-        <div class="roundwrap">
-          <p class="round">・</p>
+      <div class="scroll4th">
+        <div class="roundwrap4th">
+          <p class="round4th">・</p>
         </div>
-        <div class="scrolltext">SCROLL</div>
+        <div class="scrolltext4th">SCROLL</div>
       </div>
-      <div class="singleline"></div>
+      <div class="singleline4th"></div>
     </div>
-    <div class="outline">
-      <div class="single_outline">
+    <div class="outline4th">
+      <div class="single_outline4th">
         <p>2017年4月5日に欅坂46の4枚目のシングルとしてから発売。</p>
       </div>
-      <div class="single_outline2">
+      <div class="single_outline24th">
         <p>漢字のみのシングルタイトルは坂道シリーズにおいて初の出来事だった。</p>
       </div>
-      <div class="jacket_contents">
-    <div class="jacket-imgs">
+      <div class="jacket_contents4th">
+    <div class="jacket-imgs4th">
       <ul>
         <li>
-          <div class="jacket">
-            <v-img class="type" max-height="250" max-width="250"
+          <div class="jacket4th">
+            <v-img class="type4th" max-height="250" max-width="250"
               src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle4-A.jpg?alt=media&token=9ab870b0-dd05-4e40-90e4-4141d55b5b0c">
             </v-img>
-            <div class="mask">
-              <div class="songs">
+            <div class="mask4th">
+              <div class="songs4th">
                 《TYPE-A》収録曲<br>
                 1. 不協和音<br>
                 2. W-KEYAKIZAKAの詩<br>
@@ -44,12 +44,12 @@
         </li>
 
         <li>
-          <div class="jacket">
-            <v-img class="type" max-height="250" max-width="250"
+          <div class="jacket4th">
+            <v-img class="type4th" max-height="250" max-width="250"
               src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle4-B.jpg?alt=media&token=9f8f6107-34e9-4f2a-b072-f0fb32fd41e7">
             </v-img>
-            <div class="mask">
-              <div class="songs">
+            <div class="mask4th">
+              <div class="songs4th">
                 《TYPE-B》収録曲<br>
                 1. 不協和音<br>
                 2. W-KEYAKIZAKAの詩<br>
@@ -64,12 +64,12 @@
 
         <li>
         <li>
-          <div class="jacket">
-            <v-img class="type" max-height="250" max-width="250"
+          <div class="jacket4th">
+            <v-img class="type4th" max-height="250" max-width="250"
               src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle4-C.jpg?alt=media&token=31443a8b-b86c-44e4-92e4-e2d65d38a2c9">
             </v-img>
-            <div class="mask">
-              <div class="songs">
+            <div class="mask4th">
+              <div class="songs4th">
                 《TYPE-C》収録曲<br>
                 1. 不協和音<br>
                 2. W-KEYAKIZAKAの詩<br>
@@ -83,12 +83,12 @@
         </li>
 
         <li>
-          <div class="jacket">
-            <v-img class="type" max-height="250" max-width="250"
+          <div class="jacket4th">
+            <v-img class="type4th" max-height="250" max-width="250"
               src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle4-D.jpg?alt=media&token=fa96d306-1dad-468e-b0c9-76c5365d1f4b">
             </v-img>
-            <div class="mask">
-              <div class="songs">
+            <div class="mask4th">
+              <div class="songs4th">
                 《TYPE-D》収録曲<br>
                 1. 不協和音<br>
                 2. W-KEYAKIZAKAの詩<br>
@@ -102,12 +102,12 @@
         </li>
 
         <li>
-          <div class="jacket">
-            <v-img class="type" max-height="250" max-width="250"
+          <div class="jacket4th">
+            <v-img class="type4th" max-height="250" max-width="250"
               src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle4-E.jpg?alt=media&token=e679adde-e422-457a-a9d9-6ebf76b5ca6a">
             </v-img>
-            <div class="mask">
-              <div class="songs">
+            <div class="mask4th">
+              <div class="songs4th">
                 《通常盤》収録曲<br>
                 1. 不協和音<br>
                 2. W-KEYAKIZAKAの詩<br>
@@ -124,38 +124,38 @@
       </div>
       <HistoryLine />
     </div>
-    <div class="single_textbox">
-      <div class="single_text">
+    <div class="single_textbox4th">
+      <div class="single_text4th">
         <p>楽曲の中には「軍門に下るのか」「君はYesと言うのか」など、多勢に同調するのか問いかけている歌詞や「既成概念を壊せ!」、「意志を貫け!」と自身を奮い立たせるかの如く、</p>
       </div>
-      <div class="single_text2">
+      <div class="single_text24th">
         <p>大勢の意見が正しいとされる空気をもねじ伏せるような描写もあり、不協和音は全体を通して周囲と合わせることへ<br>
         抵抗する主人公が描かれている。</p>
       </div>
       <HistoryLine />
     </div>
-    <div class="single_movie">
-      <div class="movie_contents">
+    <div class="single_movie4th">
+      <div class="movie_contents4th">
         <v-container>
           <v-row>
             <v-col cols="12" md="4">
-              <v-img
+              <a href="https://youtu.be/gfzuzDrVRVM"><v-img
                 src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Fsingle%2Fwaon.jpg?alt=media&token=e457e6d5-4977-4fb5-b6f6-4a9d744f43ca">
-              </v-img>
+              </v-img></a>
             </v-col>
             <v-col md="4">
-              <v-img
+              <a href="https://youtu.be/s8j9hva3luI"><v-img
                 src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Fcoupling%2Fwkeyaki.jpg?alt=media&token=93288675-968b-4a1d-8cd2-8c8251210c69">
-              </v-img>
+              </v-img></a>
             </v-col>
             <v-col md="4">
-              <v-img
+              <a href="https://youtu.be/65v7JSBpQ4U"><v-img
                 src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Fcoupling%2Feccentric.jpg?alt=media&token=8aa340fc-ab91-4e52-b38a-846180d10aea">
-              </v-img>
+              </v-img></a>
             </v-col>
           </v-row>
         </v-container>
-        <div class="movie_text">
+        <div class="movie_text4th">
           <p>
            歌詞の中でも最も特徴的なものはやはり「僕は嫌だ」という部分であり、これらのような強いメッセージ性を持っている点が<br>
            デビューシングル「サイレントマジョリティー」を彷彿とさせ話題となった。</p>
@@ -181,6 +181,7 @@
 </script>
 
 <style>
+
 .gosingle{
   position: absolute;
     left: 50%;
@@ -191,7 +192,7 @@
     margin: 0;
     padding: 0;
 }
-  .single_image {
+  .single_image4th {
     width: 100vw;
     height: 100vh;
     position: relative;
@@ -201,7 +202,7 @@
     background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/slideshow-pic%2Fslideshow4.jpg?alt=media&token=3171adf3-99b4-415a-85aa-0cfcdcd5cfaf);
   }
 
-  .single_logo {
+  .single_logo4th {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -212,7 +213,7 @@
     padding: 0;
   }
 
-  .scroll {
+  .scroll4th {
     position: absolute;
     left: 50%;
     top: 90%;
@@ -224,7 +225,7 @@
   }
 
   /* 丸の取り囲むやつ */
-  .roundwrap {
+  .roundwrap4th {
     width: 30px;
     height: 70px;
     border: solid;
@@ -235,7 +236,7 @@
   }
 
   /* マルのcss */
-  .round {
+  .round4th {
     color: white;
     font-size: 50px;
     display: inline-block;
@@ -261,7 +262,7 @@
     }
   }
 
-  .singleline {
+  .singleline4th {
     width: 1px;
     height: 200px;
     background-color: white;
@@ -276,7 +277,7 @@
     z-index: 100;
   }
 
-  .outline {
+  .outline4th {
     width: 100vw;
     height: 100vh;
     position: relative;
@@ -285,7 +286,7 @@
     background-color: transparent;
   }
 
-  .single_outline {
+  .single_outline4th {
     text-shadow: 3px 3px 2px #0f0f0f;
     font-size: 25px;
     width: 1000px;
@@ -299,7 +300,7 @@
     padding: 0;
   }
 
-  .single_outline2 {
+  .single_outline24th {
     text-shadow: 3px 3px 2px #0f0f0f;
     font-size: 25px;
     width: 1000px;
@@ -313,7 +314,7 @@
     padding: 0;
   }
 
-  .jacket_contents {
+  .jacket_contents4th {
     width: 1600px;
     left: 55%;
     top: 70%;
@@ -325,11 +326,11 @@
     padding: 0;
   }
 
-  #span {
+  #span4th {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 
-  .jacket {
+  .jacket4th {
     width: 250px;
     height: 250px;
     overflow: hidden;
@@ -337,13 +338,13 @@
     position: relative;
   }
 
-  .jacket .songs {
+  .jacket4th .songs4th {
     font-size: 10px;
     line-height: 20px;
     margin-top: 55px;
   }
 
-  .jacket .mask {
+  .jacket4th .mask4th {
     width: 250px;
     height: 248px;
     position: absolute;
@@ -355,18 +356,18 @@
     transition: all 0.6s ease;
   }
 
-  .jacket:hover .mask {
+  .jacket4th:hover .mask4th {
     opacity: 1;
     padding-left: 30px;
   }
 
 
-  .jacket-imgs {
+  .jacket-imgs4th {
     position: relative;
     overflow: hidden;
   }
 
-  .jacket-imgs ul {
+  .jacket-imgs4th ul {
     list-style: none;
     position: relative;
     left: 50%;
@@ -374,7 +375,7 @@
     margin-left: -25px;
   }
 
-  .jacket-imgs ul li {
+  .jacket-imgs4th ul li {
     position: relative;
     left: -50%;
     float: left;
@@ -382,7 +383,7 @@
   }
 
 
-  .single_textbox {
+  .single_textbox4th {
     width: 100vw;
     height: 100vh;
     position: relative;
@@ -392,7 +393,7 @@
     background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2F4th%2F4th.jpg?alt=media&token=22b858a5-3a79-4d29-ada1-f30b0e43f1fd);
   }
 
-  .single_text {
+  .single_text4th {
     text-shadow: 3px 3px 2px #0f0f0f;
     font-size: 25px;
     width: 1400px;
@@ -406,7 +407,7 @@
     padding: 0;
   }
 
-  .single_text2 {
+  .single_text24th {
     text-shadow: 3px 3px 2px #0f0f0f;
     font-size: 25px;
     width: 1450px;
@@ -420,7 +421,7 @@
     padding: 0;
   }
 
-  .single_text3 {
+  .single_text34th {
     font-size: 23px;
     width: 1600px;
     left: 0%;
@@ -433,7 +434,7 @@
     padding: 0;
   }
 
-  .single_movie {
+  .single_movie4th {
     width: 100vw;
     height: 100vh;
     position: relative;
@@ -442,7 +443,7 @@
     background-color: transparent;
   }
 
-  .movie_contents {
+  .movie_contents4th {
     font-size: 22px;
     left: 50%;
     top: 45%;
@@ -454,7 +455,7 @@
     padding: 0;
   }
 
-  .movie_text {
+  .movie_text4th {
     text-shadow: 3px 3px 2px #0f0f0f;
     width: 1600px;
     left: 5%;

@@ -1,36 +1,36 @@
 <template>
   <v-main>
-    <div class="single_image">
-      <div class="single_logo">
+    <div class="single_image5th">
+      <div class="single_logo5th">
         <img
           src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2F5th-logo.png?alt=media&token=bc2cf86e-4948-45ef-affa-3c7e028dd12a"
           alt="">
       </div>
-      <div class="scroll">
-        <div class="roundwrap">
-          <p class="round">・</p>
+      <div class="scroll5th">
+        <div class="roundwrap5th">
+          <p class="round5th">・</p>
         </div>
-        <div class="scrolltext">SCROLL</div>
+        <div class="scrolltext5th">SCROLL</div>
       </div>
-      <div class="singleline"></div>
+      <div class="singleline5th"></div>
     </div>
-    <div class="outline">
-      <div class="single_outline">
+    <div class="outline5th">
+      <div class="single_outline5th">
         <p>2017年10月25日に発売された5枚目のシングルでメンバー全員がスタイリッシュなスーツ</p>
       </div>
-      <div class="single_outline2">
+      <div class="single_outline25th">
         <p>スタイルで行う軽快なダンスが話題になったこの曲はメチャカリのCM曲にも選ばれた。</p>
       </div>
-      <div class="jacket_contents">
-    <div class="jacket-imgs">
+      <div class="jacket_contents5th">
+    <div class="jacket-imgs5th">
       <ul>
         <li>
-          <div class="jacket">
-            <v-img class="type" max-height="250" max-width="250"
+          <div class="jacket5th">
+            <v-img class="typ5the" max-height="250" max-width="250"
               src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle5-A.jpg?alt=media&token=37a5b6f0-ef51-4940-9b35-a9537d6ced59">
             </v-img>
-            <div class="mask">
-              <div class="songs">
+            <div class="mask5th">
+              <div class="songs5th">
                 《TYPE-A》収録曲<br>
                 1. 風に吹かれても<br>
                 2. それでも歩いてる<br>
@@ -44,12 +44,12 @@
         </li>
 
         <li>
-          <div class="jacket">
-            <v-img class="type" max-height="250" max-width="250"
+          <div class="jacket5th">
+            <v-img class="type5th" max-height="250" max-width="250"
               src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle5-B.jpg?alt=media&token=0f79c949-373f-4efb-a7ed-a13d95f3c3fe">
             </v-img>
-            <div class="mask">
-              <div class="songs">
+            <div class="mask5th">
+              <div class="songs5th">
                 《TYPE-B》収録曲<br>
                 1. 風に吹かれても<br>
                 2. それでも歩いてる<br>
@@ -64,12 +64,12 @@
 
         <li>
         <li>
-          <div class="jacket">
+          <div class="jacket5th">
             <v-img class="type" max-height="250" max-width="250"
               src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle5-C.jpg?alt=media&token=48dac039-a213-4003-b853-e62f224300c2">
             </v-img>
-            <div class="mask">
-              <div class="songs">
+            <div class="mask5th">
+              <div class="songs5th">
                 《TYPE-C》収録曲<br>
                 1. 風に吹かれても<br>
                 2. それでも歩いてる<br>
@@ -83,12 +83,12 @@
         </li>
 
         <li>
-          <div class="jacket">
-            <v-img class="type" max-height="250" max-width="250"
+          <div class="jacket5th">
+            <v-img class="type5th" max-height="250" max-width="250"
               src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle5-D.jpg?alt=media&token=850bbd2e-61fc-4a08-8f37-d4286d8f93df">
             </v-img>
-            <div class="mask">
-              <div class="songs">
+            <div class="mask5th">
+              <div class="songs5th">
                 《TYPE-D》収録曲<br>
                 1. 風に吹かれても<br>
                 2. それでも歩いてる<br>
@@ -102,12 +102,12 @@
         </li>
 
         <li>
-          <div class="jacket">
-            <v-img class="type" max-height="250" max-width="250"
+          <div class="jacket5th">
+            <v-img class="type5th" max-height="250" max-width="250"
               src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle5-E.jpg?alt=media&token=5b5a3f23-7d80-4919-8e07-146146adb35b">
             </v-img>
-            <div class="mask">
-              <div class="songs">
+            <div class="mask5th">
+              <div class="songs5th">
                 《通常盤》収録曲<br>
                 1. 風に吹かれても<br>
                 2. それでも歩いてる<br>
@@ -125,37 +125,37 @@
       </div>
       <HistoryLine />
     </div>
-    <div class="single_textbox">
-      <div class="single_text">
+    <div class="single_textbox5th">
+      <div class="single_text5th">
         <p>サビまで直行する早急な展開、サビでの軽快なリズム、音域を維持するメロディーという楽曲の特徴や、それに加え「笑顔」や「黒スーツ」といった要素がそれを補強し、</p>
       </div>
-      <div class="single_text2">
+      <div class="single_text25th">
         <p>笑わないアイドルというイメージが定着してきた時期だったが、そのようなシリアスなイメージを刷新したシングルとなった。</p>
       </div>
       <HistoryLine />
     </div>
-    <div class="single_movie">
-      <div class="movie_contents">
+    <div class="single_movie5th">
+      <div class="movie_contents5th">
         <v-container>
           <v-row>
             <v-col cols="12" md="4">
-              <v-img
+              <a href="https://youtu.be/Xl-iDUt7U24"><v-img
                 src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Fsingle%2Fkazefuka.jpg?alt=media&token=b9b1de5c-ac17-44c6-be50-a8a08ddad31e">
-              </v-img>
+              </v-img></a>
             </v-col>
             <v-col md="4">
-              <v-img
+              <a href="https://youtu.be/XmjA1DdA334"><v-img
                 src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Fcoupling%2Fnamiutigiwa.jpg?alt=media&token=7e3c49cb-9722-4b4c-bb3e-1b7534e7ac05">
-              </v-img>
+              </v-img></a>
             </v-col>
               <v-col md="4">
-              <v-img
+              <a href="https://youtu.be/8y14n7mEVlo"><v-img
                 src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Fcoupling%2Fhiraishin.jpg?alt=media&token=6578b0d6-0b21-4149-9ad1-e18ce6d1b4aa">
-              </v-img>
+              </v-img></a>
             </v-col>
           </v-row>
         </v-container>
-        <div class="movie_text">
+        <div class="movie_text5th">
           <p>歌詞から読み取ることができる楽曲の内容は恋の行方をポジティブに歌ったものとなっていて、4枚目のシングルとはかなり印象が変わった。
            </p>
         </div>
@@ -191,7 +191,7 @@
     margin: 0;
     padding: 0;
 }
-  .single_image {
+  .single_image5th {
     width: 100vw;
     height: 100vh;
     position: relative;
@@ -201,7 +201,7 @@
     background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/slideshow-pic%2Fslideshow5.jpg?alt=media&token=ee71a01f-92f9-4a60-bbff-23f5f81669d5);
   }
 
-  .single_logo {
+  .single_logo5th {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -212,7 +212,7 @@
     padding: 0;
   }
 
-  .scroll {
+  .scroll5th {
     position: absolute;
     left: 50%;
     top: 90%;
@@ -224,7 +224,7 @@
   }
 
   /* 丸の取り囲むやつ */
-  .roundwrap {
+  .roundwrap5th {
     width: 30px;
     height: 70px;
     border: solid;
@@ -235,7 +235,7 @@
   }
 
   /* マルのcss */
-  .round {
+  .round5th {
     color: white;
     font-size: 50px;
     display: inline-block;
@@ -261,7 +261,7 @@
     }
   }
 
-  .singleline {
+  .singleline5th {
     width: 1px;
     height: 200px;
     background-color: white;
@@ -276,7 +276,7 @@
     z-index: 100;
   }
 
-  .outline {
+  .outline5th {
     width: 100vw;
     height: 100vh;
     position: relative;
@@ -285,7 +285,7 @@
     background-color: transparent;
   }
 
-  .single_outline {
+  .single_outline5th {
     text-shadow: 3px 3px 2px #0f0f0f;
     font-size: 25px;
     width: 1000px;
@@ -299,7 +299,7 @@
     padding: 0;
   }
 
-  .single_outline2 {
+  .single_outline25th {
     text-shadow: 3px 3px 2px #0f0f0f;
     font-size: 25px;
     width: 1000px;
@@ -313,7 +313,7 @@
     padding: 0;
   }
 
-  .jacket_contents {
+  .jacket_contents5th {
     width: 1600px;
     left: 55%;
     top: 70%;
@@ -325,11 +325,11 @@
     padding: 0;
   }
 
-  #span {
+  #span5th {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 
-  .jacket {
+  .jacket5th {
     width: 250px;
     height: 250px;
     overflow: hidden;
@@ -337,13 +337,13 @@
     position: relative;
   }
 
-  .jacket .songs {
+  .jacket5th .songs5th {
     font-size: 10px;
     line-height: 20px;
     margin-top: 55px;
   }
 
-  .jacket .mask {
+  .jacket5th .mask5th {
     width: 250px;
     height: 248px;
     position: absolute;
@@ -355,18 +355,18 @@
     transition: all 0.6s ease;
   }
 
-  .jacket:hover .mask {
+  .jacket5th:hover .mask5th {
     opacity: 1;
     padding-left: 30px;
   }
 
 
-  .jacket-imgs {
+  .jacket-imgs5th {
     position: relative;
     overflow: hidden;
   }
 
-  .jacket-imgs ul {
+  .jacket-imgs5th ul {
     list-style: none;
     position: relative;
     left: 50%;
@@ -374,7 +374,7 @@
     margin-left: -25px;
   }
 
-  .jacket-imgs ul li {
+  .jacket-imgs5th ul li {
     position: relative;
     left: -50%;
     float: left;
@@ -382,7 +382,7 @@
   }
 
 
-  .single_textbox {
+  .single_textbox5th {
     width: 100vw;
     height: 100vh;
     position: relative;
@@ -392,7 +392,7 @@
     background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2F5th%2F5th.jpg?alt=media&token=e432aa60-42cc-4c25-af4b-f23914f00d90);
   }
 
-  .single_text {
+  .single_text5th {
     text-shadow: 3px 3px 2px #0f0f0f;
     font-size: 25px;
     width: 1400px;
@@ -406,7 +406,7 @@
     padding: 0;
   }
 
-  .single_text2 {
+  .single_text25th {
     text-shadow: 3px 3px 2px #0f0f0f;
     font-size: 25px;
     width: 1450px;
@@ -420,7 +420,7 @@
     padding: 0;
   }
 
-  .single_text3 {
+  .single_text35th {
     font-size: 23px;
     width: 1600px;
     left: 0%;
@@ -433,7 +433,7 @@
     padding: 0;
   }
 
-  .single_movie {
+  .single_movie5th {
     width: 100vw;
     height: 100vh;
     position: relative;
@@ -442,7 +442,7 @@
     background-color: transparent;
   }
 
-  .movie_contents {
+  .movie_contents5th {
     font-size: 22px;
     left: 50%;
     top: 45%;
@@ -454,15 +454,15 @@
     padding: 0;
   }
 
-  .movie_text {
+  .movie_text5th {
     text-shadow: 3px 3px 2px #0f0f0f;
     width: 1600px;
-    left: 5%;
+    left: 15%;
     top: 150%;
     position: absolute;
-    -ms-transform: translate(-5%, -150%);
-    -webkit-transform: translate(-5%, -150%);
-    transform: translate(-5%, -150%);
+    -ms-transform: translate(-15%, -150%);
+    -webkit-transform: translate(-15%, -150%);
+    transform: translate(-15%, -150%);
     margin: 0;
     padding: 0;
   }
