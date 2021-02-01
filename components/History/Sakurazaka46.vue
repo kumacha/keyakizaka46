@@ -4,7 +4,7 @@
       <p>2020年10月14日</p>
     </div>
     <div class="Sakuratext1">
-      <p>To be continued…</p>
+      <p @click="Gosakura()">To be continued…</p>
     </div>
     <div class="Sakuratext2">
       <p></p>
@@ -20,6 +20,11 @@
   export default {
     components: {
       HistoryLine
+    },
+    methods:{
+      Gosakura(){
+        this.$router.push('/sakurazaka')
+      }
     }
   }
 </script>

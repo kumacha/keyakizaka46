@@ -3,8 +3,8 @@
   <div class="seventhsingle">
       <div class="ariakedate"><p>2018年8月15日</p></div>
       <div class="seventhsingletext1"><p>7th Single 「アンビバレント」発売</p></div>
-      <div class="seventhsingletext2"><p>初週売上約26万2000枚、オリコン1位獲得</p></div>
-      <div class="seventhsingletext3"><p>女性アーティストのデビューシングル初週売上歴代1位。</p></div>
+      <div class="seventhsingletext2"><p>激しいダンスと、二律背反を歌った歌詞が注目を浴びた。</p></div>
+      <div class="seventhsingletext3"><p>数々の音楽番組やライブで披露された。</p></div>
       <div class="discomore"><p>Discographyへ</p></div>
       <HistoryLine/>
 　　</div>
@@ -31,7 +31,7 @@ export default {
   .seventhsingletext1 p {
     width: 1400px;
     text-align: center;
-    font-size: 70px;
+    font-size: 60px;
     position: absolute;
     left: 50%;
     top: 35%;
@@ -45,7 +45,7 @@ export default {
   .seventhsingletext2 p {
     width: 1000px;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     position: absolute;
     left: 50%;
     top: 60%;
@@ -58,7 +58,7 @@ export default {
   .seventhsingletext3 p {
     width: 1400px;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     position: absolute;
     left: 50%;
     top: 75%;

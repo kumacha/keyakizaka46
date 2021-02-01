@@ -3,8 +3,8 @@
   <div class="sixthsingle">
       <div class="ariakedate"><p>2018年3月7日</p></div>
       <div class="sixthsingletext1"><p>6th Single 「ガラスを割れ！」発売</p></div>
-      <div class="sixthsingletext2"><p>初週売上約26万2000枚、オリコン1位獲得</p></div>
-      <div class="sixthsingletext3"><p>女性アーティストのデビューシングル初週売上歴代1位。</p></div>
+      <div class="sixthsingletext2"><p>抑圧への反逆を歌った楽曲であり、ロックな曲調が展開される。</p></div>
+      <div class="sixthsingletext3"><p>サビでの前へ飛び出すパフォーマンスが注目を集めた。</p></div>
       <div class="discomore"><p>Discographyへ</p></div>
       <HistoryLine/>
 　　</div>
@@ -31,7 +31,7 @@ export default {
   .sixthsingletext1 p {
     width: 1400px;
     text-align: center;
-    font-size: 70px;
+    font-size: 60px;
     position: absolute;
     left: 50%;
     top: 35%;
@@ -45,7 +45,7 @@ export default {
   .sixthsingletext2 p {
     width: 1000px;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     position: absolute;
     left: 50%;
     top: 60%;
@@ -58,7 +58,7 @@ export default {
   .sixthsingletext3 p {
     width: 1400px;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     position: absolute;
     left: 50%;
     top: 75%;

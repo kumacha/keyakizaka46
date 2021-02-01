@@ -3,8 +3,8 @@
   <div class="lastsingle">
       <div class="ariakedate"><p>2020年8月21日</p></div>
       <div class="lastsingletext1"><p>Last Single 「誰がその鐘を鳴らすのか？」発売</p></div>
-      <div class="lastsingletext2"><p>初週売上約26万2000枚、オリコン1位獲得</p></div>
-      <div class="lastsingletext3"><p>女性アーティストのデビューシングル初週売上歴代1位。</p></div>
+      <div class="lastsingletext2"><p>欅坂46としての最後のアルバム</p></div>
+      <div class="lastsingletext3"><p>2期生を含めたメンバー全員によるパフォーマンスが特徴。</p></div>
       <div class="discomore"><p>Discographyへ</p></div>
       <HistoryLine/>
 　　</div>
@@ -31,7 +31,7 @@ export default {
   .lastsingletext1 p {
     width: 1400px;
     text-align: center;
-    font-size: 70px;
+    font-size: 60px;
     position: absolute;
     left: 50%;
     top: 35%;
@@ -45,7 +45,7 @@ export default {
   .lastsingletext2 p {
     width: 1000px;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     position: absolute;
     left: 50%;
     top: 60%;
@@ -58,7 +58,7 @@ export default {
   .lastsingletext3 p {
     width: 1400px;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     position: absolute;
     left: 50%;
     top: 75%;

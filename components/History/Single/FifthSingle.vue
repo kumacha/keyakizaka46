@@ -3,8 +3,8 @@
   <div class="fifthsingle">
       <div class="fifthdate"><p>2017年10月25日</p></div>
       <div class="fifthsingletext1"><p>4th Single 「風に吹かれても」発売</p></div>
-      <div class="fifthsingletext2"><p>初週売上約26万2000枚、オリコン1位獲得</p></div>
-      <div class="fifthsingletext3"><p>女性アーティストのデビューシングル初週売上歴代1位。</p></div>
+      <div class="fifthsingletext2"><p>4thシングルまでの攻撃的な曲調とは異なり、メンバーの笑顔が特徴的な楽曲である。</p></div>
+      <div class="fifthsingletext3"><p>センター・平手友梨奈のボーイッシュな姿が話題を呼んだ。</p></div>
       <div class="discomore"><p>Discographyへ</p></div>
       <HistoryLine/>
 　　</div>
@@ -19,7 +19,7 @@ export default {
 
 <style>
 .fifthdate{
-  font-size: 45px;
+  font-size: 35px;
     position: absolute;
     top: 20px;
     left: 20px;
@@ -39,7 +39,7 @@ export default {
   .fifthsingletext1 p {
     width: 1400px;
     text-align: center;
-    font-size: 70px;
+    font-size: 60px;
     position: absolute;
     left: 50%;
     top: 35%;
@@ -53,7 +53,7 @@ export default {
   .fifthsingletext2 p {
     width: 1000px;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     position: absolute;
     left: 50%;
     top: 60%;
@@ -66,7 +66,7 @@ export default {
   .fifthsingletext3 p {
     width: 1400px;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     position: absolute;
     left: 50%;
     top: 75%;
