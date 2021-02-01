@@ -1,10 +1,8 @@
 <template>
     <v-content>
       <v-container>
-        <v-layout>
-          <v-flex>
             <v-row>
-              <v-col v-for="(member, index) in membersArray" :key="index">
+              <v-col v-for="(member, index) in membersArray" :key="index" cols="12" md="3">
                 <v-hover>
                   <template v-slot:default="{ hover }">
                     <v-card dark class="member-card" :to="member.to" width="230px"
@@ -17,7 +15,7 @@
                     <v-card-text v-text="member.number">
                     </v-card-text>
                     <v-fade-transition>
-                      <v-overlay v-if="hover" absolute color="#66CDAA"></v-overlay>
+                      <v-overlay v-if="hover" absolute color="#555555"></v-overlay>
                     </v-fade-transition>
                   </v-card>
 
@@ -25,8 +23,6 @@
                 </v-hover>
               </v-col>
             </v-row>
-          </v-flex>
-        </v-layout>
       </v-container>
     </v-content>
 </template>

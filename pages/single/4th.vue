@@ -1,17 +1,27 @@
 <template>
   <v-main>
-    <div class="m-btn">
-      <v-container>
-        <v-btn color="#EEEEEE" depressed elevation="24" outlined text light to="/discography"><span
-            id="span">DISCOGRAPHYページへ戻る</span></v-btn>
-      </v-container>
+    <div class="single_image">
+      <div class="single_logo">
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2F4th-logo.png?alt=media&token=bfbe10b8-13b5-4682-95dd-11c127d45efe"
+          alt="">
+      </div>
+      <div class="scroll">
+        <div class="roundwrap">
+          <p class="round">・</p>
+        </div>
+        <div class="scrolltext">SCROLL</div>
+      </div>
+      <div class="singleline"></div>
     </div>
-    <div>
-      <v-img class="single-img"
-        src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle_4th.png?alt=media&token=0d733d53-9260-44b2-b73c-014a9b21a166">
-      </v-img>
-    </div>
-
+    <div class="outline">
+      <div class="single_outline">
+        <p>2017年4月5日に欅坂46の4枚目のシングルとしてから発売。</p>
+      </div>
+      <div class="single_outline2">
+        <p>漢字のみのシングルタイトルは坂道シリーズにおいて初の出来事だった。</p>
+      </div>
+      <div class="jacket_contents">
     <div class="jacket-imgs">
       <ul>
         <li>
@@ -111,27 +121,193 @@
         </li>
       </ul>
     </div>
-
-    <div class="single-intro">
-      2017年4月5日に欅坂46の4枚目のシングルとしてから発売。楽曲の中には「軍門に下るのか」「君はYesと言うのか」など、多勢に同調するのか問いかけている歌詞や「既成概念を壊せ!」、「意志を貫け!」と自身を奮い立たせるかの如く、大勢の意見が正しいとされる空気をもねじ伏せるような描写もあり、
-      不協和音は全体を通して周囲と合わせることへ抵抗する主人公が描かれている。歌詞の中でも最も特徴的なものはやはり「僕は嫌だ」という部分であり、これらのような強いメッセージ性を持っている点がデビューシングル「サイレントマジョリティー」を彷彿とさせ話題となった。
+      </div>
+      <HistoryLine />
+    </div>
+    <div class="single_textbox">
+      <div class="single_text">
+        <p>楽曲の中には「軍門に下るのか」「君はYesと言うのか」など、多勢に同調するのか問いかけている歌詞や「既成概念を壊せ!」、「意志を貫け!」と自身を奮い立たせるかの如く、</p>
+      </div>
+      <div class="single_text2">
+        <p>大勢の意見が正しいとされる空気をもねじ伏せるような描写もあり、不協和音は全体を通して周囲と合わせることへ<br>
+        抵抗する主人公が描かれている。</p>
+      </div>
+      <HistoryLine />
+    </div>
+    <div class="single_movie">
+      <div class="movie_contents">
+        <v-container>
+          <v-row>
+            <v-col cols="12" md="4">
+              <v-img
+                src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Fsingle%2Fwaon.jpg?alt=media&token=e457e6d5-4977-4fb5-b6f6-4a9d744f43ca">
+              </v-img>
+            </v-col>
+            <v-col md="4">
+              <v-img
+                src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Fcoupling%2Fwkeyaki.jpg?alt=media&token=93288675-968b-4a1d-8cd2-8c8251210c69">
+              </v-img>
+            </v-col>
+            <v-col md="4">
+              <v-img
+                src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Fcoupling%2Feccentric.jpg?alt=media&token=8aa340fc-ab91-4e52-b38a-846180d10aea">
+              </v-img>
+            </v-col>
+          </v-row>
+        </v-container>
+        <div class="movie_text">
+          <p>
+           歌詞の中でも最も特徴的なものはやはり「僕は嫌だ」という部分であり、これらのような強いメッセージ性を持っている点が<br>
+           デビューシングル「サイレントマジョリティー」を彷彿とさせ話題となった。</p>
+        </div>
+      </div>
     </div>
   </v-main>
 </template>
 
 <script>
+  import HistoryLine from '~/components/History/HistoryLine.vue'
   export default {
-
+    layout: 'Historydefault',
+    components: {
+      HistoryLine
+    }
   }
-
 </script>
 
 <style>
-  .single-img {
-    margin-top: 20px;
-    max-width: 1150px;
-    margin-left: auto;
-    margin-right: auto;
+  .single_image {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-color: transparent;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/slideshow-pic%2Fslideshow4.jpg?alt=media&token=3171adf3-99b4-415a-85aa-0cfcdcd5cfaf);
+  }
+
+  .single_logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+  }
+
+  .scroll {
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    -ms-transform: translate(-50%, -90%);
+    -webkit-transform: translate(-50%, -90%);
+    transform: translate(-50%, -90%);
+    margin: 0;
+    padding: 0;
+  }
+
+  /* 丸の取り囲むやつ */
+  .roundwrap {
+    width: 30px;
+    height: 70px;
+    border: solid;
+    border-color: white;
+    border-radius: 40px;
+    position: relative;
+    left: 27%;
+  }
+
+  /* マルのcss */
+  .round {
+    color: white;
+    font-size: 50px;
+    display: inline-block;
+    position: absolute;
+    left: -50%;
+    top: 0%;
+    -ms-transform: translate(50%, -0%);
+    -webkit-transform: translate(50%, -0%);
+    transform: translate(50%, -0%);
+    margin: 0;
+    padding: 0;
+    animation: move-y .7s infinite alternate ease-in-out;
+  }
+
+  /* マルのアニメーション */
+  @keyframes move-y {
+    from {
+      transform: translateY(-15px);
+    }
+
+    to {
+      transform: translateY(10px);
+    }
+  }
+
+  .singleline {
+    width: 1px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 130%;
+    -ms-transform: translate(-50%, -130%);
+    -webkit-transform: translate(-50%, -13%);
+    transform: translate(-50%, -130%);
+    margin: 0;
+    padding: 0;
+    z-index: 100;
+  }
+
+  .outline {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-color: transparent;
+  }
+
+  .single_outline {
+    text-shadow: 3px 3px 2px #0f0f0f;
+    font-size: 25px;
+    width: 1000px;
+    left: 5%;
+    top: 25%;
+    position: absolute;
+    -ms-transform: translate(-5%, -25%);
+    -webkit-transform: translate(-5%, -25%);
+    transform: translate(-5%, -25%);
+    margin: 0;
+    padding: 0;
+  }
+
+  .single_outline2 {
+    text-shadow: 3px 3px 2px #0f0f0f;
+    font-size: 25px;
+    width: 1000px;
+    left: 130%;
+    top: 35%;
+    position: absolute;
+    -ms-transform: translate(-130%, -35%);
+    -webkit-transform: translate(-130%, -35%);
+    transform: translate(-130%, -35%);
+    margin: 0;
+    padding: 0;
+  }
+
+  .jacket_contents {
+    width: 1600px;
+    left: 55%;
+    top: 70%;
+    position: absolute;
+    -ms-transform: translate(-55%, -70%);
+    -webkit-transform: translate(-55%, -70%);
+    transform: translate(-55%, -70%);
+    margin: 0;
+    padding: 0;
   }
 
   #span {
@@ -190,13 +366,90 @@
     margin-left: 10px;
   }
 
-  .single-intro {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 25px;
-    font-size: 20px;
-    width: 1200px;
-    margin-bottom: 40px;
+
+  .single_textbox {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-color: transparent;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2F4th%2F4th.jpg?alt=media&token=22b858a5-3a79-4d29-ada1-f30b0e43f1fd);
   }
 
+  .single_text {
+    text-shadow: 3px 3px 2px #0f0f0f;
+    font-size: 25px;
+    width: 1400px;
+    left: 45%;
+    top: 25%;
+    position: absolute;
+    -ms-transform: translate(-45%, -25%);
+    -webkit-transform: translate(-45%, -25%);
+    transform: translate(-45%, -25%);
+    margin: 0;
+    padding: 0;
+  }
+
+  .single_text2 {
+    text-shadow: 3px 3px 2px #0f0f0f;
+    font-size: 25px;
+    width: 1450px;
+    left: 100%;
+    top: 80%;
+    position: absolute;
+    -ms-transform: translate(-100%, -80%);
+    -webkit-transform: translate(-100%, -80%);
+    transform: translate(-100%, -80%);
+    margin: 0;
+    padding: 0;
+  }
+
+  .single_text3 {
+    font-size: 23px;
+    width: 1600px;
+    left: 0%;
+    top: 80%;
+    position: absolute;
+    -ms-transform: translate(-0%, -80%);
+    -webkit-transform: translate(-0%, -80%);
+    transform: translate(-0%, -80%);
+    margin: 0;
+    padding: 0;
+  }
+
+  .single_movie {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-color: transparent;
+  }
+
+  .movie_contents {
+    font-size: 22px;
+    left: 50%;
+    top: 45%;
+    position: absolute;
+    -ms-transform: translate(-50%, -45%);
+    -webkit-transform: translate(-50%, -45%);
+    transform: translate(-50%, -45%);
+    margin: 0;
+    padding: 0;
+  }
+
+  .movie_text {
+    text-shadow: 3px 3px 2px #0f0f0f;
+    width: 1600px;
+    left: 5%;
+    top: 150%;
+    position: absolute;
+    -ms-transform: translate(-5%, -150%);
+    -webkit-transform: translate(-5%, -150%);
+    transform: translate(-5%, -150%);
+    margin: 0;
+    padding: 0;
+  }
 </style>
+

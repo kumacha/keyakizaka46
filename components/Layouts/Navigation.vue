@@ -33,38 +33,24 @@ export default {
   methods: {
     pushTOP(){
       this.$router.push('/');
-      this.$nuxt.$loading.start();
-      setTimeout(() => this.$nuxt.$loading.finish(), 6000);
     },
     pushABOUT(){
       this.$router.push('/about')
-      this.$nuxt.$loading.start();
-      setTimeout(() => this.$nuxt.$loading.finish(), 6000)
     },
     pushHISTORY(){
       this.$router.push('/history')
-      this.$nuxt.$loading.start();
-      setTimeout(() => this.$nuxt.$loading.finish(), 6000)
     },
     pushDISCOGRAPHY(){
       this.$router.push('/discography')
-      this.$nuxt.$loading.start();
-      setTimeout(() => this.$nuxt.$loading.finish(), 6000)
     },
     pushMEMBER(){
       this.$router.push('/member')
-      this.$nuxt.$loading.start();
-      setTimeout(() => this.$nuxt.$loading.finish(), 6000)
     },
     pushGALLERY(){
       this.$router.push('/gallery')
-      this.$nuxt.$loading.start();
-      setTimeout(() => this.$nuxt.$loading.finish(), 6000)
     },
     pushLINK(){
-      this.$nuxt.$loading.start();
       this.$router.push('/link')
-      setTimeout(() => this.$nuxt.$loading.finish(), 6000)
     },
   },
 }
