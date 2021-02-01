@@ -1,5 +1,6 @@
 <template>
   <v-container>
+      <p class="gotext">Other Single…</p>
     <v-sheet>
       <v-slide-group v-model="model" class="pa-4" show-arrows width="1100px">
         <v-slide-item v-for="(single, index) in singles" :key="index">
@@ -78,5 +79,11 @@
 </script>
 
 <style>
-
+.theme--dark.v-sheet{
+  background-color: transparent;
+}
+.gotext{
+    text-align: center;
+    font-size: 30px;
+}
 </style>

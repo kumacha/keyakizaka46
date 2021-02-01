@@ -170,22 +170,37 @@
           </p>
         </div>
       </div>
+      <div class="gosingle">
+        <Gosingle/>
+      </div>
     </div>
   </v-main>
 </template>
 
 <script>
   import HistoryLine from '~/components/History/HistoryLine.vue'
+  import Gosingle from '~/components/Discography/Gosingle.vue'
   export default {
     layout: 'Historydefault',
     components: {
-      HistoryLine
+      HistoryLine,
+      Gosingle
     }
   }
 
 </script>
 
 <style>
+.gosingle{
+  position: absolute;
+    left: 50%;
+    top: 150%;
+    -ms-transform: translate(-50%, -150%);
+    -webkit-transform: translate(-50%, -150%);
+    transform: translate(-50%, -150%);
+    margin: 0;
+    padding: 0;
+}
   .single_image8th {
     width: 100vw;
     height: 100vh;
