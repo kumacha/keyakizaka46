@@ -59,5 +59,7 @@
 </script>
 
 <style>
-
+.theme--dark.v-sheet{
+  background-color: transparent;
+}
 </style>

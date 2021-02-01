@@ -5,9 +5,9 @@
         <v-col v-for="(gallery, index) in GallerysTrailerArray" :key="index" cols="12" sm="6">
           <div class="global_wrapper">
             <div class="youtube">
+              <a :href="gallery.url">
               <img class="thumb" v-bind:src="gallery.src" data-video="0tkzaClk6Ho" height="315" width="560"/>
-              <iframe width="560" height="315" v-bind:src="gallery.url" frameborder="0" allowfullscreen autoplay
-                playsinline class="movie"></iframe>
+              </a>
                 </div>
           </div>
               <span v-text="gallery.name"></span>
