@@ -40,20 +40,20 @@
   export default {
     data() {
       return {
-        picitems: [{
-            src: require("@/assets/image/member/rena/rena1.jpg"),
+                  picitems: [{
+            src: require("@/assets/image/member/masumoto/masumoto1.jpg"),
           },
           {
-            src: require("@/assets/image/member/rena/rena2.jpg"),
+            src: require("@/assets/image/member/masumoto/masumoto2.jpg"),
           },
           {
-            src: require("@/assets/image/member/rena/rena3.jpg"),
+            src: require("@/assets/image/member/masumoto/masumoto3.jpg"),
           },
           {
-            src: require("@/assets/image/member/rena/rena4.jpg"),
+            src: require("@/assets/image/member/masumoto/masumoto4.jpg"),
           },
           {
-            src: require("@/assets/image/member/rena/rena5.jpg"),
+            src: require("@/assets/image/member/masumoto/masumoto5.jpg"),
           },
         ],
       }
