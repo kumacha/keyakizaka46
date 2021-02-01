@@ -45,7 +45,9 @@
           </v-col>
         </v-row>
             </div>
+            <SaitoIntro/>
       </v-container>
+      <GoMember/>
 </v-app>
 
 </template>

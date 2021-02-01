@@ -100,7 +100,7 @@ components:{
     background-size: cover;
     background-position: center center;
     background-color: transparent;
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/history%2Flastlive%2FLastlive.jpg?alt=media&token=302c2a08-7722-4b61-9f05-da22de6cd816);
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/history%2Flastlive%2FLastlive.jpg?alt=media&token=5a922e44-1b49-4f7d-a07f-43db7df0e51d);
   }
   .LastLive2 {
     width: 100vw;
@@ -148,11 +148,11 @@ components:{
     text-align: center;
     font-size: 40px;
     position: absolute;
-    left: 150%;
+    left: 140%;
     top: 45%;
-    -ms-transform: translate(-150%, -45%);
-    -webkit-transform: translate(-150%, -45%);
-    transform: translate(-150%, -45%);
+    -ms-transform: translate(-140%, -45%);
+    -webkit-transform: translate(-140%, -45%);
+    transform: translate(-140%, -45%);
     margin: 0;
     padding: 0;
   }

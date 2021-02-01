@@ -25,7 +25,7 @@
     background-size: cover;
     background-position: center center;
     background-color: transparent;
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/history%2F3rd%2Fthird.jpeg?alt=media&token=29b79738-f010-44ea-adec-9e2226f1c26f);
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/history%2F3rd%2Fthird.jpeg?alt=media&token=1b4d748c-04f0-407a-9cd1-ee3199e8b6e0);
   }
   .Thirdyear2text1 p {
     width: 1400px;

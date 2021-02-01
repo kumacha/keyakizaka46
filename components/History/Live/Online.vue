@@ -44,7 +44,7 @@ components:{
     background-size: cover;
     background-position: center center;
     background-color: transparent;
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/history%2Flastlive%2FOnline.jpg?alt=media&token=5ada6daf-87fb-483d-ba6e-25ac01d6d90f);
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/history%2Flastlive%2Fonline2.jpg?alt=media&token=b67b1a6a-c9fb-49d2-949b-0dcc1eaf1809);
   }
 .Onlinetext1 p {
     width: 1400px;

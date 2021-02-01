@@ -41,7 +41,7 @@ components:{
     background-size: cover;
     background-position: center center;
     background-color: transparent;
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/history%2Frepublic2017a.jpg?alt=media&token=ca1a02f1-2023-4f52-b0f5-735fda9ca342);
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/history%2Frepublic%2Frepublic2017a.jpg?alt=media&token=7d8e3882-6a23-456c-b534-c4c15737da8b);
   }
 .republic2017text1 p {
     width: 1400px;
