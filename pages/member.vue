@@ -50,5 +50,6 @@
 
 .number {
   text-align: center;
+  font-size: 50px;
 }
 </style>

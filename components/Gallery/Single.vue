@@ -6,9 +6,9 @@
           <v-hover v-slot="{ hover }">
             <v-card :elevation="hover ? 12 : 2" :class="{ 'on-hover': hover }" height="315px" width="560px"
               style="background-color:transparent;">
+              <a :href="gallery.url">
               <v-img class="galleryitem" v-bind:src="gallery.src" :ripple="true" height="315px" width="560px"></v-img>
-              <iframe width="560" height="315" v-bind:src="gallery.yurl"
-                frameborder="0" allowfullscreen autoplay playsinline class="movie"></iframe>
+              </a>
             </v-card>
           </v-hover>
           <span v-text="gallery.name"></span>
