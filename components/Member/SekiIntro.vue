@@ -40,6 +40,10 @@
   export default {
     data() {
       return {
+        pvitems: [{
+            src: require("@/assets/image/member/seki/sekipv.jpg"),
+          },
+        ],
         picitems: [{
             src: require("@/assets/image/member/seki/seki1.jpg"),
           },

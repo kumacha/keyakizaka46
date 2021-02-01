@@ -40,6 +40,10 @@
   export default {
     data() {
       return {
+        pvitems: [{
+            src: require("@/assets/image/member/matsuda/matsudapv.jpg"),
+          },
+        ],
         picitems: [{
             src: require("@/assets/image/member/matsuda/matsuda1.jpg"),
           },
