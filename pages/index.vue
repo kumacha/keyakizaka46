@@ -7,17 +7,13 @@
 </template>
 
 <script>
-export default {mounted() {
-    this.$nextTick(() => {
-      this.$nuxt.$loading.start()
-      setTimeout(() => this.$nuxt.$loading.finish(), 10000)
-      })
-    }
-  }
+export default{
+
+}
 </script>
 
 <style>
-.logo{ 
+.logo{
     top: 0;
   right: 0;
   bottom: 0;
@@ -43,7 +39,6 @@ export default {mounted() {
       margin: 0;
       padding: 0,0;
       z-index: 1;
-      
   }
   .dayslogo{
     color: #ffffff;
