@@ -42,15 +42,15 @@
     font-size: 50px;
     position: absolute;
     left: 50%;
-    top: 30%;
-    -ms-transform: translate(-50%, -30%);
-    -webkit-transform: translate(-50%, -30%);
-    transform: translate(-50%, -30%);
+    top: 40%;
+    -ms-transform: translate(-50%, -40%);
+    -webkit-transform: translate(-50%, -40%);
+    transform: translate(-50%, -40%);
     margin: 0;
     padding: 0;
   }
 
-  .Memberadd2text2 p {
+  .Memberadd2text4 p {
     width: 1000px;
     text-align: center;
     font-size: 40px;
@@ -64,7 +64,7 @@
     padding: 0;
   }
 
-  .Memberadd2text3 p {
+  .Memberadd2text2 p {
     width: 1400px;
     text-align: center;
     font-size: 40px;

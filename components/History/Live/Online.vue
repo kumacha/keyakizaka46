@@ -49,7 +49,7 @@ components:{
 .Onlinetext1 p {
     width: 1400px;
     text-align: center;
-    font-size: 70px;
+    font-size: 60px;
     position: absolute;
     left: 50%;
     top: 35%;
@@ -77,7 +77,7 @@ components:{
   .Onlinetext3 p {
     width: 1000px;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     position: absolute;
     left: 50%;
     top: 60%;
@@ -90,7 +90,7 @@ components:{
   .Onlinetext4 p {
     width: 1400px;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     position: absolute;
     left: 50%;
     top: 75%;

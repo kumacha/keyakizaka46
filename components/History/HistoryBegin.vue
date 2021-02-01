@@ -32,6 +32,7 @@ export default {
 .container {
     padding: 0px;
   }
+
   .begin{
     width: 100vw;
     height: 100vh;
