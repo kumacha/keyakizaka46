@@ -1,36 +1,36 @@
 <template>
   <v-main>
-    <div class="single_image">
-      <div class="single_logo">
+    <div class="single_image_2nd">
+      <div class="single_logo_2nd">
         <img
           src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2F2nd-logo.png?alt=media&token=22ea5fd4-d34a-4f87-b185-1a06216b373c"
           alt="">
       </div>
-      <div class="scroll">
-        <div class="roundwrap">
-          <p class="round">・</p>
+      <div class="scroll_2nd">
+        <div class="roundwrap_2nd">
+          <p class="round_2nd">・</p>
         </div>
-        <div class="scrolltext">SCROLL</div>
+        <div class="scrolltext_2nd">SCROLL</div>
       </div>
-      <div class="singleline"></div>
+      <div class="singleline_2nd"></div>
     </div>
-    <div class="outline">
-      <div class="single_outline">
+    <div class="outline_2nd">
+      <div class="single_outline_2nd">
         <p>2016年8月10日に欅坂46の2枚目のシングルとして発売され、</p>
       </div>
-      <div class="single_outline2">
+      <div class="single_outline2_2nd">
         <p>同年7月から欅坂46のドラマ『徳山大五郎を誰が殺したか?』の主題歌に使用された。</p>
       </div>
-      <div class="jacket_contents">
-    <div class="jacket-imgs">
+      <div class="jacket_contents_2nd">
+    <div class="jacket-imgs_2nd">
       <ul>
         <li>
-          <div class="jacket">
-            <v-img class="type" max-height="250" max-width="250"
+          <div class="jacket_2nd">
+            <v-img class="type_2nd" max-height="250" max-width="250"
               src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle2-A.jpg?alt=media&token=6a9b95e1-151b-4314-8094-a6073b184d7f">
             </v-img>
-            <div class="mask">
-              <div class="songs">
+            <div class="mask_2nd">
+              <div class="songs_2nd">
                 《TYPE-A》収録曲<br>
                 1. 世界には愛しかない<br>
                 2. 語るなら未来を…<br>
@@ -44,12 +44,12 @@
         </li>
 
         <li>
-          <div class="jacket">
+          <div class="jacket_2nd">
             <v-img class="type" max-height="250" max-width="250"
               src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle2-B.jpg?alt=media&token=b8a2d198-5cb4-4b03-9ad2-24e736fb7d76">
             </v-img>
-            <div class="mask">
-              <div class="songs">
+            <div class="mask_2nd">
+              <div class="songs_2nd">
                 《TYPE-B》収録曲<br>
                 1. 世界には愛しかない<br>
                 2. 語るなら未来を…<br>
@@ -64,12 +64,12 @@
 
         <li>
         <li>
-          <div class="jacket">
+          <div class="jacket_2nd">
             <v-img class="type" max-height="250" max-width="250"
               src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle2-C.jpg?alt=media&token=906b14a3-61db-4968-bb31-6540cacff6a4">
             </v-img>
-            <div class="mask">
-              <div class="songs">
+            <div class="mask_2nd">
+              <div class="songs_2nd">
                 《TYPE-C》収録曲<br>
                 1. 世界には愛しかない<br>
                 2. 語るなら未来を…<br>
@@ -83,12 +83,12 @@
         </li>
 
         <li>
-          <div class="jacket">
-            <v-img class="type" max-height="250" max-width="250"
+          <div class="jacket_2nd">
+            <v-img class="type_2nd" max-height="250" max-width="250"
               src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle2-D.jpg?alt=media&token=876e45a2-1e6e-4f46-b19d-9f327e068349">
             </v-img>
-            <div class="mask">
-              <div class="songs">
+            <div class="mask_2nd">
+              <div class="songs_2nd">
                 《通常盤》収録曲<br>
                 1. 世界には愛しかない<br>
                 2. ボブディランは返さない<br>
@@ -106,18 +106,18 @@
       </div>
       <HistoryLine />
     </div>
-    <div class="single_textbox">
-      <div class="single_text">
+    <div class="single_textbox_2nd">
+      <div class="single_text_2nd">
         <p>夏を感じさせる清涼感と疾走感、そして「未来には愛しかない」「悲しみなんてその時の空模様」「だれに反対されても心の向きは変えられない」など、
         </p>
       </div>
-      <div class="single_text2">
+      <div class="single_text2_2nd">
         <p>その時の心境をポジティブにしてくれる前向きな歌詞が特徴である。</p>
       </div>
       <HistoryLine />
     </div>
-    <div class="single_movie">
-      <div class="movie_contents">
+    <div class="single_movie_2nd">
+      <div class="movie_contents_2nd">
         <v-container>
           <v-row>
             <v-col cols="12" md="4">
@@ -137,12 +137,15 @@
             </v-col>
           </v-row>
         </v-container>
-        <div class="movie_text">
+        <div class="movie_text_2nd">
           <p>この楽曲の中でポエトリーリーディングという詩の朗読に挑戦している。
             </p>
           <p> アイドルの楽曲としては珍しいこの手法が、楽曲にどのような効果をもたらしているのかを実際に聞いて感じてもらいたい。
           </p>
         </div>
+      </div>
+      <div class="gosingle">
+        <Gosingle/>
       </div>
     </div>
 
@@ -152,16 +155,28 @@
 
 <script>
   import HistoryLine from '~/components/History/HistoryLine.vue'
+  import Gosingle from '~/components/Discography/Gosingle.vue'
   export default {
     layout: 'Historydefault',
     components: {
-      HistoryLine
+      HistoryLine,
+      Gosingle
     }
   }
 </script>
 
 <style>
-  .single_image {
+.gosingle{
+  position: absolute;
+    left: 50%;
+    top: 150%;
+    -ms-transform: translate(-50%, -150%);
+    -webkit-transform: translate(-50%, -150%);
+    transform: translate(-50%, -150%);
+    margin: 0;
+    padding: 0;
+}
+  .single_image_2nd {
     width: 100vw;
     height: 100vh;
     position: relative;
@@ -171,7 +186,7 @@
     background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2F2nd%2Fsekaai-black.jpg?alt=media&token=4d57be6a-b5b6-4ad9-851e-e7bc5e3168f0);
   }
 
-  .single_logo {
+  .single_logo_2nd {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -182,7 +197,7 @@
     padding: 0;
   }
 
-  .scroll {
+  .scroll_2nd {
     position: absolute;
     left: 50%;
     top: 90%;
@@ -194,7 +209,7 @@
   }
 
   /* 丸の取り囲むやつ */
-  .roundwrap {
+  .roundwrap_2nd {
     width: 30px;
     height: 70px;
     border: solid;
@@ -205,7 +220,7 @@
   }
 
   /* マルのcss */
-  .round {
+  .round_2nd {
     color: white;
     font-size: 50px;
     display: inline-block;
@@ -231,7 +246,7 @@
     }
   }
 
-  .singleline {
+  .singleline_2nd {
     width: 1px;
     height: 200px;
     background-color: white;
@@ -246,7 +261,7 @@
     z-index: 100;
   }
 
-  .outline {
+  .outline_2nd {
     width: 100vw;
     height: 100vh;
     position: relative;
@@ -255,7 +270,7 @@
     background-color: transparent;
   }
 
-  .single_outline {
+  .single_outline_2nd {
     text-shadow: 3px 3px 2px #0f0f0f;
     font-size: 25px;
     width: 1000px;
@@ -269,7 +284,7 @@
     padding: 0;
   }
 
-  .single_outline2 {
+  .single_outline2_2nd {
     text-shadow: 3px 3px 2px #0f0f0f;
     font-size: 25px;
     width: 1000px;
@@ -283,7 +298,7 @@
     padding: 0;
   }
 
-  .jacket_contents {
+  .jacket_contents_2nd {
     width: 1600px;
     left: 55%;
     top: 70%;
@@ -299,7 +314,7 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 
-  .jacket {
+  .jacket_2nd {
     width: 250px;
     height: 250px;
     overflow: hidden;
@@ -307,13 +322,13 @@
     position: relative;
   }
 
-  .jacket .songs {
+  .jacket_2nd .songs_2nd {
     font-size: 10px;
     line-height: 20px;
     margin-top: 55px;
   }
 
-  .jacket .mask {
+  .jacket_2nd .mask_2nd {
     width: 250px;
     height: 248px;
     position: absolute;
@@ -325,18 +340,18 @@
     transition: all 0.6s ease;
   }
 
-  .jacket:hover .mask {
+  .jacket_2nd:hover .mask_2nd {
     opacity: 1;
     padding-left: 30px;
   }
 
 
-  .jacket-imgs {
+  .jacket-imgs_2nd {
     position: relative;
     overflow: hidden;
   }
 
-  .jacket-imgs ul {
+  .jacket-imgs_2nd ul {
     list-style: none;
     position: relative;
     left: 50%;
@@ -344,14 +359,14 @@
     margin-left: -25px;
   }
 
-  .jacket-imgs ul li {
+  .jacket-imgs_2nd ul li {
     position: relative;
     left: -50%;
     float: left;
     margin-left: 10px;
   }
 
-  .single_textbox {
+  .single_textbox_2nd {
     width: 100vw;
     height: 100vh;
     position: relative;
@@ -361,7 +376,7 @@
     background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2F2nd%2Fsecond2.jpg?alt=media&token=826b6917-3e1c-44f2-89c5-9416ebec0455);
   }
 
-  .single_text {
+  .single_text_2nd {
     text-shadow: 3px 3px 2px #0f0f0f;
     font-size: 25px;
     width: 1400px;
@@ -375,7 +390,7 @@
     padding: 0;
   }
 
-  .single_text2 {
+  .single_text2_2nd {
     text-shadow: 3px 3px 2px #0f0f0f;  
     font-size: 25px;
     width: 1450px;
@@ -389,7 +404,7 @@
     padding: 0;
   }
 
-  .single_text3 {
+  .single_text3_2nd {
     font-size: 23px;
     width: 1600px;
     left: 0%;
@@ -402,7 +417,7 @@
     padding: 0;
   }
 
-  .single_movie {
+  .single_movie_2nd {
     width: 100vw;
     height: 100vh;
     position: relative;
@@ -411,7 +426,7 @@
     background-color: transparent;
   }
 
-  .movie_contents {
+  .movie_contents_2nd {
     font-size: 22px;
     left: 50%;
     top: 45%;
@@ -423,7 +438,7 @@
     padding: 0;
   }
 
-  .movie_text {
+  .movie_text_2nd {
     text-shadow: 3px 3px 2px #0f0f0f;
     width: 1600px;
     left: 0%;

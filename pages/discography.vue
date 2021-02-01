@@ -8,7 +8,7 @@
       <p>Discography</p>
     </div>
 
-    <div class="single">
+    <div class="singless">
       SINGLE
     </div>
     <div>
@@ -170,7 +170,7 @@
     top: 290px;
   }
 
-  .single {
+  .singless {
     text-align: center;
     text-decoration-line: underline;
     font-size: 18px;
