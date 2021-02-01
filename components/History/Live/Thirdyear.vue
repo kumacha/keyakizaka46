@@ -46,11 +46,11 @@
     text-align: center;
     font-size: 40px;
     position: absolute;
-    left: 150%;
+    left: 140%;
     top: 45%;
-    -ms-transform: translate(-150%, -45%);
-    -webkit-transform: translate(-150%, -45%);
-    transform: translate(-150%, -45%);
+    -ms-transform: translate(-140%, -45%);
+    -webkit-transform: translate(-140%, -45%);
+    transform: translate(-140%, -45%);
     margin: 0;
     padding: 0;
   }

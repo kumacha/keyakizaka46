@@ -45,7 +45,9 @@
           </v-col>
         </v-row>
             </div>
+            <MatsudairaIntro/>
       </v-container>
+      <GoMember2/>
 </v-app>
 
 </template>

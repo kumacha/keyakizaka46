@@ -3,7 +3,7 @@
   <div class="Omote">
       <div class="ariakedate"><p>2019年4月20日-28日</p></div>
       <div class="Omotetext1"><p>欅坂46 二期生「おもてなし会」</p></div>
-      <div class="Omotetext2"><p>in丸善インテックアリーナ大阪・武蔵野の森総合スポーツプラザ</p></div>
+
       <div class="Omotetext3"><p>欅坂46の楽曲を2期生のみで披露！</p></div>
       <div class="Omotetext4"><p>楽曲ごとにセンターが入れ替わり魅力的であった</p></div>
       <div class="hismore"><p>>>MORE</p></div>
@@ -38,20 +38,6 @@
     -ms-transform: translate(-50%, -35%);
     -webkit-transform: translate(-50%, -35%);
     transform: translate(-50%, -35%);
-    margin: 0;
-    padding: 0;
-  }
-
-  .Omotetext2 p {
-    width: 1000px;
-    text-align: center;
-    font-size: 40px;
-    position: absolute;
-    left: 150%;
-    top: 45%;
-    -ms-transform: translate(-150%, -45%);
-    -webkit-transform: translate(-150%, -45%);
-    transform: translate(-150%, -45%);
     margin: 0;
     padding: 0;
   }
