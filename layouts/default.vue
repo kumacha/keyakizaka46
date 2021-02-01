@@ -36,6 +36,15 @@
   .v-application p {
     margin-bottom: 0px;
   }
+html{
+overflow-x : hidden;
+overflow-y : auto;
+}
+
+body{
+overflow-x : hidden;
+overflow-y : auto;
+}
 
   body {
     position: relative;

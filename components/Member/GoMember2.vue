@@ -14,7 +14,7 @@
                     <v-card-text v-text="member.number">
                     </v-card-text>
                     <v-fade-transition>
-                      <v-overlay v-if="hover" absolute color="#66CDAA"></v-overlay>
+                      <v-overlay v-if="hover" absolute color="#555555"></v-overlay>
                     </v-fade-transition>
                   </v-card>
                   </template>
