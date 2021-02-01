@@ -63,7 +63,6 @@
         </div>
       </div>
     </div>
-
   </v-main>
 </template>
 
@@ -247,7 +246,6 @@
     opacity: 1;
     padding-left: 30px;
   }
-
 
   .jacket-imgs {
     position: relative;

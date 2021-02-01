@@ -161,7 +161,6 @@
         </div>
       </div>
     </div>
-
   </v-main>
 </template>
 
@@ -365,7 +364,6 @@
     float: left;
     margin-left: 10px;
   }
-
   .single_textbox {
     width: 100vw;
     height: 100vh;

@@ -102,6 +102,7 @@
         </li>
       </ul>
     </div>
+
       </div>
       <HistoryLine />
     </div>
@@ -144,6 +145,7 @@
         </div>
       </div>
     </div>
+
 
   </v-main>
 </template>

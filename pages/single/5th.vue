@@ -121,6 +121,7 @@
         </li>
       </ul>
     </div>
+
       </div>
       <HistoryLine />
     </div>
@@ -160,7 +161,7 @@
         </div>
       </div>
     </div>
-
+    
   </v-main>
 </template>
 
@@ -364,6 +365,7 @@
     float: left;
     margin-left: 10px;
   }
+
 
   .single_textbox {
     width: 100vw;
