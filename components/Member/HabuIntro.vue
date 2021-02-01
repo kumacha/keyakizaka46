@@ -28,7 +28,7 @@
             <div class="carousel">
              <v-carousel width="570px" height="400px" :show-arrows-on-hover="true" cycle="true" interval="3500">
                 <v-carousel-item class="slideshow" v-for="(pvitem,i) in pvitems" :key="i" :src="pvitem.src"
-                  hide-delimiter-background> 
+                hide-delimiter-background> 
                 </v-carousel-item>
               </v-carousel>
             </div>

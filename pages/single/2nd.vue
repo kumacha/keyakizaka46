@@ -121,19 +121,19 @@
         <v-container>
           <v-row>
             <v-col cols="12" md="4">
-              <v-img
+              <a href="https://youtu.be/83vyrFFjiqQ"><v-img
                 src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Fsingle%2Fsekaai.jpg?alt=media&token=fe33b18c-2c33-4004-99b0-a38d6350277f">
-              </v-img>
+              </v-img></a>
             </v-col>
             <v-col md="4">
-              <v-img
+              <a href="https://youtu.be/AFg1x-xCxa4"><v-img
                 src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Fcoupling%2Fkatamira.jpg?alt=media&token=20fffd03-05d5-4f89-91ef-8023499e0607">
-              </v-img>
+              </v-img></a>
             </v-col>
             <v-col md="4">
-              <v-img
+              <a href="https://youtu.be/UrT_xpmmNOs"><v-img
                 src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Fcoupling%2Fmataatte.jpg?alt=media&token=11feb73b-9d55-477b-a951-e08472963fb0">
-              </v-img>
+              </v-img></a>
             </v-col>
           </v-row>
         </v-container>

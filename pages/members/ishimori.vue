@@ -31,11 +31,7 @@
           <v-col>
             <div class="m-intro">
               <p>
-<<<<<<< HEAD
                ニックネーム： {{member.nicname}}
-=======
-                ニックネーム： {{"member.nicname"}}
->>>>>>> origin
               </p>
               <p>
                 生年月日： {{member.birth}}
