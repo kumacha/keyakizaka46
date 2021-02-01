@@ -32,9 +32,9 @@
             </div>
             <div class="carousel2">
               <v-carousel width="570px" height="400px" :show-arrows-on-hover="true" cycle="true" interval="3500">
-                <v-carousel-item class="slideshow" v-for="(pvitem,i) in pvitems" :key="i" :src="pvitem.src"
+                <a href="https://youtu.be/D0Cvj4_mzQA"><v-carousel-item class="slideshow" v-for="(pvitem,i) in pvitems" :key="i" :src="pvitem.src"
                   hide-delimiter-background>
-                </v-carousel-item>
+                </v-carousel-item></a>
               </v-carousel>
             </div>
           </v-col>

@@ -85,6 +85,7 @@ export default {
 }
 
 .text1{
+  text-shadow: 3px 3px 2px #0f0f0f;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 25px; 
   line-height: 45px;
