@@ -9,7 +9,7 @@
     </div>
       <v-row>
         <v-col class="aboutpic1">
-          <v-img width="650px" height="400px" class="pic1" 
+          <v-img width="650px" height="400px" class="pic1"
           src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/about%2Faboutpic1.jpg?alt=media&token=9148965b-c5d8-4f22-9f46-06dac37449a9">
           </v-img>
         </v-col>

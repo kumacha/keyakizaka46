@@ -36,7 +36,7 @@
     background-size: cover;
     background-position: center center;
     background-color: transparent;
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/history%2Ftour2017%2Ftour2017.jpg?alt=media&token=cc95081e-1265-41f1-be35-63b9b723e575);
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/tour2019.jpg?alt=media&token=1ff5c4ad-0586-449d-bd00-1aeebd4d56bb);
   }
 
   .Tour2019text1 p {

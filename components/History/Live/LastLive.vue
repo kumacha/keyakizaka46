@@ -149,10 +149,10 @@ components:{
     font-size: 40px;
     position: absolute;
     left: 140%;
-    top: 45%;
-    -ms-transform: translate(-140%, -45%);
-    -webkit-transform: translate(-140%, -45%);
-    transform: translate(-140%, -45%);
+    top: 55%;
+    -ms-transform: translate(-140%, -55%);
+    -webkit-transform: translate(-140%, -55%);
+    transform: translate(-140%, -55%);
     margin: 0;
     padding: 0;
   }
