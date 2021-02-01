@@ -197,6 +197,10 @@
     margin-left: -35px;
   }
 
+.single-images ul {
+    margin-left: 21px;
+  }
+
   .album-images {
     position: relative;
     display: flex;

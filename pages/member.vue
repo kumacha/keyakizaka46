@@ -23,7 +23,24 @@
       Member,
       Member2
     },
-  }
+
+    data: () => ({
+      items: [{
+          select: '1期生・2期生',
+          link: '/member'
+        },
+        {
+          select: '1期生・2期生',
+          link: '/member'
+        },
+        {
+          select: '1期生・2期生',
+          link: '/member'
+        }
+      ],
+    }),
+}
+
 </script>
 
 <style>
