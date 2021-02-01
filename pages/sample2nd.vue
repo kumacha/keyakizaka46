@@ -344,12 +344,12 @@
   .movie_text {
     text-shadow: 3px 3px 2px #0f0f0f;
     width: 1600px;
-    left: 35%;
+    left: 30%;
     top: 130%;
     position: absolute;
-    -ms-transform: translate(-35%, -130%);
-    -webkit-transform: translate(-35%, -130%);
-    transform: translate(-35%, -130%);
+    -ms-transform: translate(-30%, -130%);
+    -webkit-transform: translate(-30%, -130%);
+    transform: translate(-30%, -130%);
     margin: 0;
     padding: 0;
   }

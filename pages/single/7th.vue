@@ -1,17 +1,27 @@
 <template>
   <v-main>
-    <div class="m-btn">
-      <v-container>
-        <v-btn color="#EEEEEE" depressed elevation="24" outlined text light to="/discography"><span
-            id="span">DISCOGRAPHYページへ戻る</span></v-btn>
-      </v-container>
+    <div class="single_image">
+      <div class="single_logo">
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2F7th-logo.png?alt=media&token=98f74848-b1e3-4374-8d09-a1c6430b003e"
+          alt="">
+      </div>
+      <div class="scroll">
+        <div class="roundwrap">
+          <p class="round">・</p>
+        </div>
+        <div class="scrolltext">SCROLL</div>
+      </div>
+      <div class="singleline"></div>
     </div>
-    <div>
-      <v-img class="single-img"
-        src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle_7th.png?alt=media&token=b74ae779-aac6-4763-b626-f260b9effb07">
-      </v-img>
-    </div>
-
+    <div class="outline">
+      <div class="single_outline">
+        <p>2018年8月15日7枚目のシングルとして発売。2018年12月以降、平手友梨奈が体調不良で</p>
+      </div>
+      <div class="single_outline2">
+        <p>一部活動を休止している際には、代役センターを立てパフォーマンスをしていた。</p>
+      </div>
+      <div class="jacket_contents">
     <div class="jacket-imgs">
       <ul>
         <li>
@@ -111,22 +121,193 @@
         </li>
       </ul>
     </div>
+      </div>
+      <HistoryLine />
+    </div>
+    <div class="single_textbox">
+      <div class="single_text">
+        <p>代役センターは、同期のメンバーである鈴本美愉・土生瑞穂・渡邉理佐・小林由依らが務めることが多かった。<br>
+        「アンビバレント」とは、相反する感情という意味であり、</p>
+      </div>
+      <div class="single_text2">
+        <p>楽曲中に「孤独なまま生きていたい」というような一人で生きることを望む歌詞が続くが、<br>
+        最後に「だけど一人じゃ生きられない」と全く真逆の歌詞が現れ主人公のアンビバレントな感情が描かれている。</p>
+      </div>
+      <HistoryLine />
+    </div>
+    <div class="single_movie">
+      <div class="movie_contents">
+        <v-container>
+          <v-row>
+            <v-col cols="12" md="4">
+              <v-img
+                src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Fsingle%2Fanbiva.jpg?alt=media&token=8fc9df27-c750-4369-a7c7-ccec68881c99">
+              </v-img>
+            </v-col>
+            <v-col md="4">
+              <v-img
+                src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Fcoupling%2Fkataomi.jpg?alt=media&token=3e715e2f-513f-42fa-a75d-17c9f1a4816f">
+              </v-img>
+            </v-col>
+            <v-col md="4">
+              <v-img
+                src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Fcoupling%2Fstuden.jpg?alt=media&token=9957a6f4-88d2-4ebf-adbc-dd5f5250863c">
+              </v-img>
+            </v-col>
+          </v-row>
+        </v-container>
+        <div class="movie_text">
+          <p>疾走感のあるクールな曲調とは裏腹に人間関係に対するアンビバレントな苦悩がこれでもかと綴られているのがこの楽曲である。</p>
+        </div>
+      </div>
+    </div>
+
   </v-main>
 </template>
 
 <script>
+  import HistoryLine from '~/components/History/HistoryLine.vue'
   export default {
-
+    layout: 'Historydefault',
+    components: {
+      HistoryLine
+    }
   }
-
 </script>
 
 <style>
-  .single1-img {
-    margin-top: 20px;
-    max-width: 1150px;
-    margin-left: auto;
-    margin-right: auto;
+  .single_image {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-color: transparent;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/slideshow-pic%2Fslideshow7.jpg?alt=media&token=5ecc9baf-8547-4b4c-b727-ab4d36d65c10);
+  }
+
+  .single_logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+  }
+
+  .scroll {
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    -ms-transform: translate(-50%, -90%);
+    -webkit-transform: translate(-50%, -90%);
+    transform: translate(-50%, -90%);
+    margin: 0;
+    padding: 0;
+  }
+
+  /* 丸の取り囲むやつ */
+  .roundwrap {
+    width: 30px;
+    height: 70px;
+    border: solid;
+    border-color: white;
+    border-radius: 40px;
+    position: relative;
+    left: 27%;
+  }
+
+  /* マルのcss */
+  .round {
+    color: white;
+    font-size: 50px;
+    display: inline-block;
+    position: absolute;
+    left: -50%;
+    top: 0%;
+    -ms-transform: translate(50%, -0%);
+    -webkit-transform: translate(50%, -0%);
+    transform: translate(50%, -0%);
+    margin: 0;
+    padding: 0;
+    animation: move-y .7s infinite alternate ease-in-out;
+  }
+
+  /* マルのアニメーション */
+  @keyframes move-y {
+    from {
+      transform: translateY(-15px);
+    }
+
+    to {
+      transform: translateY(10px);
+    }
+  }
+
+  .singleline {
+    width: 1px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 130%;
+    -ms-transform: translate(-50%, -130%);
+    -webkit-transform: translate(-50%, -13%);
+    transform: translate(-50%, -130%);
+    margin: 0;
+    padding: 0;
+    z-index: 100;
+  }
+
+  .outline {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-color: transparent;
+  }
+
+  .single_outline {
+    text-shadow: 3px 3px 2px #0f0f0f;
+    font-size: 25px;
+    width: 1000px;
+    left: 5%;
+    top: 25%;
+    position: absolute;
+    -ms-transform: translate(-5%, -25%);
+    -webkit-transform: translate(-5%, -25%);
+    transform: translate(-5%, -25%);
+    margin: 0;
+    padding: 0;
+  }
+
+  .single_outline2 {
+    text-shadow: 3px 3px 2px #0f0f0f;
+    font-size: 25px;
+    width: 1000px;
+    left: 115%;
+    top: 35%;
+    position: absolute;
+    -ms-transform: translate(-115%, -35%);
+    -webkit-transform: translate(-115%, -35%);
+    transform: translate(-115%, -35%);
+    margin: 0;
+    padding: 0;
+  }
+
+  .jacket_contents {
+    width: 1600px;
+    left: 55%;
+    top: 70%;
+    position: absolute;
+    -ms-transform: translate(-55%, -70%);
+    -webkit-transform: translate(-55%, -70%);
+    transform: translate(-55%, -70%);
+    margin: 0;
+    padding: 0;
   }
 
   #span {
@@ -185,4 +366,88 @@
     margin-left: 10px;
   }
 
+  .single_textbox {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-color: transparent;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2F7th%2F7th.jpg?alt=media&token=32c70044-6dcb-4da5-a332-65ba14bd712a);
+  }
+
+  .single_text {
+    text-shadow: 3px 3px 2px #0f0f0f;
+    font-size: 25px;
+    width: 1400px;
+    left: 45%;
+    top: 25%;
+    position: absolute;
+    -ms-transform: translate(-45%, -25%);
+    -webkit-transform: translate(-45%, -25%);
+    transform: translate(-45%, -25%);
+    margin: 0;
+    padding: 0;
+  }
+
+  .single_text2 {
+    text-shadow: 4px 4px 4px #0f0f0f;
+    font-size: 25px;
+    width: 1450px;
+    left: 100%;
+    top: 80%;
+    position: absolute;
+    -ms-transform: translate(-100%, -80%);
+    -webkit-transform: translate(-100%, -80%);
+    transform: translate(-100%, -80%);
+    margin: 0;
+    padding: 0;
+  }
+
+  .single_text3 {
+    font-size: 23px;
+    width: 1600px;
+    left: 0%;
+    top: 80%;
+    position: absolute;
+    -ms-transform: translate(-0%, -80%);
+    -webkit-transform: translate(-0%, -80%);
+    transform: translate(-0%, -80%);
+    margin: 0;
+    padding: 0;
+  }
+
+  .single_movie {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-color: transparent;
+  }
+
+  .movie_contents {
+    font-size: 22px;
+    left: 50%;
+    top: 45%;
+    position: absolute;
+    -ms-transform: translate(-50%, -45%);
+    -webkit-transform: translate(-50%, -45%);
+    transform: translate(-50%, -45%);
+    margin: 0;
+    padding: 0;
+  }
+
+  .movie_text {
+    text-shadow: 3px 3px 2px #0f0f0f;
+    width: 1600px;
+    left: 10%;
+    top: 150%;
+    position: absolute;
+    -ms-transform: translate(-10%, -150%);
+    -webkit-transform: translate(-10%, -150%);
+    transform: translate(-10%, -150%);
+    margin: 0;
+    padding: 0;
+  }
 </style>

@@ -1,17 +1,27 @@
 <template>
   <v-main>
-    <div class="m-btn">
-      <v-container>
-        <v-btn color="#EEEEEE" depressed elevation="24" outlined text light to="/discography"><span
-            id="span">DISCOGRAPHYページへ戻る</span></v-btn>
-      </v-container>
+    <div class="single_image">
+      <div class="single_logo">
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2F5th-logo.png?alt=media&token=bc2cf86e-4948-45ef-affa-3c7e028dd12a"
+          alt="">
+      </div>
+      <div class="scroll">
+        <div class="roundwrap">
+          <p class="round">・</p>
+        </div>
+        <div class="scrolltext">SCROLL</div>
+      </div>
+      <div class="singleline"></div>
     </div>
-    <div>
-      <v-img class="single-img"
-        src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2Fsingle_5th.png?alt=media&token=ea2b7e96-505a-457d-9f45-cc82607aad27">
-      </v-img>
-    </div>
-
+    <div class="outline">
+      <div class="single_outline">
+        <p>2017年10月25日に発売された5枚目のシングルでメンバー全員がスタイリッシュなスーツ</p>
+      </div>
+      <div class="single_outline2">
+        <p>スタイルで行う軽快なダンスが話題になったこの曲はメチャカリのCM曲にも選ばれた。</p>
+      </div>
+      <div class="jacket_contents">
     <div class="jacket-imgs">
       <ul>
         <li>
@@ -111,21 +121,192 @@
         </li>
       </ul>
     </div>
+      </div>
+      <HistoryLine />
+    </div>
+    <div class="single_textbox">
+      <div class="single_text">
+        <p>サビまで直行する早急な展開、サビでの軽快なリズム、音域を維持するメロディーという楽曲の特徴や、それに加え「笑顔」や「黒スーツ」といった要素がそれを補強し、</p>
+      </div>
+      <div class="single_text2">
+        <p>笑わないアイドルというイメージが定着してきた時期だったが、そのようなシリアスなイメージを刷新したシングルとなった。</p>
+      </div>
+      <HistoryLine />
+    </div>
+    <div class="single_movie">
+      <div class="movie_contents">
+        <v-container>
+          <v-row>
+            <v-col cols="12" md="4">
+              <v-img
+                src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Fsingle%2Fkazefuka.jpg?alt=media&token=b9b1de5c-ac17-44c6-be50-a8a08ddad31e">
+              </v-img>
+            </v-col>
+            <v-col md="4">
+              <v-img
+                src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Fcoupling%2Fnamiutigiwa.jpg?alt=media&token=7e3c49cb-9722-4b4c-bb3e-1b7534e7ac05">
+              </v-img>
+            </v-col>
+              <v-col md="4">
+              <v-img
+                src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Fcoupling%2Fhiraishin.jpg?alt=media&token=6578b0d6-0b21-4149-9ad1-e18ce6d1b4aa">
+              </v-img>
+            </v-col>
+          </v-row>
+        </v-container>
+        <div class="movie_text">
+          <p>歌詞から読み取ることができる楽曲の内容は恋の行方をポジティブに歌ったものとなっていて、4枚目のシングルとはかなり印象が変わった。
+           </p>
+        </div>
+      </div>
+    </div>
+
   </v-main>
 </template>
 
 <script>
+  import HistoryLine from '~/components/History/HistoryLine.vue'
   export default {
-
+    layout: 'Historydefault',
+    components: {
+      HistoryLine
+    }
   }
-
 </script>
 
 <style>
-  .single-img {
-    max-width: 1150px;
-    margin-left: auto;
-    margin-right: auto;
+  .single_image {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-color: transparent;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/slideshow-pic%2Fslideshow5.jpg?alt=media&token=ee71a01f-92f9-4a60-bbff-23f5f81669d5);
+  }
+
+  .single_logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+  }
+
+  .scroll {
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    -ms-transform: translate(-50%, -90%);
+    -webkit-transform: translate(-50%, -90%);
+    transform: translate(-50%, -90%);
+    margin: 0;
+    padding: 0;
+  }
+
+  /* 丸の取り囲むやつ */
+  .roundwrap {
+    width: 30px;
+    height: 70px;
+    border: solid;
+    border-color: white;
+    border-radius: 40px;
+    position: relative;
+    left: 27%;
+  }
+
+  /* マルのcss */
+  .round {
+    color: white;
+    font-size: 50px;
+    display: inline-block;
+    position: absolute;
+    left: -50%;
+    top: 0%;
+    -ms-transform: translate(50%, -0%);
+    -webkit-transform: translate(50%, -0%);
+    transform: translate(50%, -0%);
+    margin: 0;
+    padding: 0;
+    animation: move-y .7s infinite alternate ease-in-out;
+  }
+
+  /* マルのアニメーション */
+  @keyframes move-y {
+    from {
+      transform: translateY(-15px);
+    }
+
+    to {
+      transform: translateY(10px);
+    }
+  }
+
+  .singleline {
+    width: 1px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 130%;
+    -ms-transform: translate(-50%, -130%);
+    -webkit-transform: translate(-50%, -13%);
+    transform: translate(-50%, -130%);
+    margin: 0;
+    padding: 0;
+    z-index: 100;
+  }
+
+  .outline {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-color: transparent;
+  }
+
+  .single_outline {
+    text-shadow: 3px 3px 2px #0f0f0f;
+    font-size: 25px;
+    width: 1000px;
+    left: 5%;
+    top: 25%;
+    position: absolute;
+    -ms-transform: translate(-5%, -25%);
+    -webkit-transform: translate(-5%, -25%);
+    transform: translate(-5%, -25%);
+    margin: 0;
+    padding: 0;
+  }
+
+  .single_outline2 {
+    text-shadow: 3px 3px 2px #0f0f0f;
+    font-size: 25px;
+    width: 1000px;
+    left: 100%;
+    top: 35%;
+    position: absolute;
+    -ms-transform: translate(-100%, -35%);
+    -webkit-transform: translate(-100%, -35%);
+    transform: translate(-100%, -35%);
+    margin: 0;
+    padding: 0;
+  }
+
+  .jacket_contents {
+    width: 1600px;
+    left: 55%;
+    top: 70%;
+    position: absolute;
+    -ms-transform: translate(-55%, -70%);
+    -webkit-transform: translate(-55%, -70%);
+    transform: translate(-55%, -70%);
+    margin: 0;
+    padding: 0;
   }
 
   #span {
@@ -184,4 +365,88 @@
     margin-left: 10px;
   }
 
+  .single_textbox {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-color: transparent;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/single%2F5th%2F5th.jpg?alt=media&token=e432aa60-42cc-4c25-af4b-f23914f00d90);
+  }
+
+  .single_text {
+    text-shadow: 3px 3px 2px #0f0f0f;
+    font-size: 25px;
+    width: 1400px;
+    left: 45%;
+    top: 25%;
+    position: absolute;
+    -ms-transform: translate(-45%, -25%);
+    -webkit-transform: translate(-45%, -25%);
+    transform: translate(-45%, -25%);
+    margin: 0;
+    padding: 0;
+  }
+
+  .single_text2 {
+    text-shadow: 3px 3px 2px #0f0f0f;
+    font-size: 25px;
+    width: 1450px;
+    left: 100%;
+    top: 80%;
+    position: absolute;
+    -ms-transform: translate(-100%, -80%);
+    -webkit-transform: translate(-100%, -80%);
+    transform: translate(-100%, -80%);
+    margin: 0;
+    padding: 0;
+  }
+
+  .single_text3 {
+    font-size: 23px;
+    width: 1600px;
+    left: 0%;
+    top: 80%;
+    position: absolute;
+    -ms-transform: translate(-0%, -80%);
+    -webkit-transform: translate(-0%, -80%);
+    transform: translate(-0%, -80%);
+    margin: 0;
+    padding: 0;
+  }
+
+  .single_movie {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-color: transparent;
+  }
+
+  .movie_contents {
+    font-size: 22px;
+    left: 50%;
+    top: 45%;
+    position: absolute;
+    -ms-transform: translate(-50%, -45%);
+    -webkit-transform: translate(-50%, -45%);
+    transform: translate(-50%, -45%);
+    margin: 0;
+    padding: 0;
+  }
+
+  .movie_text {
+    text-shadow: 3px 3px 2px #0f0f0f;
+    width: 1600px;
+    left: 5%;
+    top: 150%;
+    position: absolute;
+    -ms-transform: translate(-5%, -150%);
+    -webkit-transform: translate(-5%, -150%);
+    transform: translate(-5%, -150%);
+    margin: 0;
+    padding: 0;
+  }
 </style>
