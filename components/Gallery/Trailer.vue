@@ -5,7 +5,7 @@
         <v-col v-for="(gallery, index) in GallerysTrailerArray" :key="index" cols="12" sm="6">
           <div class="global_wrapper">
             <div class="youtube">
-              <a :href="gallery.url">
+              <a :href="gallery.url" target="_blank">
               <img class="thumb" v-bind:src="gallery.src" data-video="0tkzaClk6Ho" height="315" width="560"/>
               </a>
                 </div>

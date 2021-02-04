@@ -5,7 +5,7 @@
       <div class="lastsingletext1"><p>Last Single 「誰がその鐘を鳴らすのか？」発売</p></div>
       <div class="lastsingletext2"><p>欅坂46としての最後のアルバム</p></div>
       <div class="lastsingletext3"><p>2期生を含めたメンバー全員によるパフォーマンスが特徴。</p></div>
-      <div class="discomore"><p>Discographyへ</p></div>
+      <div class="discomore"><a href="/discography"><p>＞＞DISCOGRAPHY</p></a></div>
       <HistoryLine/>
 　　</div>
 </div>

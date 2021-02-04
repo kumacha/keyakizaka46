@@ -1,5 +1,6 @@
 <template>
   <v-main>
+    
       <div class="global_wrapper">
   <div class="youtube">
     <img

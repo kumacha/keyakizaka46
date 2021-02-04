@@ -1,5 +1,6 @@
 <template>
   <div class="debut2">
+    <a name="2015"></a>
     <div class="ariakedate">
       <p>2015年8月21日</p>
     </div>

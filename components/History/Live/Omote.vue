@@ -6,7 +6,6 @@
 
       <div class="Omotetext3"><p>欅坂46の楽曲を2期生のみで披露！</p></div>
       <div class="Omotetext4"><p>楽曲ごとにセンターが入れ替わり魅力的であった</p></div>
-      <div class="hismore"><p>>>MORE</p></div>
       <HistoryLine/>
 　　</div>
 </div>

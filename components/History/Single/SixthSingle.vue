@@ -1,11 +1,12 @@
 <template>
 <div id="historycontents">
+  <a name="2018"></a>
   <div class="sixthsingle">
       <div class="ariakedate"><p>2018年3月7日</p></div>
       <div class="sixthsingletext1"><p>6th Single 「ガラスを割れ！」発売</p></div>
       <div class="sixthsingletext2"><p>抑圧への反逆を歌った楽曲であり、ロックな曲調が展開される。</p></div>
       <div class="sixthsingletext3"><p>サビでの前へ飛び出すパフォーマンスが注目を集めた。</p></div>
-      <div class="discomore"><p>Discographyへ</p></div>
+      <div class="discomore"><a href="/discography"><p>＞＞DISCOGRAPHY</p></a></div>
       <HistoryLine/>
 　　</div>
 </div>

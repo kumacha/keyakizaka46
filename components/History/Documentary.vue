@@ -1,7 +1,7 @@
 <template>
   <div class="Documentary">
     <div class="ariakedate">
-      <p>2015年9月4日</p>
+      <p>2020年9月4日</p>
     </div>
     <div class="Documentarytext1">
       <p>『僕たちの嘘と真実 Documentary of 欅坂46』を公開</p>
@@ -36,7 +36,7 @@
     background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/history%2Fhistoy%2Fmovie.jpg?alt=media&token=12f296b2-b69b-4fb7-aaed-5adbdd1339be);
   }
   .Documentarytext1 p {
-    width: 1000px;
+    width: 1400px;
     text-align: center;
     font-size: 50px;
     position: absolute;

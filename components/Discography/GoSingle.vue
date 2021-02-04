@@ -80,7 +80,7 @@
 
 <style>
 .theme--dark.v-sheet{
-  background-color: transparent;
+  background-color: transparent  !important;
 }
 .gotext{
     text-align: center;

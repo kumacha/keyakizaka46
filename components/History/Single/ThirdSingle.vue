@@ -5,7 +5,7 @@
       <div class="thirdsingletext1"><p>3rd Single 「二人セゾン」発売</p></div>
       <div class="thirdsingletext2"><p>「出会い」と「別れ」を謳った歌詞は、多くの共感を生んだ。</p></div>
       <div class="thirdsingletext3"><p>バレエの様な振付が特徴的な楽曲である。</p></div>
-      <div class="discomore"><p>Discographyへ</p></div>
+      <div class="discomore"><a href="/discography"><p>＞＞DISCOGRAPHY</p></a></div>
       <HistoryLine/>
 　　</div>
 </div>

@@ -1,7 +1,8 @@
 <template>
   <div class="Memberadd2">
+    <a name="2020"></a>
     <div class="ariakedate">
-      <p>2018年11月29日</p>
+      <p>2020年2月16日</p>
     </div>
     <div class="Memberadd2text1">
       <p>坂道研修生 配属発表 SHOWROOM</p>

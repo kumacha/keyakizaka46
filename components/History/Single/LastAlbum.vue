@@ -13,9 +13,7 @@
       <div class="LastAlbumtext3">
         <p></p>
       </div>
-      <div class="discomore">
-        <p>Discographyへ</p>
-      </div>
+      <div class="discomore"><a href="/discography"><p>＞＞DISCOGRAPHY</p></a></div>
       <HistoryLine />
       　　
     </div>

@@ -6,7 +6,7 @@
           <v-hover v-slot="{ hover }">
             <v-card :elevation="hover ? 12 : 2" :class="{ 'on-hover': hover }" height="315px" width="560px"
               style="background-color:transparent;">
-              <a :href="gallery.url">
+              <a :href="gallery.url" target="_blank">
               <v-img class="galleryitem" v-bind:src="gallery.src" :ripple="true" height="315px" width="560px"></v-img>
               </a>
             </v-card>

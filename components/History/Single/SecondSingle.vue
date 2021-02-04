@@ -5,7 +5,7 @@
       <div class="secondsingletext1"><p>2nd Single 「世界には愛しかない」発売</p></div>
       <div class="secondsingletext2"><p>1st singleとは対照的な歌詞や曲調が話題となった。</p></div>
       <div class="secondsingletext3"><p>傘を使用したパフォーマンスが特徴的な楽曲である。</p></div>
-      <div class="discomore"><p>Discographyへ</p></div>
+      <div class="discomore"><a href="/discography"><p>＞＞DISCOGRAPHY</p></a></div>
       <HistoryLine/>
 　　</div>
 </div>

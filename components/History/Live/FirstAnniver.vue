@@ -1,5 +1,6 @@
 <template>
 <div id="historycontents">
+  <a name="2017"></a>
   <div class="firstannver">
       <div class="ariakedate"><p>2017年4月6日</p></div>
       <div class="firstannvertext1"><p>欅坂46デビュー1周年記念ライブ</p></div>
@@ -25,7 +26,7 @@
     background-size: cover;
     background-position: center center;
     background-color: transparent;
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/history%2Fariake%2F1thyear.jpg?alt=media&token=ceb018d7-ee35-498f-9b6d-f5f6ead27b02);
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/history%2Faniverlive%2F1st.jpg?alt=media&token=521611a8-e812-4fa8-abd1-f019a374cde5);
   }
   .firstannvertext1 p {
     width: 1400px;

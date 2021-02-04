@@ -11,7 +11,7 @@
   <div class="member2line3">
       <p>松平璃子　森田ひかる　山崎天</p>
   </div>
-  <div class="membermore"><p>MEMBERへ</p></div>
+  <div class="membermore"><a href="/member"><p>＞＞MEMBERへ</p></a></div>
 </div>
 <HistoryLine/>
 </v-content>

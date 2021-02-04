@@ -139,17 +139,17 @@
         <v-container>
           <v-row>
             <v-col cols="12" md="4">
-              <a href="https://youtu.be/Xl-iDUt7U24"><v-img
+              <a href="https://youtu.be/Xl-iDUt7U24" target="_blank"><v-img
                 src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Fsingle%2Fkazefuka.jpg?alt=media&token=b9b1de5c-ac17-44c6-be50-a8a08ddad31e">
               </v-img></a>
             </v-col>
             <v-col md="4">
-              <a href="https://youtu.be/XmjA1DdA334"><v-img
+              <a href="https://youtu.be/XmjA1DdA334" target="_blank"><v-img
                 src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Fcoupling%2Fnamiutigiwa.jpg?alt=media&token=7e3c49cb-9722-4b4c-bb3e-1b7534e7ac05">
               </v-img></a>
             </v-col>
               <v-col md="4">
-              <a href="https://youtu.be/8y14n7mEVlo"><v-img
+              <a href="https://youtu.be/8y14n7mEVlo" target="_blank"><v-img
                 src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Fcoupling%2Fhiraishin.jpg?alt=media&token=6578b0d6-0b21-4149-9ad1-e18ce6d1b4aa">
               </v-img></a>
             </v-col>

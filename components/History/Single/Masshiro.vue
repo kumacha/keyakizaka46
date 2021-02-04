@@ -13,9 +13,7 @@
       <div class="masshirotext3">
         <p>ライブでの定番曲やユニット曲を含めた多数の楽曲を収録。</p>
       </div>
-      <div class="discomore">
-        <p>Discographyへ</p>
-      </div>
+      <div class="discomore"><a href="/discography"><p>＞＞DISCOGRAPHY</p></a></div>
       <HistoryLine />
       　　
     </div>

@@ -5,7 +5,7 @@
       <div class="fourthsingletext1"><p>4th Single 「不協和音」発売</p></div>
       <div class="fourthsingletext2"><p>孤独との戦いを歌った歌詞や、<br>その特徴的な曲調、パフォーマンスは多くの注目を集めた。</p></div>
       <div class="fourthsingletext3"><p>「僕は嫌だ」という強い叫びは、聴いた者に強い衝撃を与える。</p></div>
-      <div class="discomore"><p>Discographyへ</p></div>
+      <div class="discomore"><a href="/discography"><p>＞＞DISCOGRAPHY</p></a></div>
       <HistoryLine/>
 　　</div>
 </div>

@@ -5,7 +5,7 @@
       <div class="firstsingletext1"><p>1st Single 「サイレントマジョリティー」発売</p></div>
       <div class="firstsingletext3"><p>初週売上約26万2000枚、オリコン1位獲得</p></div>
       <div class="firstsingletext4"><p>女性アーティストのデビューシングル初週売上歴代1位。</p></div>
-      <div class="discomore"><p>＞＞DISCOGRAPHY</p></div>
+      <div class="discomore"><a href="/discography"><p>＞＞DISCOGRAPHY</p></a></div>
       <HistoryLine/>
 　　</div>
 </div>
