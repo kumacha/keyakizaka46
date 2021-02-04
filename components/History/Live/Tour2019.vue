@@ -2,7 +2,7 @@
   <div id="historycontents">
     <div class="Tour2019">
       <div class="ariakedate">
-        <p>2018年8月16日-9月6日</p>
+        <p>2019年8月16日-9月6日</p>
       </div>
       <div class="Tour2019text1">
         <p>「欅坂46 夏の全国アリーナツアー2019」</p>

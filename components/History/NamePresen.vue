@@ -1,4 +1,7 @@
 <template>
+<v-main>
+  <div class="keyakikoero"></div>
+  <div class="sake"></div>
   <div class="NamePresen">
     <div class="ariakedate">
       <p>2020年9月20日</p>
@@ -14,6 +17,7 @@
     </div>
     <HistoryLine />
   </div>
+</v-main>
 </template>
 
 <script>
@@ -26,6 +30,24 @@
 </script>
 
 <style>
+.keyakikoero{
+  width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-color: transparent;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/history%2Fsakurazaka46%2Fkeyakikoero.jpg?alt=media&token=f765eec0-a5aa-4f50-bed6-438aadc4d426);
+}
+.sake{
+  width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-color: transparent;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/history%2Fsakurazaka46%2Fsake.jpg?alt=media&token=9fc1f77c-ae58-40fb-96e8-800079917985)
+}
   .NamePresen {
     width: 100vw;
     height: 100vh;
@@ -50,15 +72,15 @@
   }
 
   .NamePresentext2 p {
-    width: 1000px;
+    width: 1400px;
     text-align: center;
     font-size: 40px;
     position: absolute;
     left: 50%;
-    top: 45%;
-    -ms-transform: translate(-50%, -45%);
-    -webkit-transform: translate(-50%, -45%);
-    transform: translate(-50%, -45%);
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     margin: 0;
     padding: 0;
   }

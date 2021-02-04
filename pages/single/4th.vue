@@ -139,17 +139,17 @@
         <v-container>
           <v-row>
             <v-col cols="12" md="4">
-              <a href="https://youtu.be/gfzuzDrVRVM"><v-img
+              <a href="https://youtu.be/gfzuzDrVRVM" target="_blank"><v-img
                 src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Fsingle%2Fwaon.jpg?alt=media&token=e457e6d5-4977-4fb5-b6f6-4a9d744f43ca">
               </v-img></a>
             </v-col>
             <v-col md="4">
-              <a href="https://youtu.be/s8j9hva3luI"><v-img
+              <a href="https://youtu.be/s8j9hva3luI" target="_blank"><v-img
                 src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Fcoupling%2Fwkeyaki.jpg?alt=media&token=93288675-968b-4a1d-8cd2-8c8251210c69">
               </v-img></a>
             </v-col>
             <v-col md="4">
-              <a href="https://youtu.be/65v7JSBpQ4U"><v-img
+              <a href="https://youtu.be/65v7JSBpQ4U" target="_blank"><v-img
                 src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Fcoupling%2Feccentric.jpg?alt=media&token=8aa340fc-ab91-4e52-b38a-846180d10aea">
               </v-img></a>
             </v-col>

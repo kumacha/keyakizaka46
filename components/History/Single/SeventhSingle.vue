@@ -5,7 +5,7 @@
       <div class="seventhsingletext1"><p>7th Single 「アンビバレント」発売</p></div>
       <div class="seventhsingletext2"><p>激しいダンスと、二律背反を歌った歌詞が注目を浴びた。</p></div>
       <div class="seventhsingletext3"><p>数々の音楽番組やライブで披露された。</p></div>
-      <div class="discomore"><p>Discographyへ</p></div>
+      <div class="discomore"><a href="/discography"><p>＞＞DISCOGRAPHY</p></a></div>
       <HistoryLine/>
 　　</div>
 </div>

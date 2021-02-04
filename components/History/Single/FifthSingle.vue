@@ -5,7 +5,7 @@
       <div class="fifthsingletext1"><p>4th Single 「風に吹かれても」発売</p></div>
       <div class="fifthsingletext2"><p>4thシングルまでの攻撃的な曲調とは異なり、メンバーの笑顔が特徴的な楽曲である。</p></div>
       <div class="fifthsingletext3"><p>センター・平手友梨奈のボーイッシュな姿が話題を呼んだ。</p></div>
-      <div class="discomore"><p>Discographyへ</p></div>
+      <div class="discomore"><a href="/discography"><p>＞＞DISCOGRAPHY</p></a></div>
       <HistoryLine/>
 　　</div>
 </div>

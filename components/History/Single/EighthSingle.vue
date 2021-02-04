@@ -1,11 +1,12 @@
 <template>
 <div id="historycontents">
+  <a name="2019"></a>
   <div class="eighthsingle">
       <div class="eighthdate"><p>2019年2月27日</p></div>
       <div class="eighthsingletext1"><p>8th Single 「黒い羊」発売</p></div>
       <div class="eighthsingletext2"><p>前作、「アンビバレント」とは対照的に、暗さが目立つ曲。</p></div>
       <div class="eighthsingletext3"><p>自己を捨てた周囲への嫌悪を歌ったその歌詞は、痛烈な社会的メッセージを持つ。</p></div>
-      <div class="discomore"><p>Discographyへ</p></div>
+      <div class="discomore"><a href="/discography"><p>＞＞DISCOGRAPHY</p></a></div>
       <HistoryLine/>
 　　</div>
 </div>
@@ -19,7 +20,7 @@ export default {
 
 <style>
 .eighthdate{
-  font-size: 35px;
+  font-size: 40px;
     position: absolute;
     top: 20px;
     left: 20px;

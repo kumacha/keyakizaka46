@@ -50,7 +50,7 @@
         <v-container>
           <v-row>
             <v-col>
-              <a href="https://youtu.be/fOL3JDWG7aQ">
+              <a href="https://youtu.be/fOL3JDWG7aQ" target="_blank">
                 <v-img height="400px" width="600px"
                   src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Fsingle%2Fdarekane.jpg?alt=media&token=376c3ef5-1b2d-44a0-8a1b-155e5ca70b88">
                 </v-img>

@@ -3,6 +3,7 @@
     <div id="historycontents">
       <HistoryBegin/>
       <HistoryCatch/>
+      <SiteMap/>
       <Debut/>
       <MemberList/>
       <DebutLive/>
@@ -152,4 +153,5 @@ import Sakurazaka46 from '../components/History/Sakurazaka46.vue'
 
 <style>
 #historycontents p {text-shadow: 3px 3px 2px #0f0f0f; }
+#historycontents a {text-shadow: 3px 3px 2px #0f0f0f; }
 </style>

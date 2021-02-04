@@ -138,20 +138,20 @@
         <v-container>
           <v-row>
             <v-col cols="12" md="4">
-              <a href="https://youtu.be/A2k6ZO6B0A8"><v-img
+              <a href="https://youtu.be/A2k6ZO6B0A8" target="_blank"><v-img
                 src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Fsingle%2Fgalass.jpg?alt=media&token=d7268860-8b65-46e1-a015-673c18796209">
               </v-img></a>
             </v-col>
             <v-col md="4">
-              <a href="https://youtu.be/f7wTsLBIeC8"><v-img
+              <a href="https://youtu.be/f7wTsLBIeC8" target="_blank"><v-img
                 src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Fcoupling%2Fmoumori.jpg?alt=media&token=47eaba81-58e1-4722-8b0d-60e516c73164">
               </v-img></a>
             </v-col>
             <v-col md="4">
-              <a href="https://youtu.be/hYIwXttPLnE"><v-img
+              <a href="https://youtu.be/hYIwXttPLnE" target="_blank"><v-img
                 src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Fcoupling%2Fbasroom.jpg?alt=media&token=4d516ab6-c602-41df-aaef-5b41fdcfec2b">
               </v-img></a>
-            </v-col>          
+            </v-col>
           </v-row>
         </v-container>
         <div class="movie_text6th">

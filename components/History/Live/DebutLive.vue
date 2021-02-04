@@ -1,12 +1,13 @@
 <template>
 <div id="historycontents">
-  <div class="debutlive">
+  <a name="2016"></a>
+  <div class="debutlivek">
       <div class="ariakedate"><p>2016年3月17日</p></div>
       <div class="debutlivetext1"><p>「欅坂46生中継！デビューカウントダウンライブ！」</p></div>
       <div class="debutlivetext2"><p>in東京国際フォーラム</p></div>
       <div class="debutlivetext3"><p>欅坂46結成後　初のライブ！</p></div>
       <div class="debutlivetext4"><p>デビューシングルの表題曲「サイレントマジョリティー」などを披露</p></div>
-      <div class="hismore"><p>>>MORE</p></div>
+      <!-- <div class="hismore"><p>>>MORE</p></div> -->
       <HistoryLine/>
 　　</div>
 </div>
@@ -19,7 +20,7 @@
 </script>
 
 <style>
-  .debutlive {
+  .debutlivek {
     width: 100vw;
     height: 100vh;
     position: relative;

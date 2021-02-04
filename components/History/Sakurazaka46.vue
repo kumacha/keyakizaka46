@@ -4,7 +4,7 @@
       <p>2020年10月14日</p>
     </div>
     <div class="Sakuratext1">
-      <p @click="Gosakura()">To be continued…</p>
+      <a href="/sakurazaka">＞＞To be continued…</a>
     </div>
     <div class="Sakuratext2">
       <p></p>
@@ -39,18 +39,23 @@
     background-color: transparent;
     background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/history%2Fsakurazaka46%2Fsakurazaka.jpg?alt=media&token=780cefa6-c4ee-4051-8c4f-ae48886291ea);
   }
-  .Sakuratext1 p {
+  .Sakuratext1 a  {
+    color: pink !important;
     width: 1000px;
     text-align: center;
     font-size: 50px;
     position: absolute;
-    left: 150%;
+    left: 140%;
     top: 100%;
-    -ms-transform: translate(-150%, -100%);
-    -webkit-transform: translate(-150%, -100%);
-    transform: translate(-150%, -100%);
+    -ms-transform: translate(-140%, -100%);
+    -webkit-transform: translate(-140%, -100%);
+    transform: translate(-140%, -100%);
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    display: inline;
+    display: inline-block;
+    color: #ffffff ;
   }
 
   .Sakuratext2 p {

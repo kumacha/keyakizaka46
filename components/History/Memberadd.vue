@@ -9,9 +9,6 @@
     <div class="Memberaddtext2">
       <p>2期生として9名が配属される。</p>
     </div>
-    <div class="Memberaddtext3">
-      <p>会見後、グループ名を「欅坂46」に変更されることが発表される。</p>
-    </div>
     <HistoryLine />
   </div>
 </template>
@@ -37,15 +34,15 @@
   }
 
   .Memberaddtext1 p {
-    width: 1000px;
+    width: 1400px;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     position: absolute;
     left: 50%;
-    top: 30%;
-    -ms-transform: translate(-50%, -30%);
-    -webkit-transform: translate(-50%, -30%);
-    transform: translate(-50%, -30%);
+    top: 40%;
+    -ms-transform: translate(-50%, -40%);
+    -webkit-transform: translate(-50%, -40%);
+    transform: translate(-50%, -40%);
     margin: 0;
     padding: 0;
   }
@@ -56,10 +53,10 @@
     font-size: 40px;
     position: absolute;
     left: 50%;
-    top: 45%;
-    -ms-transform: translate(-50%, -45%);
-    -webkit-transform: translate(-50%, -45%);
-    transform: translate(-50%, -45%);
+    top: 65%;
+    -ms-transform: translate(-50%, -65%);
+    -webkit-transform: translate(-50%, -65%);
+    transform: translate(-50%, -65%);
     margin: 0;
     padding: 0;
   }

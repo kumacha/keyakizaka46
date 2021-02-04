@@ -141,21 +141,21 @@
         <v-container>
           <v-row>
             <v-col cols="12" md="4">
-              <a href="https://youtu.be/MAkIYZiyJq4">
+              <a href="https://youtu.be/MAkIYZiyJq4" target="_blank">
                 <v-img
                   src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Fsingle%2Fkuroi.jpg?alt=media&token=3d752b8a-7c2a-420d-bf49-e73273d8e0d9">
                 </v-img>
               </a>
             </v-col>
             <v-col md="4">
-              <a href="https://youtu.be/PEhSraqx2Mk">
+              <a href="https://youtu.be/PEhSraqx2Mk" target="_blank">
                 <v-img
                   src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Fcoupling%2Fchristmas.jpg?alt=media&token=ef8a5210-12be-45e7-849f-fc2ae45abae6">
                 </v-img>
               </a>
             </v-col>
             <v-col md="4">
-              <a href="https://youtu.be/uyfyVjctn0U">
+              <a href="https://youtu.be/uyfyVjctn0U" target="_blank">
                 <v-img
                   src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Fcoupling%2Fnobody.jpg?alt=media&token=3118a030-1d7d-49e4-9f78-d7de187536cb">
                 </v-img>

@@ -119,19 +119,19 @@
         <v-container>
           <v-row>
             <v-col cols="12" md="4">
-              <a href="https://youtu.be/mNpPQXMgtmw">
+              <a href="https://youtu.be/mNpPQXMgtmw" target="_blank">
               <v-img
                 src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Fsingle%2Fseason.jpg?alt=media&token=dadbdb19-8201-4eb5-a3c2-1ae58a48ac8b">
               </v-img>
               </a>
             </v-col>
             <v-col md="4">
-              <a href="https://youtu.be/8JZqeFGDszw"><v-img
+              <a href="https://youtu.be/8JZqeFGDszw" target="_blank"><v-img
                 src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Fcoupling%2Fotoshin.jpg?alt=media&token=214e050c-28a7-4ade-8178-9cce4124dd46">
               </v-img></a>
             </v-col>
             <v-col md="4">
-              <a href="https://youtu.be/fZzJeqJieoI">
+              <a href="https://youtu.be/fZzJeqJieoI" target="_blank">
               <v-img
               src="https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/gallery%2Fcoupling%2Fbokusen.jpg?alt=media&token=73d29ca3-4d6f-438e-ac5f-079e6e090cd3">
               </v-img></a>

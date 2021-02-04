@@ -11,7 +11,7 @@
   <div class="memberline3">
       <p>土生瑞穂　原田葵　平手友梨奈　守屋茜　米谷奈々未　渡辺梨加　渡辺理佐</p>
   </div>
-  <div class="membermore"><p @click="pushMember()">＞＞MEMBER</p></div>
+  <div class="membermore"><a href="/member"><p>＞＞MEMBERへ</p></a></div>
 </div>
 <HistoryLine/>
 </v-content>
@@ -103,8 +103,5 @@ export default {
     transform: translate(-100%, -80%);
     margin: 0;
     padding: 0;
-  }
-  .membermore p:hover{
-    opacity: 70%;
   }
 </style>
