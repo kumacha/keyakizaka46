@@ -1,6 +1,6 @@
 # keyakizaka46
 Show this Web!
-# URL↓
+# URL
 https://history-of-keyakizaka46.web.app/
 
 ## Build Setup
