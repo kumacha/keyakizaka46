@@ -1,5 +1,6 @@
 # keyakizaka46
-Show this Web!
+静岡大学情報学部Webデザイン論で制作したWebページです。
+レスポンシブ対応はPCのみです＞＜
 # URL
 https://history-of-keyakizaka46.web.app/
 
