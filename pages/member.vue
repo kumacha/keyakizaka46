@@ -1,52 +1,56 @@
 <template>
   <v-content>
     <v-container>
-      <div class="number">
+      <v-row justify="center" align-content="center">
+        <div class="number">
           1期生
         </div>
         <div class="member">
-        <Member />
-        <div class="number">
-          2期生
+          <Member />
         </div>
+      </v-row>
+      <div class="number">
+        2期生
+      </div>
+      <div class="member2">
         <Member2 />
-        </div>
+      </div>
     </v-container>
   </v-content>
 </template>
 
 <script>
-  import Member from '~/components/Member/Member.vue'
-  import Member2 from '~/components/Member/Member2.vue'
-  export default {
-    components: {
-      Member,
-      Member2
-    },
+import Member from "~/components/AllMembers/Member.vue";
+import Member2 from "~/components/AllMembers/Member2.vue";
+export default {
+  components: {
+    Member,
+    Member2
+  },
 
-    data: () => ({
-      items: [{
-          select: '1期生・2期生',
-          link: '/member'
-        },
-        {
-          select: '1期生・2期生',
-          link: '/member'
-        },
-        {
-          select: '1期生・2期生',
-          link: '/member'
-        }
-      ],
-    }),
-}
-
+  data: () => ({
+    items: [
+      {
+        select: "1期生・2期生",
+        link: "/member"
+      },
+      {
+        select: "1期生・2期生",
+        link: "/member"
+      },
+      {
+        select: "1期生・2期生",
+        link: "/member"
+      }
+    ]
+  })
+};
 </script>
 
 <style>
-  .select {
-    text-align: center
-  }
+.select {
+  text-align: center;
+}
 
 .number {
   text-align: center;
