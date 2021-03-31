@@ -4,7 +4,6 @@
       <v-layout>
         <v-flex>
           <v-row>
-            //レスポンシブ対応少し
             <v-col
               cols="12"
               xs="12"

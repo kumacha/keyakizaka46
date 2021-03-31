@@ -4,25 +4,25 @@
       <GalleryTitle />
     </v-row>
     <v-tabs v-model="tab" grow background-color="transparent" color="basil">
-      <v-tab v-for="item in items" :key="item" background-color="transparent">
-        {{ item }}
+      <v-tab v-for="name in names" :key="name" background-color="transparent">
+        {{ name }}
       </v-tab>
     </v-tabs>
     <v-tabs-items v-model="tab" background-color="transparent">
-      <v-tab-item v-for="item in items" :key="item">
-        <div v-show="item == 'ALL'">
+      <v-tab-item v-for="name in names" :key="name">
+        <div v-show="name == 'ALL'">
           <Single />
           <Coupling />
           <Trailer />
         </div>
-        <div v-show="item == 'SINGLE'">
+        <div v-show="name == 'SINGLE'">
           <Single />
         </div>
-        <div v-show="item == 'COUPLING'">
+        <div v-show="name == 'COUPLING'">
           <Coupling />
         </div>
         <template>
-          <div v-show="item == 'TRAILER'">
+          <div v-show="name == 'TRAILER'">
             <Trailer />
           </div>
         </template>
@@ -38,7 +38,7 @@ export default {
   data() {
     return {
       tab: null,
-      items: ["ALL", "SINGLE", "COUPLING", "TRAILER"]
+      names: ["ALL", "SINGLE", "COUPLING", "TRAILER"]
     };
   },
   components: {
