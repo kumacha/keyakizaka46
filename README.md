@@ -1,6 +1,7 @@
 # keyakizaka46
 静岡大学情報学部Webデザイン論で制作したWebページです。
 レスポンシブ対応はPCのみです＞＜
+近々スマホ対応する予定です。
 # URL
 https://history-of-keyakizaka46.web.app/
 
