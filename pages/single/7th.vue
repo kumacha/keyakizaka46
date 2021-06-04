@@ -223,10 +223,10 @@ export default {
 .gosingle {
   position: absolute;
   left: 50%;
-  top: 150%;
-  -ms-transform: translate(-50%, -150%);
-  -webkit-transform: translate(-50%, -150%);
-  transform: translate(-50%, -150%);
+  top: 190%;
+  -ms-transform: translate(-50%, -190%);
+  -webkit-transform: translate(-50%, -190%);
+  transform: translate(-50%, -190%);
   margin: 0;
   padding: 0;
 }
@@ -279,11 +279,11 @@ export default {
   font-size: 50px;
   display: inline-block;
   position: absolute;
-  left: -50%;
-  top: 0%;
-  -ms-transform: translate(50%, -0%);
-  -webkit-transform: translate(50%, -0%);
-  transform: translate(50%, -0%);
+  left: -52%;
+  top: -10%;
+  -ms-transform: translate(52%, 10%);
+  -webkit-transform: translate(52%, 10%);
+  transform: translate(52%, 10%);
   margin: 0;
   padding: 0;
   animation: move-y 0.7s infinite alternate ease-in-out;
@@ -292,11 +292,11 @@ export default {
 /* マルのアニメーション */
 @keyframes move-y {
   from {
-    transform: translateY(-15px);
+    transform: translateY(-20px);
   }
 
   to {
-    transform: translateY(10px);
+    transform: translateY(20px);
   }
 }
 
@@ -429,28 +429,28 @@ export default {
 
 .single_text7th {
   text-shadow: 3px 3px 2px #0f0f0f;
-  font-size: 25px;
+  font-size: 20px;
   width: 1400px;
-  left: 45%;
+  left: -20%;
   top: 25%;
   position: absolute;
-  -ms-transform: translate(-45%, -25%);
-  -webkit-transform: translate(-45%, -25%);
-  transform: translate(-45%, -25%);
+  -ms-transform: translate(20%, -25%);
+  -webkit-transform: translate(20%, -25%);
+  transform: translate(20%, -25%);
   margin: 0;
   padding: 0;
 }
 
 .single_text27th {
   text-shadow: 4px 4px 4px #0f0f0f;
-  font-size: 25px;
+  font-size: 20px;
   width: 1450px;
-  left: 100%;
-  top: 80%;
+  left: -120%;
+  top: 35%;
   position: absolute;
-  -ms-transform: translate(-100%, -80%);
-  -webkit-transform: translate(-100%, -80%);
-  transform: translate(-100%, -80%);
+  -ms-transform: translate(120%, -35%);
+  -webkit-transform: translate(120%, -35%);
+  transform: translate(120%, -35%);
   margin: 0;
   padding: 0;
 }
@@ -478,7 +478,7 @@ export default {
 }
 
 .movie_contents7th {
-  font-size: 22px;
+  font-size: 20px;
   left: 50%;
   top: 45%;
   position: absolute;
@@ -492,12 +492,12 @@ export default {
 .movie_text7th {
   text-shadow: 3px 3px 2px #0f0f0f;
   width: 1600px;
-  left: 10%;
+  left: 0%;
   top: 150%;
   position: absolute;
-  -ms-transform: translate(-10%, -150%);
-  -webkit-transform: translate(-10%, -150%);
-  transform: translate(-10%, -150%);
+  -ms-transform: translate(-0%, -150%);
+  -webkit-transform: translate(-0%, -150%);
+  transform: translate(-0%, -150%);
   margin: 0;
   padding: 0;
 }

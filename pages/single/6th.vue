@@ -152,7 +152,7 @@
     <div class="single_textbox6th">
       <div class="single_text6th">
         <p>
-          楽曲の歌詞には、「抑圧のガラスを割れ」や「想像のガラスを割れ」「吠えない犬は犬じゃないんだ」など他者からの抑圧、自分の抑圧に抗う主人公が描写されている。
+          楽曲の歌詞には、「抑圧のガラスを割れ」や「想像のガラスを割れ」「吠えない犬は犬じゃないんだ」など他者からの抑圧、自分の抑圧に抗う主人公の描写。
         </p>
       </div>
       <div class="single_text26th">
@@ -222,10 +222,10 @@ export default {
 .gosingle {
   position: absolute;
   left: 50%;
-  top: 150%;
-  -ms-transform: translate(-50%, -150%);
-  -webkit-transform: translate(-50%, -150%);
-  transform: translate(-50%, -150%);
+  top: 190%;
+  -ms-transform: translate(-50%, -190%);
+  -webkit-transform: translate(-50%, -190%);
+  transform: translate(-50%, -190%);
   margin: 0;
   padding: 0;
 }
@@ -278,11 +278,11 @@ export default {
   font-size: 50px;
   display: inline-block;
   position: absolute;
-  left: -50%;
-  top: 0%;
-  -ms-transform: translate(50%, -0%);
-  -webkit-transform: translate(50%, -0%);
-  transform: translate(50%, -0%);
+  left: -52%;
+  top: -10%;
+  -ms-transform: translate(52%, 10%);
+  -webkit-transform: translate(52%, 10%);
+  transform: translate(52%, 10%);
   margin: 0;
   padding: 0;
   animation: move-y 0.7s infinite alternate ease-in-out;
@@ -291,11 +291,11 @@ export default {
 /* マルのアニメーション */
 @keyframes move-y {
   from {
-    transform: translateY(-15px);
+    transform: translateY(-20px);
   }
 
   to {
-    transform: translateY(10px);
+    transform: translateY(20px);
   }
 }
 
@@ -429,34 +429,34 @@ export default {
 
 .single_text6th {
   text-shadow: 3px 3px 2px #0f0f0f;
-  font-size: 25px;
+  font-size: 18px;
   width: 1400px;
-  left: 45%;
+  left: -8%;
   top: 25%;
   position: absolute;
-  -ms-transform: translate(-45%, -25%);
-  -webkit-transform: translate(-45%, -25%);
-  transform: translate(-45%, -25%);
+  -ms-transform: translate(8%, -25%);
+  -webkit-transform: translate(8%, -25%);
+  transform: translate(8%, -25%);
   margin: 0;
   padding: 0;
 }
 
 .single_text26th {
   text-shadow: 3px 3px 2px #0f0f0f;
-  font-size: 25px;
+  font-size: 18px;
   width: 1450px;
-  left: 100%;
+  left: -10%;
   top: 80%;
   position: absolute;
-  -ms-transform: translate(-100%, -80%);
-  -webkit-transform: translate(-100%, -80%);
-  transform: translate(-100%, -80%);
+  -ms-transform: translate(10%, -80%);
+  -webkit-transform: translate(10%, -80%);
+  transform: translate(10%, -80%);
   margin: 0;
   padding: 0;
 }
 
 .single_text36th {
-  font-size: 23px;
+  font-size: 20px;
   width: 1600px;
   left: 0%;
   top: 80%;
@@ -478,7 +478,7 @@ export default {
 }
 
 .movie_contents6th {
-  font-size: 22px;
+  font-size: 20px;
   left: 50%;
   top: 45%;
   position: absolute;

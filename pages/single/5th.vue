@@ -152,9 +152,13 @@
     <div class="single_textbox5th">
       <div class="single_text5th">
         <p>
-          サビまで直行する早急な展開、サビでの軽快なリズム、音域を維持するメロディーという楽曲の特徴や、それに加え「笑顔」や「黒スーツ」といった要素がそれを補強し、
+          サビまで直行する早急な展開、サビでの軽快なリズム、音域を維持するメロディーという楽曲の特徴や、
         </p>
       </div>
+      <p class="single_text35th">
+        それに加え「笑顔」や「黒スーツ」といった要素がそれを補強し、
+      </p>
+
       <div class="single_text25th">
         <p>
           笑わないアイドルというイメージが定着してきた時期だったが、そのようなシリアスなイメージを刷新したシングルとなった。
@@ -192,11 +196,12 @@
             </v-col>
           </v-row>
         </v-container>
-        <div class="movie_text5th">
-          <p>
-            歌詞から読み取ることができる楽曲の内容は恋の行方をポジティブに歌ったものとなっていて、4枚目のシングルとはかなり印象が変わった。
-          </p>
-        </div>
+        <p class="movie_text5th">
+          歌詞から読み取ることができる楽曲の内容は恋の行方をポジティブに歌ったものとなっていて、
+        </p>
+        <p class="movie_text5th2">
+          4枚目のシングルとはかなり印象が変わった。
+        </p>
       </div>
       <div class="gosingle">
         <Gosingle />
@@ -221,10 +226,10 @@ export default {
 .gosingle {
   position: absolute;
   left: 50%;
-  top: 150%;
-  -ms-transform: translate(-50%, -150%);
-  -webkit-transform: translate(-50%, -150%);
-  transform: translate(-50%, -150%);
+  top: 180%;
+  -ms-transform: translate(-50%, -180%);
+  -webkit-transform: translate(-50%, -180%);
+  transform: translate(-50%, -180%);
   margin: 0;
   padding: 0;
 }
@@ -277,11 +282,11 @@ export default {
   font-size: 50px;
   display: inline-block;
   position: absolute;
-  left: -50%;
-  top: 0%;
-  -ms-transform: translate(50%, -0%);
-  -webkit-transform: translate(50%, -0%);
-  transform: translate(50%, -0%);
+  left: -52%;
+  top: -10%;
+  -ms-transform: translate(52%, 10%);
+  -webkit-transform: translate(52%, 10%);
+  transform: translate(52%, 10%);
   margin: 0;
   padding: 0;
   animation: move-y 0.7s infinite alternate ease-in-out;
@@ -290,11 +295,11 @@ export default {
 /* マルのアニメーション */
 @keyframes move-y {
   from {
-    transform: translateY(-15px);
+    transform: translateY(-20px);
   }
 
   to {
-    transform: translateY(10px);
+    transform: translateY(20px);
   }
 }
 
@@ -428,41 +433,41 @@ export default {
 
 .single_text5th {
   text-shadow: 3px 3px 2px #0f0f0f;
-  font-size: 25px;
+  font-size: 20px;
   width: 1400px;
-  left: 45%;
+  left: -10%;
   top: 25%;
   position: absolute;
-  -ms-transform: translate(-45%, -25%);
-  -webkit-transform: translate(-45%, -25%);
-  transform: translate(-45%, -25%);
+  -ms-transform: translate(10%, -25%);
+  -webkit-transform: translate(10%, -25%);
+  transform: translate(10%, -25%);
   margin: 0;
   padding: 0;
 }
 
 .single_text25th {
   text-shadow: 3px 3px 2px #0f0f0f;
-  font-size: 25px;
+  font-size: 20px;
   width: 1450px;
-  left: 100%;
+  left: -50%;
   top: 80%;
   position: absolute;
-  -ms-transform: translate(-100%, -80%);
-  -webkit-transform: translate(-100%, -80%);
-  transform: translate(-100%, -80%);
+  -ms-transform: translate(50%, -80%);
+  -webkit-transform: translate(50%, -80%);
+  transform: translate(50%, -80%);
   margin: 0;
   padding: 0;
 }
 
 .single_text35th {
-  font-size: 23px;
+  font-size: 20px;
   width: 1600px;
-  left: 0%;
-  top: 80%;
+  left: -210%;
+  top: 30%;
   position: absolute;
-  -ms-transform: translate(-0%, -80%);
-  -webkit-transform: translate(-0%, -80%);
-  transform: translate(-0%, -80%);
+  -ms-transform: translate(210%, -30%);
+  -webkit-transform: translate(210%, -30%);
+  transform: translate(210%, -30%);
   margin: 0;
   padding: 0;
 }
@@ -477,7 +482,7 @@ export default {
 }
 
 .movie_contents5th {
-  font-size: 22px;
+  font-size: 20px;
   left: 50%;
   top: 45%;
   position: absolute;
@@ -491,12 +496,24 @@ export default {
 .movie_text5th {
   text-shadow: 3px 3px 2px #0f0f0f;
   width: 1600px;
-  left: 15%;
+  left: 0%;
   top: 150%;
   position: absolute;
-  -ms-transform: translate(-15%, -150%);
-  -webkit-transform: translate(-15%, -150%);
-  transform: translate(-15%, -150%);
+  -ms-transform: translate(-0%, -150%);
+  -webkit-transform: translate(-0%, -150%);
+  transform: translate(-0%, -150%);
+  margin: 0;
+  padding: 0;
+}
+.movie_text5th2 {
+  text-shadow: 3px 3px 2px #0f0f0f;
+  width: 1600px;
+  left: -180%;
+  top: 170%;
+  position: absolute;
+  -ms-transform: translate(180%, -170%);
+  -webkit-transform: translate(180%, -170%);
+  transform: translate(180%, -170%);
   margin: 0;
   padding: 0;
 }

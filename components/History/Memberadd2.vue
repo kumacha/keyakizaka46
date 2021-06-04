@@ -18,64 +18,64 @@
 </template>
 
 <script>
-  import HistoryLine from '~/components/History/HistoryLine.vue'
-  export default {
-    components: {
-      HistoryLine
-    }
+import HistoryLine from "~/components/History/HistoryLine.vue";
+export default {
+  components: {
+    HistoryLine
   }
+};
 </script>
 
 <style>
-  .Memberadd2 {
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    background-size: cover;
-    background-position: center center;
-    background-color: transparent;
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/history%2Flastlive%2Fshowroom.jpg?alt=media&token=cc6575e4-4eae-4ced-9ca2-b046a74bc9d8);
-  }
+.Memberadd2 {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  background-color: transparent;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/history-of-keyakizaka46.appspot.com/o/history%2Flastlive%2Fshowroom.jpg?alt=media&token=cc6575e4-4eae-4ced-9ca2-b046a74bc9d8);
+}
 
-  .Memberadd2text1 p {
-    width: 1000px;
-    text-align: center;
-    font-size: 50px;
-    position: absolute;
-    left: 50%;
-    top: 40%;
-    -ms-transform: translate(-50%, -40%);
-    -webkit-transform: translate(-50%, -40%);
-    transform: translate(-50%, -40%);
-    margin: 0;
-    padding: 0;
-  }
+.Memberadd2text1 p {
+  width: 1000px;
+  text-align: center;
+  font-size: 50px;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  -ms-transform: translate(-50%, -40%);
+  -webkit-transform: translate(-50%, -40%);
+  transform: translate(-50%, -40%);
+  margin: 0;
+  padding: 0;
+}
 
-  .Memberadd2text4 p {
-    width: 1000px;
-    text-align: center;
-    font-size: 40px;
-    position: absolute;
-    left: 50%;
-    top: 45%;
-    -ms-transform: translate(-50%, -45%);
-    -webkit-transform: translate(-50%, -45%);
-    transform: translate(-50%, -45%);
-    margin: 0;
-    padding: 0;
-  }
+.Memberadd2text4 p {
+  width: 1000px;
+  text-align: center;
+  font-size: 35px;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  -ms-transform: translate(-50%, -45%);
+  -webkit-transform: translate(-50%, -45%);
+  transform: translate(-50%, -45%);
+  margin: 0;
+  padding: 0;
+}
 
-  .Memberadd2text2 p {
-    width: 1400px;
-    text-align: center;
-    font-size: 40px;
-    position: absolute;
-    left: 50%;
-    top: 70%;
-    -ms-transform: translate(-50%, -70%);
-    -webkit-transform: translate(-50%, -70%);
-    transform: translate(-50%, -70%);
-    margin: 0;
-    padding: 0;
-  }
+.Memberadd2text2 p {
+  width: 1400px;
+  text-align: center;
+  font-size: 35px;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  -ms-transform: translate(-50%, -70%);
+  -webkit-transform: translate(-50%, -70%);
+  transform: translate(-50%, -70%);
+  margin: 0;
+  padding: 0;
+}
 </style>

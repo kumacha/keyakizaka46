@@ -150,7 +150,9 @@
     <div class="single_textbox4th">
       <div class="single_text4th">
         <p>
-          楽曲の中には「軍門に下るのか」「君はYesと言うのか」など、多勢に同調するのか問いかけている歌詞や「既成概念を壊せ!」、「意志を貫け!」と自身を奮い立たせるかの如く、
+          楽曲の中には「軍門に下るのか」「君はYesと言うのか」など、多勢に同調するのか問いかけている歌詞や
+          <br />
+          「既成概念を壊せ!」、「意志を貫け!」と自身を奮い立たせるかの如く、
         </p>
       </div>
       <div class="single_text24th">
@@ -279,11 +281,11 @@ export default {
   font-size: 50px;
   display: inline-block;
   position: absolute;
-  left: -50%;
-  top: 0%;
-  -ms-transform: translate(50%, -0%);
-  -webkit-transform: translate(50%, -0%);
-  transform: translate(50%, -0%);
+  left: -52%;
+  top: -10%;
+  -ms-transform: translate(52%, 10%);
+  -webkit-transform: translate(52%, 10%);
+  transform: translate(52%, 10%);
   margin: 0;
   padding: 0;
   animation: move-y 0.7s infinite alternate ease-in-out;
@@ -292,11 +294,11 @@ export default {
 /* マルのアニメーション */
 @keyframes move-y {
   from {
-    transform: translateY(-15px);
+    transform: translateY(-20px);
   }
 
   to {
-    transform: translateY(10px);
+    transform: translateY(20px);
   }
 }
 
@@ -435,9 +437,9 @@ export default {
   left: 45%;
   top: 25%;
   position: absolute;
-  -ms-transform: translate(-45%, -25%);
-  -webkit-transform: translate(-45%, -25%);
-  transform: translate(-45%, -25%);
+  -ms-transform: translate(-35%, -25%);
+  -webkit-transform: translate(-35%, -25%);
+  transform: translate(-35%, -25%);
   margin: 0;
   padding: 0;
 }
@@ -447,11 +449,11 @@ export default {
   font-size: 20px;
   width: 1450px;
   left: 100%;
-  top: 80%;
+  top: 85%;
   position: absolute;
-  -ms-transform: translate(-100%, -80%);
-  -webkit-transform: translate(-100%, -80%);
-  transform: translate(-100%, -80%);
+  -ms-transform: translate(-80%, -85%);
+  -webkit-transform: translate(-80%, -85%);
+  transform: translate(-80%, -85%);
   margin: 0;
   padding: 0;
 }

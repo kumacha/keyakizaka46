@@ -18,62 +18,62 @@
 </template>
 
 <script>
-  import HistoryLine from '~/components/History/HistoryLine.vue'
-  export default {
-    components: {
-      HistoryLine
-    }
+import HistoryLine from "~/components/History/HistoryLine.vue";
+export default {
+  components: {
+    HistoryLine
   }
+};
 </script>
 
 <style>
-  .debut2 {
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    background-size: cover;
-    background-position: center center;
-    background-color: transparent;
-  }
-  .debuttext1 p {
-    width: 1000px;
-    text-align: center;
-    font-size: 60px;
-    position: absolute;
-    left: 50%;
-    top: 30%;
-    -ms-transform: translate(-50%, -30%);
-    -webkit-transform: translate(-50%, -30%);
-    transform: translate(-50%, -30%);
-    margin: 0;
-    padding: 0;
-  }
+.debut2 {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  background-color: transparent;
+}
+.debuttext1 p {
+  width: 1000px;
+  text-align: center;
+  font-size: 50px;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  -ms-transform: translate(-50%, -30%);
+  -webkit-transform: translate(-50%, -30%);
+  transform: translate(-50%, -30%);
+  margin: 0;
+  padding: 0;
+}
 
-  .debuttext2 p {
-    width: 1000px;
-    text-align: center;
-    font-size: 40px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -ms-transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    margin: 0;
-    padding: 0;
-  }
+.debuttext2 p {
+  width: 1000px;
+  text-align: center;
+  font-size: 35px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+}
 
-  .debuttext3 p {
-    width: 1400px;
-    text-align: center;
-    font-size: 40px;
-    position: absolute;
-    left: 50%;
-    top: 70%;
-    -ms-transform: translate(-50%, -70%);
-    -webkit-transform: translate(-50%, -70%);
-    transform: translate(-50%, -70%);
-    margin: 0;
-    padding: 0;
-  }
+.debuttext3 p {
+  width: 1400px;
+  text-align: center;
+  font-size: 35px;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  -ms-transform: translate(-50%, -70%);
+  -webkit-transform: translate(-50%, -70%);
+  transform: translate(-50%, -70%);
+  margin: 0;
+  padding: 0;
+}
 </style>

@@ -255,11 +255,11 @@ export default {
   font-size: 50px;
   display: inline-block;
   position: absolute;
-  left: -50%;
-  top: 0%;
-  -ms-transform: translate(50%, -0%);
-  -webkit-transform: translate(50%, -0%);
-  transform: translate(50%, -0%);
+  left: -52%;
+  top: -10%;
+  -ms-transform: translate(52%, 10%);
+  -webkit-transform: translate(52%, 10%);
+  transform: translate(52%, 10%);
   margin: 0;
   padding: 0;
   animation: move-y 0.7s infinite alternate ease-in-out;
@@ -268,11 +268,11 @@ export default {
 /* マルのアニメーション */
 @keyframes move-y {
   from {
-    transform: translateY(-15px);
+    transform: translateY(-20px);
   }
 
   to {
-    transform: translateY(10px);
+    transform: translateY(20px);
   }
 }
 
