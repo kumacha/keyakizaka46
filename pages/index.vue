@@ -22,13 +22,13 @@ export default {};
   margin: 0;
   text-align: left;
   right: 20px;
-  font-size: 30px;
+  font-size: 25px;
   top: 25px;
 }
 .keyakilogo {
   color: #ffffff;
   font-family: "Cinzel", serif;
-  font-size: 110px;
+  font-size: 90px;
   margin: 0;
   padding: 0, 0;
   position: relative;
@@ -40,7 +40,7 @@ export default {};
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   position: relative;
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   margin: 0;
   bottom: 20px;
 }
