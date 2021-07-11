@@ -1,4 +1,4 @@
-# 欅坂46の非公式Webページ
+# HISTORY OF KEYAKIZAKA46
 静岡大学情報学部Webデザイン論で制作したWebページです。
 
 レスポンシブ対応はPCのみです。
