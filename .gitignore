@@ -94,5 +94,4 @@ sw.*
 firebase.json
 firestore.indexes.json
 firestore.rules
-plugins/firebase.js
 .firebase
