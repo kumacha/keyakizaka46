@@ -9,6 +9,13 @@
           />
           <p>Discography</p>
         </div>
+        <div class="scroll">
+          <div class="roundwrap">
+            <p class="round">・</p>
+          </div>
+          <div class="scrolltext">SCROLL</div>
+          <div class="singleline"></div>
+        </div>
       </v-row>
     </v-container>
     <div class="singless">
@@ -225,19 +232,82 @@ export default {
     goRouterAlbumsecond() {
       this.$router.push("/album/albumsecond");
     }
-  }
+  },
+  layout: "Historydefault"
 };
 </script>
 
 <style>
 .discopic {
-  height: 70vh;
+  height: 100vh;
   width: 100vw;
 }
 .discography {
   text-align: center;
   position: relative;
   margin-bottom: 20px;
+}
+.scroll {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  -ms-transform: translate(-50%, -30%);
+  -webkit-transform: translate(-50%, -30%);
+  transform: translate(-50%, -30%);
+  margin: 0;
+  padding: 0;
+}
+
+/* 丸の取り囲むやつ */
+.roundwrap {
+  width: 30px;
+  height: 70px;
+  border: solid;
+  border-color: white;
+  border-radius: 40px;
+  position: relative;
+  left: 27%;
+}
+
+/* マルのcss */
+.round {
+  color: white;
+  font-size: 50px;
+  display: inline-block;
+  position: absolute;
+  left: -52%;
+  top: -10%;
+  -ms-transform: translate(52%, 10%);
+  -webkit-transform: translate(52%, 10%);
+  transform: translate(52%, 10%);
+  margin: 0;
+  padding: 0;
+  animation: move-y 0.7s infinite alternate ease-in-out;
+}
+
+/* マルのアニメーション */
+@keyframes move-y {
+  from {
+    transform: translateY(-20px);
+  }
+
+  to {
+    transform: translateY(20px);
+  }
+}
+.singleline {
+  width: 1px;
+  height: 70px;
+  background-color: white;
+  position: absolute;
+  left: 50%;
+  top: 400%;
+  -ms-transform: translate(-50%, -400%);
+  -webkit-transform: translate(-50%, -400%);
+  transform: translate(-50%, -400%);
+  margin: 0;
+  padding: 0;
+  z-index: 100;
 }
 
 .discography p {
